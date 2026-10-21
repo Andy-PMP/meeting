@@ -1,0 +1,13 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+const base = import.meta.env.BASE_URL.replace(/\/?$/, "/");
+---
+
+<Layout title="Page not found · Meeting or Email?" description="This page doesn't exist." current="none">
+  <article class="prose">
+    <h1>This page could have been an email</h1>
+    <p>It doesn't exist.</p>
+    <p><a href={base}>Rate a meeting →</a></p>
+  </article>
+</Layout>

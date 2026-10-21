@@ -10,23 +10,26 @@ Read with [BRIEF.md](BRIEF.md) and [TECH_REQUIREMENTS.md](TECH_REQUIREMENTS.md).
 
 ## P0 — Setup
 
-- [ ] **[You]** Pick the repo name and subdomain (e.g. `meeting-or-email` / `meeting.amandapatricks.com`)
-- [ ] **[You]** Create the empty GitHub repo under `Andy-PMP` and add it as `origin`
-- [ ] **[You]** Get a Claude API key, set a monthly spend limit (e.g. $20) in the Claude Console, and store the key as a user environment variable:
+- [x] **[You]** Pick the repo name and subdomain: `Andy-PMP/meeting` / `meeting.amandapatricks.com`
+- [x] **[You]** Create the empty GitHub repo under `Andy-PMP` and add it as `origin`
+- [x] **[You]** Done early: Pages source = GitHub Actions, CNAME, HTTPS (the P7 deploy steps)
+- [x] **[You]** Get a Claude API key, set a monthly spend limit (e.g. $20) in the Claude Console, and store the key as a user environment variable:
   ```powershell
   [Environment]::SetEnvironmentVariable("ANTHROPIC_API_KEY", "sk-ant-...", "User")
   # then open a new terminal / restart VS Code and check (prints True, not the key):
   [bool]$env:ANTHROPIC_API_KEY
   ```
-- [ ] **[Claude]** Repo layout per TECH_REQUIREMENTS §4; `.gitignore` (Neighborly's + `.env*`, `web/public/models/`, `web/public/ort/`)
-- [ ] **[Claude]** Python venv and dependencies. Test-install onnxruntime/tokenizers on 3.14 and fall back to 3.13 if needed:
+- [x] **[Claude]** Repo layout per TECH_REQUIREMENTS §4; `.gitignore` (Neighborly's + `.env*`, `web/public/models/`, `web/public/ort/`)
+- [x] **[Claude]** Python venv and dependencies. All install on 3.14 (onnxruntime 1.31, anthropic 2.0), so no fallback is needed:
   ```powershell
   py -3.14 -m venv .venv
   .\.venv\Scripts\python -m pip install -r pipeline\requirements.txt
   ```
-- [ ] **[Claude]** `pyproject.toml` (ruff + pytest), root `package.json` workspaces, Astro scaffold in `web/` copied from Neighborly (layout, theme toggle, contrast test), Vitest + Playwright config
-- [ ] **[Claude]** CI workflows: `pipeline.yml`, `web.yml`, `deploy.yml` (Neighborly's shape)
-- [ ] **[Claude]** `CLAUDE.md` (commands, data contract, conventions) and `README.md` (credits/licenses section)
+- [x] **[Claude]** `pyproject.toml` (ruff + pytest), root `package.json` workspaces, Astro scaffold in `web/` copied from Neighborly (layout, theme toggle, contrast test), Vitest + Playwright config
+- [x] **[Claude]** Strict CSP via Astro `security.csp` + Playwright privacy/axe test (checked by injecting an external image: the test fails as it should)
+- [x] **[Claude]** CI workflows: `pipeline.yml`, `web.yml`, `deploy.yml` (Neighborly's shape; deploy also gated on Playwright)
+- [x] **[Claude]** `CLAUDE.md` (commands, conventions) and `README.md` (credits/licenses section)
+- [ ] **[You]** Commit and push; check that all three workflows go green and the placeholder page loads on the subdomain
 
 **Done when:** `.\.venv\Scripts\python -m pytest`, `.\.venv\Scripts\ruff check pipeline`, `npm test` and `npm run build` all pass on the skeleton. CI is green on your first push, and `$env:ANTHROPIC_API_KEY` is visible in a new terminal.
 

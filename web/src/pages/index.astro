@@ -1,0 +1,20 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout
+  title="Could This Meeting Be an Email?"
+  description="Paste a meeting invite and a classifier rates it: keep the meeting, make it shorter, or this is an email. Runs entirely in your browser."
+  current="home"
+>
+  <h1>Could this meeting be an email?</h1>
+  <p class="muted">
+    Paste a meeting invite or agenda and a small model trained on hand-labeled invites rates it:
+    <strong>Keep the meeting</strong>, <strong>Make it shorter</strong>, or
+    <strong>This is an email</strong>, and highlights the phrases that drove the score.
+  </p>
+  <p class="privacy">
+    <strong>Runs entirely in your browser.</strong> Nothing you paste leaves your device.
+  </p>
+  <p>The model is still being trained. Check back soon.</p>
+</Layout>

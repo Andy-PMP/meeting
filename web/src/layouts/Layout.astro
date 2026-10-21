@@ -1,0 +1,45 @@
+---
+import "../styles/global.css";
+import Nav from "../components/Nav.astro";
+
+interface Props {
+  title: string;
+  description: string;
+  current: "home" | "none";
+}
+const { title, description, current } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/?$/, "/");
+const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : undefined;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="referrer" content="no-referrer" />
+    <title>{title}</title>
+    <link rel="icon" href={`${base}favicon.svg`} type="image/svg+xml" />
+    {canonical && <link rel="canonical" href={canonical} />}
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    {canonical && <meta property="og:url" content={canonical} />}
+    <!-- Apply a forced theme before first paint (key and values: src/lib/theme.ts). -->
+    <script is:inline>
+      try {
+        var t = localStorage.getItem("meeting:theme");
+        if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <Nav current={current} />
+      </header>
+      <slot />
+    </main>
+  </body>
+</html>
