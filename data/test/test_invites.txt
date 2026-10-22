@@ -1,4 +1,5 @@
 === keep
+note: working session, but also has 4 stated objectives and only 30 minutes
 Subject: ABS fan replacement
 When: Oct 28, 2026 10:00 AM-10:30 AM Eastern Time (US and Canada)
 Where: Microsoft Teams Meeting
@@ -13,6 +14,7 @@ Just heard back from ABS and one of the fans arrived damaged. Need to brainstorm
 Thanks, Bob.
 
 === keep
+note: rule - 1:1
 Amy Peele  10:42 AM
 hey Hannah! I need 15 min to make sure we're aligned on the deck before thursday. 
 Hannah Riley  10:44 AM
@@ -21,10 +23,10 @@ Amy Peele  10:45 AM
 Perfect, I'll send an invite (edited)
 
 === keep
-From: Jordan Natals <jordan.natals@rbb.com>
+From: Jordan Natals <jordan.natals@example.com>
 Sent: Monday, October 27, 2026 4:12 PM
-To: Chris Ortega <chris.ortega@rbb.com>
-Cc: Elise Harper <elise.harper@rbb.com>; Gemma Burke <gemma.burke@rbb.com>
+To: Chris Ortega <chris.ortega@example.com>
+Cc: Elise Harper <elise.harper@example.com>; Gemma Burke <gemma.burke@example.com>
 Subject: FW: Data Migration
 
 Chris,
@@ -49,6 +51,7 @@ We are exiting the JKT site and need to migrate all data and services as soon as
 
 
 === keep
+note: working session, but is also 60 mintues with 4 clear objectives stated
 Retrospective: Building Automation Network Deployment
 When: Thu 10:00-11:00
 Attendees: Nazir Joez; Jessica Erol; Zeb Huest
@@ -72,6 +75,7 @@ Quick sync: merge conflict on new feature branch
 Hey Toby and Anna, grabbing 30 minutes this afternoon so we can investigate and try to fix the multitude of issues I've caused. Sorry! Zach
 
 === keep
+note: borderline: one presenter, kept for live Q&A
 FY27 Employee Benefits Package
 Tuesday, October 28 · 10:00 – 11:00am
 Time zone: America/New_York
@@ -89,7 +93,8 @@ We hope to see you there!
 HR
 
 === keep
-Invitation: FY26 Performance Evaluation @ Tue Oct 28, 2026 10am - 11am (EDT) (brandon.fisher@raddinc.com)
+note: rule - 1:1 and sensitive information
+Invitation: FY26 Performance Evaluation @ Tue Oct 28, 2026 10am - 11am (EDT) (brandon.fisher@example.com)
 
 Brandon's annual performance review & compensation 
 
@@ -105,20 +110,20 @@ More phone numbers
 View all guest info
 
 Organizer
-frank.weaver@raddinc.com
+frank.weaver@example.com
 
 Guests
-frank.weaver@raddinc.com - organizer
-brandon.fisher@raddinc.com
+frank.weaver@example.com - organizer
+brandon.fisher@example.com
 
-Reply for brandon.fisher@raddinc.com
+Reply for brandon.fisher@example.com
 Yes   No   Maybe   More options
 
 Invitation from Google Calendar
 You are receiving this email because you are an attendee on the event.
 
 === keep
-note: vague and highly sensitive employment information
+note: vague and highly sensitive employment discussion
 Hi - we are putting Valerie on PIP, need 360 feedback & someone from HR.
 
 
@@ -135,18 +140,18 @@ Passcode: 482913
 
 === keep
 note: unknown attendees, but complex problem solving and a time-boxed decision is needed from multiple parties
-Team Volunteer Event
+Team Event
 Hosted by Rachel Valencia
 https://example.webex.com/example/j.php?MTID=XXXXXXXX
 Tuesday, Oct 28, 2026 10:00 AM | 60 minutes | (UTC-04:00) Eastern Time (US & Canada)
 
 Team,
 
-There are numerous outstanding safety issues related to the volunteer event that remain unaddressed.
+There are numerous outstanding safety issues related to the team event that remain unaddressed.
 
-Unless we can come to an agreement this afternoon, we will have to cancel the volunteer event this year.
+Unless we can come to an agreement this afternoon, we will have to cancel the team event this year.
 
-Please come with ideas to address the concerns Larry raised yesterday. I need every team's participation.
+Please come with ideas to address the concerns Larry raised yesterday. I need every sub-team's participation.
 
 
 Join from the meeting link
@@ -154,12 +159,191 @@ https://example.webex.com/example/j.php?MTID=XXXXXXXX
 
 Join by meeting number
 Meeting number (access code): 2634 123 4567
-Meeting password: Sync2026
+Meeting password: besafe
 
 === keep
+Topic: PHL Lunch Event planning meeting
+Time: Friday 12-12:30 PM
+
+Agenda:
+- Catering - headcount & vendor decisions (Cindi)
+- Printing - signs and cards? any fresh ideas? (Megan)
+- Comms - templates, pre-approvals, scheduling details (Hannah)
+- Budget check (Sabrina)
+
+=== keep
+note: working session, complex problem solving, urgent resolution required
+Subject: FW: P1-A Bridge - AgroTech | Tier 3
+
+Zach, AgroTech has a massive P1 outage can you join the bridge below ASAP? Thanks!
+
+-----Original Appointment-----
+From: Harper May <harper.may@example.com>
+Sent: Monday, October 27, 2026 4:12 PM
+To: NOC; Tier3Techs; P1Alerts
+Subject: P1-A Bridge: AgroTech | Tier 3
+When: Tuesday, October 28, 2026 11:00 AM-11:30 AM (UTC-05:00) Eastern Time (US & Canada).
+Where: Microsoft Teams Meeting
+
+Emergency troubleshooting bridge please forward as necessary.
+
+=== keep
+note: this is a working session, requiring input and decisions from 4 people to complete.
+Subject: Build session Friday morning
+
+Hey you three, grabbing an hour on Friday so we can build out the newsletter. If you have any final articles or photos please upload them by 6pm Thursday.
+
+Thanks for stepping in to help this week, we could not have made deadline without you.
+
+Alice
+
+=== keep
+note: working session, complex problem solving
+Event Description:
+Joseph Taff  5:42 AM
+Do you and Wesley have time on Friday to go over the drawings? 
+Jessica Early  5:55 AM
+Wesley is out Friday. We could do Thursday afternoon.
+Joseph Taff  5:57 AM
+Great. We'll need about an hour. Will&Co turned everything in but I think they missed a lot of the electrical equipment, and the mezzanine is missing entirely. I don't know if we want to even edit these or start over...
+Jessica Early  6:00 AM
+Yikes. Let me get the leads together and see if we can tackle this as a team. I'll pull the latest from Drive.
+
+=== keep
+note: rule - required by law
+Subject: Fwd: Mandatory: Q3 Health & Safety Changes @ Tue Oct 28, 2026 9am - 10am (EDT)
+
+fyi — 100% attendance required to keep our license
+
+no exceptions, let me know ASAP if you cannot make this time
+
+---------- Forwarded message ---------
+From: Google Calendar <calendar-notification@google.com>
+Date: Mon, Oct 27, 2026 at 4:12 PM
+Subject: Invitation: Mandatory: Q3 Health & Safety Changes @ Tue Oct 28, 2026 9am - 10am (EDT)
+To: <rick.damian@example.com>
+
+Leaders - cascade and ensure 100% attendance by end of October
+
+To be reviewed:
+Changes to Virginia statutes.
+Impacts to local regulations.
+Proposed changes in upcoming 2027 session.
+
+Join with Google Meet
+meet.google.com/abc-defg-hij
+
+=== keep
+note: rule - interview
+Subject: Panel interview for Manager, Project Management - Hardware services
+When: Wednesday, November 6, 2026 10:00 AM-10:45 AM (UTC-05:00) Eastern Time (US & Canada)
+Where: Microsoft Teams Meeting
+Organizer: Tristan Pearson
+Required: Jack Martin; Emily Fray; Marc Fort
+Optional: Andrea Bonite
+
+Please join from a quiet location, and with your camera on.
+
+________________________________________________________________________________
+Microsoft Teams Need help?
+Join the meeting now
+Meeting ID: 234 567 890 123
+Passcode: aB3cD4
+
+=== keep
+note: conflict resolution
+Topic: rm 355
+Time: Thursday, November 7, 2026 9:30-10:00 AM
+Description: 
+all - 
+
+bringing the two groups together to work this out. we need enhanced security on the entrance and exit of rm 355 in bldg 1.
+
+facilities and security have both claimed the other owns the process and we cannot keep going in circles without impacting the schedule.
+
+=== keep
+note: choose-between-options decision 
+Go/No-Go: Neighborly Game Friday @ 2 PM | 30 min | Jason Saab (Dev); Corey Greene (DevOps); Bethany Jenkins (QA);
+
+=== keep
+note: pure ideation
+Topic: Offsite Activity Brainstorming | 60 min | 6 attendees
+Description:
+So excited to announce we are hosting this year's offsite! 
+
+Bring your wildest ideas, let's get to building!
+
+=== keep
+note: single presenter, large attendee list, but a highly emotionally charged event
+Subject: Fwd: Town Hall @ Friday Nov 8, 2026 9am - 10:30am (EDT)
+
+fyi - you'll want to watch this one
+
+---------- Forwarded message ---------
+From: Google Calendar <calendar-notification@google.com>
+Date: Mon, Oct 27, 2026 at 4:12 PM
+Subject: Invitation: Town Hall @ Friday Nov 8, 2026 9am - 10:30am (EDT)
+To: <Product Team <product-team@example.com>, All Hands <all-hands@example.com>, Aisha Bello <aisha.bello@example.com>; Daniel Kim <daniel.kim@example.com>; Elena Rossi <elena.rossi@example.com>; Marcus Johnson <marcus.johnson@example.com>; Hannah Schultz <hannah.schultz@example.com>; Luis Ramirez <luis.ramirez@example.com>; Grace Okafor <grace.okafor@example.com>; Ben Whitaker <ben.whitaker@example.com>; Mei Chen <mei.chen@example.com>; Tom Gallagher <tom.gallagher@example.com>; Fatima Haddad <fatima.haddad@example.com>; Ryan O'Connell <ryan.oconnell@example.com>; Anika Sharma <anika.sharma@example.com>; Chris Novak <chris.novak@example.com>; Leah Goldberg <leah.goldberg@example.com>; Owen Patel <owen.patel@example.com>
+
+All,
+
+Thank you for a successful quarter. Our market share grew by 7.8% quarter over quarter, and we improved our customer satisfaction scores yet again.
+
+Unfortunately, we are reorganizing key parts of our business. This is a difficult decision that we did not make lightly. We have minimized the impact to our employees as much as possible, and will be supporting those impacted by the reorganization as they take the next steps in their journeys.
+
+Please join us for a Town Hall. You may submit your questions ahead of the session (here). We will answer questions live at the end of the session.
+
+Thank you,
+
+Mr. Smith, CEO
+
+=== keep
+note: external negotiation
+Hi Abigail,
+
+Can Jake and I meet with you to discuss the quote you sent over? We are interested in moving forward, but we need to get the total cost within our budget. We have some suggestions!
 
 
-=== shorter
+──────────
 
+Samantha is inviting you to a scheduled Zoom meeting.
 
-=== email
+Join Zoom Meeting
+https://example.zoom.us/j/12345678901?pwd=XXXXXXXX
+
+Meeting ID: 123 4567 8901
+Passcode: 482913
+
+=== keep
+note: rule - social
+Topic: Team Happy Hour
+Time: Friday @ 4-5 PM
+Description: Drop in for a drink and snacks on us before the holiday rush!
+
+=== keep
+note: single decision
+vendor decision: cameras & intall | 15 min | Scott D; Rick H; Sora M | pls review all3 vendor quotes before the call
+
+=== keep
+note: large attendee list, but almost everyone has a role. "sync" wording is a trap
+Subject: Hindsight Launch Decision | 60 min | 12 attendees 
+Hi all. Final sync before next week, need all teams on board.
+
+Agenda:
+1. RAG memory leak (Chris + Jasnah)
+2. MCP auth timouts: fix or descope? (Arnold + Doug)
+3. Agent rewrite: launch or patch update? (Andy) 
+4. Evaluation set questions (missing values) (Bree)
+5. Deployment agents (need to define owners) (Renee)
+6. Video (questions on content, editing) (Tara + Nancy)
+7. Open risks (Betty)
+8. Decide on go/no go date (all)
+
+-- Do not delete or change any of the following text. --
+
+When it's time, join the Webex meeting here.
+
+Meeting number (access code): 2634 123 4567
+Meeting password: hindsight
+
+=== keep

@@ -65,6 +65,56 @@ def test_join_blocks_disappear_entirely(block):
     assert visible(block) == []
 
 
+GOOGLE_EMAIL = """Invitation: Budget sync @ Tue Oct 28, 2026 10am - 11am (EDT) (sam@example.com)
+
+Decide which two pilots we fund.
+
+Join with Google Meet
+meet.google.com/abc-defg-hij
+Join by phone
+(US) +1 555-555-0123
+PIN: 123456789
+More phone numbers
+Video call link: https://meet.google.com/abc-defg-hij
+Time zone: America/New_York
+View all guest info
+Organizer
+pat@example.com
+Guests
+pat@example.com - organizer
+sam@example.com
+Reply for sam@example.com
+Yes   No   Maybe   More options
+Invitation from Google Calendar
+You are receiving this email because you are an attendee on the event."""
+
+WEBEX_NEW_TEAMS = """-- Do not delete or change any of the following text. --
+When it's time, join the Webex meeting here.
+Join from the meeting link
+https://example.webex.com/example/j.php?MTID=X
+Join by meeting number
+Meeting number (access code): 2634 123 4567
+Meeting password: besafe
+Microsoft Teams Need help?
+Join the meeting now"""
+
+
+def test_google_calendar_email_keeps_subject_purpose_and_guests():
+    assert visible(GOOGLE_EMAIL) == [
+        "Invitation: Budget sync @ Tue Oct 28, 2026 10am - 11am (EDT) (sam@example.com)",
+        "Decide which two pilots we fund.",
+        "Organizer",
+        "pat@example.com",
+        "Guests",
+        "pat@example.com - organizer",
+        "sam@example.com",
+    ]
+
+
+def test_webex_and_new_teams_wording_disappear():
+    assert visible(WEBEX_NEW_TEAMS) == []
+
+
 def test_full_zoom_invite_keeps_only_topic_and_time():
     assert visible(ZOOM_FULL) == [
         "Topic: Cobalt migration go/no-go",
@@ -94,6 +144,14 @@ def test_forward_separators_in_gmail_and_outlook_styles(separator):
     assert visible(f"FYI, see below\n\n{separator}\nSubject: Data migration") == [
         "FYI, see below",
         "Subject: Data migration",
+    ]
+
+
+@pytest.mark.parametrize("rule", ["_" * 20, "-" * 10, "─" * 10, "━" * 8, "—" * 6])
+def test_rule_lines_in_ascii_and_box_drawing_styles(rule):
+    assert visible(f"Can we discuss the quote?\n{rule}\nThanks") == [
+        "Can we discuss the quote?",
+        "Thanks",
     ]
 
 

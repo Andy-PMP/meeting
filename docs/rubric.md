@@ -5,7 +5,7 @@
 ## 1. The three labels
 
 ### Keep the meeting (`keep`)
-A topic that is ambiguous, nuanced, or emotionally charged, a situation so complex it requires live brainstorming, in-depth problem-solving or conflict resolution, or a decision that needs several people's input at once. 
+A topic that is ambiguous, nuanced, or emotionally charged, a situation so complex it requires live brainstorming, in-depth problem-solving or conflict resolution, or a decision that needs several people's input at once. Interviews, team/social events, and 1:1s are always kept.
 
 ### Make it shorter (`shorter`)
 A real decision or discussion, but more time or people than it needs, sometimes padded with unrelated status updates. If decisions are being made by a small subset of the attendees, the invitee list should be reduced.
@@ -61,7 +61,7 @@ Check these in this order, first matching rule wins.
 
 ## 5. One-line cheat-sheet (shown on every labeling screen)
 
-- **1 keep:** a live decision or real back-and-forth, a 1:1, social, formal proceeding, working sessions, or live Q&A.
+- **1 keep:** a live decision or real back-and-forth, a 1:1, social, formal proceeding, working session, interview, or live Q&A.
 - **2 shorter:** a real purpose, but too long, with too many people, or with too much filler
 - **3 email:** one-way information or a question; nobody needs to be in the room
 
