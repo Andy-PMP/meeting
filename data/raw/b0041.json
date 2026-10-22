@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0041",
+ "request_hash": "1425f43a75c5bac4",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2724,
+  "output_tokens": 995,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0201\",\"text\":\"Foxglove 2.0 howdy-doo: a few things y'all oughta hear (whole studio)\"},{\"spec_id\":\"spec_0202\",\"text\":\"Q3 Budget Review: the Mosaic rollout\\nThursday, 2:00pm – 3:00pm\\nTanaka's Kitchens – Back office / Google Meet link below\\n\\nGuests (10): Farid (organizer), Ilse Achterberg, Jamal Iversen, Hiroshi Delacroix, Ada Carvalho, Elena Brennan, Sofia Kessler + 3 more\\n\\nAlright folks, time to pull up a chair and figure out where the money's going.\\n\\n1. Mosaic POS spend so far vs. plan (Ilse): we're running about 12% hot, need to decide whether to pause the last two locations\\n2. Kitchen labor overages during training weeks (Jamal, Hiroshi): do we eat it or push the go-live?\\n3. Vendor contract renewal, yes or no (Ada)\\n4. Final call on Q4 numbers to send up (Elena, Sofia)\\n\\nBring your spreadsheets and your honest opinions. We'll leave with decisions, not homework.\"},{\"spec_id\":\"spec_0203\",\"text\":\"FYI, please see below and accept at your earliest convenience. Attendance is noted for compliance purposes.\\n- Vikram\\n\\n---------- Forwarded invitation ----------\\nSubject: Prairiepath & Co. Session (Mandatory)\\nWhen: Tuesday 10:00am – 11:30am\\nWho: Mei Brennan, Gus Moreau, Nils Oyelaran, Arjun Jaramillo, Yasmin Mbatha, Callum Tanaka +10 others\\nWhere: Conference Room B\"},{\"spec_id\":\"spec_0204\",\"text\":\"Subject: Quick daily huddle!! 🎉\\n\\nHey superstars! 🌟\\n\\nLet's kick off every morning together at 8:45 for a quick 15 min huddle starting Monday! ☕️🙌 Maeve, Valentina, Keiko, Gemma, Yusuf, Imani, you're all on it! Can't wait to see those smiling faces bright and early!! 🚀\\n\\nNils 😄\"},{\"spec_id\":\"spec_0205\",\"text\":\"District Town Hall: Budget Vote + Calendar Changes\\nWed 3:30pm – 4:00pm (Pacific / 3:30 local for Eastside campus too? Confirming. Eastside is on Mountain, so 4:30 there)\\nAll staff (298)\\n\\n1. Board budget vote: questions answered live (Leon Gallo)\\n2. Revised spring calendar, staff input (Esme Thorne)\\n3. Esposito account transport contract: Q&A (Will Dorsey)\\n\\n-Gus\"}]}"
+}

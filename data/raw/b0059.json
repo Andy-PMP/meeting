@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0059",
+ "request_hash": "4aa2241d859f6c37",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2777,
+  "output_tokens": 1018,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0291\",\"text\":\"Hi all, forwarding again because Quinn said not everybody got it. Please come, we need many heads for this one :)\\n\\n---------- Forwarded message ----------\\nFrom: Elena\\nSubject: Tidalpath site - planning together\\nThu 10:00-11:30, Lakestone Community Trust, big room\\nTo: Quinn, Bianca, Cyrus, Leon, Jada, Ulla, +2\\n\\nLet us sit and make the plan for next months at Tidalpath site. Bring your ideas please.\"},{\"spec_id\":\"spec_0292\",\"text\":\"Elmline site – Decision: Phase 2 vendor\\nLanternspring Advisory | Tue 14:00–14:30 | Rm 3B / video\\nAttendees: Bruno (chair), Yusuf Quintero, Mei Pruitt, Tess Bramwell, Cyrus Ahmadi, Noor Ekwueme, Mariam Carvalho\\n\\n1. Recap of shortlist (Mei) – 5 min\\n   - Two vendors remain. Scoring sheet circulated Friday.\\n2. Recommendation (Tess) – 10 min\\n   - Vendor B scores highest on cost and timeline. No objections raised in comments so far.\\n3. Confirm decision – 5 min\\n4. Next steps / client comms (Noor) – 10 min\\n\\nPre-read: scoring sheet v4 (shared drive). Add comments before Monday EOD if you disagree.\"},{\"spec_id\":\"spec_0293\",\"text\":\"Since nobody's posted feedback yet, let's just debrief live. Join: meet.link/elmpath-3381, PIN 4471#\"},{\"spec_id\":\"spec_0294\",\"text\":\"Forwarding since apparently my last three emails about this got \\\"lost.\\\" Nadia, Goran, Wes, Fatima — this one is not optional. We still don't have a single concept the Delacroix account hasn't already rejected, and the pitch is in nine days. Ideas sitting in individual inboxes clearly haven't worked, so we're doing it in a room. Bring rough stuff, sketches, references, anything.\\n\\n-- Forwarded invite --\\nDelacroix campaign: concept brainstorm\\nWed 2:00–3:30pm, Copperpath Films, Edit Suite B\\nOrganizer: Leon\\nGuests: Nadia Dorsey, Goran Jaramillo, Wes Iversen, Fatima Rasmussen\"},{\"spec_id\":\"spec_0295\",\"text\":\"All-Company Town Hall\\nFriday 7:00 – 8:00am\\nYard Office + Google Meet link\\nOrganizer: Ada\\nGuests: All Abernathy Construction staff (159)\\n\\nSorry for the short notice and the early start, I know it's tough for site crews. PLEASE ATTEND LIVE if at all possible, this one won't be recorded. Thank you, and apologies again.\"}]}"
+}

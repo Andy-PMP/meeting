@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0058",
+ "request_hash": "8228d1c6029921c4",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2821,
+  "output_tokens": 2061,
+  "output_tokens_details": {
+   "thinking_tokens": 259
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0286\",\"text\":\"@channel Town hall Thu 2-3pm, main auditorium + stream 🎤\\nAgenda: Q3 numbers (Dmitri), facilities move dates, Wren initiative update + open Q&A (Ben, Yoko).\\nSlides go out Wed. All 256 of you, please attend 🙏\"},{\"spec_id\":\"spec_0287\",\"text\":\"Good afternoon all,\\n\\nPer the directive from the Program Oversight Committee, I am scheduling the formal kickoff session for Nutmeg 2.0. Attendance is requested of the following nine (9) individuals in accordance with the approved staffing memo:\\n\\n- Noor Szabo (Program Lead)\\n* Jamal Thorne (Finance & Grants Compliance)\\n- Yoko Delacroix (Volunteer Coordination)\\n  - Aisha Moreau (Community Partnerships)\\n* Tariq Pruitt (Data & Reporting)\\n- Fatima Lefebvre (Communications)\\n• plus the three site leads from the East, North and Riverside branches\\n\\nProposed time: Tuesday, 10:00-11:00, Conference Room B (Teams link to be appended for site leads).\\n\\nItems requiring resolution during the session:\\n1. Confirmation of workstream ownership and the RACI matrix (draft attached; currently has two unresolved conflicts between Partnerships and Volunteer Coordination)\\n2) Agreement on the reporting cadence the funder will accept, as Jamal and Tariq have submitted differing proposals\\n3. Sequencing of site launches: the three site leads must jointly determine which branch goes first given current staffing\\n- Identification of risks and dependencies for the risk register\\n\\nPre-work: Kindly review the attached RACI draft and the two reporting proposals prior to the session and arrive prepared to state your position. Decisions reached will be recorded in the minutes and circulated for formal sign-off by end of week.\\n\\nPlease acknowledge receipt of this message with a reaction or reply. Should you be unable to attend, nominate a delegate with decision-making authority and inform me no later than Monday COB.\\n\\nRegards,\\nEmeka\\nCedarhaven Community Trust, Programs Office\"},{\"spec_id\":\"spec_0288\",\"text\":\"Subject: Planning session Friday - please come 😬\\n\\nHi everyone,\\n\\nSorry for the short notice, I've booked the big conference room Friday 9:00-11:00 for a planning session and I really need all of you there: Leon, Yoko N, Sofia, Noor, Odette, Farid, plus the dispatch leads and Ops.\\n\\nI know two hours is a lot. I'm just nervous we're not all on the same page heading into next quarter with the Esposito contract volumes going up, and I'd rather over-prepare than get caught out. I'll probably start by having each team walk through where things stand, then we can see what comes out of it. If there's time at the end maybe we look at the Q4 calendar? 🤞\\n\\nA few other things while I have you:\\n- Parking: the north lot is being resurfaced Friday, so please use the overflow lot behind Bay 6. Leave early, it fills up 🚗\\n- I'll order sandwiches, reply with any dietary needs by Wednesday\\n- It's Odette's birthday Friday!! 🎂 There will be cake after, don't tell her (Odette if you're reading this, act surprised)\\n- Bring laptops, the room screen is still flaky\\n\\nIf you absolutely can't make it, please send someone from your team, I don't want any gaps. And if anyone thinks there's something specific we should cover, tell me, honestly I'm open to anything at this point.\\n\\nThanks so much, really appreciate it 🙏\\n\\nLars\\nMillfield Logistics\"},{\"spec_id\":\"spec_0289\",\"text\":\"Umber 2.0 launch retro 🎉 (45 min, all 9 of us) - casual look back at how the rollout went, Cleo will share the wrap-up numbers from Teo + Carmen's dashboards, Bea's store feedback roundup, Grace's notes from the regional calls, and Hiroshi's list of what went sideways with the inventory sync, then Tariq walks through what's already been fixed vs still open, plus we'll talk about the stuff we'd do differently next time (honestly most of it is already in the shared doc, so feel free to skim beforehand and add comments if you can't make it), no prep needed, no slides, just come hang and reflect a bit before we all scatter into holiday planning season, snacks probably, camera optional if you're dialing in from the stores, and if you have a strong opinion about whether the pilot regions were the right call bring it, otherwise this is mostly a sharing-and-thanks kind of thing for Beaconfield Outfitters' biggest launch this year, which went way better than any of us feared back in spring, so let's celebrate that a little too\"},{\"spec_id\":\"spec_0290\",\"text\":\"hey all, can we grab 45 min Thurs at 1 to sync on the Yilmaz account curator hire? want to make sure we're aligned before offers go out 😅 Yusuf, Wes, Lucia, Jada, Sana. also bring your parking passes for validation, and Hollis's farewell cake is at 2\"}]}"
+}

@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0156",
+ "request_hash": "8c6d9f2b0af5ccc9",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2775,
+  "output_tokens": 1900,
+  "output_tokens_details": {
+   "thinking_tokens": 325
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0776\",\"text\":\"[All Staff, 60 min, all 250 of us, sorry!] Friends of Prairiebridge Town Hall: apologies for the full hour and for pulling everyone off program work during grant season. Agenda: (1) Leon welcome + apology for the rescheduled date, 5 min; (2) Ben Xu reads out the Q3 donor numbers already in the dashboard, 10 min; (3) Keiko Ferraro HR reminders on benefits enrollment deadlines (same as the memo), 10 min; (4) Maeve Mbatha facilities update on the parking lot repaving, 5 min; (5) Noor Dorsey recap of volunteer hours by region, 10 min; (6) Beth Abernathy walks through the Basalt 2.0 rollout timeline and the one open question we actually need input on: whether field offices switch in January or wait until after the spring gala, 15 min; (7) Ines Wexler open Q&A, 5 min. Sorry again that the Basalt 2.0 piece is near the end, we couldn't move the order around the speakers' schedules. Cameras optional, and please forgive the length, we'll try to finish early if the readouts go quickly.\"},{\"spec_id\":\"spec_0777\",\"text\":\"Title: Hiring Process Sync – Branch Operations Roles, Juniperfield Site\\nDate/Time: Thursday, 2:00 PM – 2:30 PM\\nLocation: Conference Room 3B / Video Bridge\\n\\nDescription:\\nPer Talent Acquisition Procedure HR-14, this standing sync is convened to review requisition status for the Juniperfield site. Attendance is required for all listed parties.\\n\\nAgenda:\\n1. Requisition status readout (Lars Kowalczyk) – open/filled counts per tracker\\n2. Background check queue update (Ines Iversen)\\n3. Interview panel calendar confirmations (Aisha Abernathy)\\n4. Offer letter template compliance reminder (Soren Nwachukwu)\\n5. DECISION: Approve or decline exception to extend Head Teller offer above band (Cyrus Kariuki)\\n\\nAttendees: Lars Kowalczyk, Cyrus Kariuki, Ines Iversen, Aisha Abernathy, Soren Nwachukwu\\n\\n---\\nLars Kowalczyk: Item 1 numbers are in the shared tracker as of this morning, no changes since last week.\\nInes Iversen: Background queue is clear. Nothing to report for item 2.\\nAisha Abernathy: Panels are confirmed, I sent the grid yesterday.\\nCyrus Kariuki: Candidate needs an answer by Friday on item 5, so let's not run out of time on that one.\\n---\\n\\nJoin by video: Lakepath Savings Bank Video Bridge\\nMeeting ID: 482 117 9034\\nDial-in: +1 555 0140 2290, Passcode: 663018#\\nThis meeting may be recorded for compliance purposes. For assistance contact the IT Service Desk.\\nLakepath Savings Bank – Confidential. Do not forward.\"},{\"spec_id\":\"spec_0778\",\"text\":\"Project Hearth review: decide funding split TODAY, since email threads went NOWHERE.\"},{\"spec_id\":\"spec_0779\",\"text\":\"Nimbus 2.0 walkthrough, all 21 of you, 60 min, hands-on, since apparently the written guide wasn't enough. Bring laptops and the client files you've been 'figuring out on your own'. Kavya and Olu will help those stuck on setup.\"},{\"spec_id\":\"spec_0780\",\"text\":\"Kickoff: the Ferraro account\\nCedarworks Outfitters HQ | 60 min | 11 attendees\\n\\nAgenda (still firming up, sorry):\\n1. Welcome and why we're here – Ben\\n2. Overview of the Ferraro account and what they're expecting from us – Emeka Castellano\\n3. Who's on point for what (draft list, will circulate) – Ben\\n4. Timeline, roughly – Cyrus Xu\\n5. Anything we're missing? – all\\n\\nAttendees: Emeka Castellano, Cyrus Xu, Aisha Ishikawa, Quinn Yamamoto, Imani Gunawardena, Jamal Kariuki, plus merchandising and store ops leads\\n\\nI just want to make sure everyone hears the same thing at the same time so nothing falls through the cracks. I'll send slides beforehand if I can get them done. Please let me know if you can't make it so I can catch you up.\"}]}"
+}

@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0097",
+ "request_hash": "3364121264f1a4ff",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2795,
+  "output_tokens": 1744,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0481\",\"text\":\"Femi / Mariam 🗓️\\n\\nThu 14 Mar, 2:00 PM – 2:30 PM\\nLocation: Admin wing, Rm 3B (my office) — door's open, just knock\\n\\nAttendees: Femi Adeyemi (organizer), Mariam Ekwueme\\n\\nDescription:\\nNeed 30 min with you before Friday. Bring the Garnet migration cutover sheet and whatever you've got from Vikram on the ward 6 scheduling data.\\n\\nWould rather talk this through than go back and forth over chat. Can't move it past Thursday.\\n\\nIf 2:00 doesn't work, grab any open slot on my calendar Thursday morning. Don't push it to next week. 👍\\n\\n— F\"},{\"spec_id\":\"spec_0482\",\"text\":\"Folks, see below. Bring your honest gripes, we ain't here to pat backs. Leon, pls have the timeline ready.\\n– Maeve\\n\\n---------- Forwarded invite ----------\\nCobalt 2.0 Retro\\nWed 10:00–10:45\\n1. What slipped on client deliverables (Leon)\\n2. Scope creep, where it started (Yoko, Farid)\\n3. Agree on 3 changes for phase 3 (all)\\n\\nJoin: meet.oakridge/cobalt-retro | Dial-in +1 555 0142, PIN 88213#\"},{\"spec_id\":\"spec_0483\",\"text\":\"Bluebridge site closure: what it means for your team (live Q&A)\\nTuesday, April 9 · 11:00 – 11:30am\\nGoogle Meet: meet.google.com/lwg-bbsc-qna\\nJoin by phone: +1 555-0199 PIN: 402 117#\\n\\nOrganizer: Delia\\n19 guests: Bluebridge claims & underwriting staff, Marcus Thorne, Andre Carvalho, Kavya Jaramillo\\n\\nDescription:\\nI'm sorry for the short notice, and I'm sorry this is landing in your calendar before you've heard it from me in person. Starting June 1, the Bluebridge site will consolidate into the downtown office. I know that's a lot to absorb, and I didn't want anyone reading it in a memo first.\\n\\nThis is a live session because you'll have questions we can only answer together, and I'd rather take them directly than let rumors fill the gap.\\n\\nAgenda:\\n• 11:00 – What's changing and the timeline (Delia, 5 min)\\n• 11:05 – Commute support, hybrid options, parking (Kavya Jaramillo, HR, 5 min)\\n• 11:10 – How claims queues and client calls will be covered during the move (Marcus Thorne, 5 min)\\n• 11:15 – Open Q&A, anything at all (Andre Carvalho and me, 15 min)\\n\\nIf you can't make it, please tell me and I'll set up a one-on-one. Nobody should be left guessing. Cameras are optional. If you'd prefer to ask anonymously, there's a form linked in the chat.\\n\\nAgain, apologies for the timing. Thank you for bearing with me.\\n\\nDelia\"},{\"spec_id\":\"spec_0484\",\"text\":\"All, passing this along from Oskar's office. I know an hour is a big ask with census where it is, but this one's worth showing up for, in person if you can swing it. Last time folks said they found out about the Ashforge changes from the parking lot gossip before they heard it from us, and that's on us. This is your shot to tell leadership straight what's working and what isn't. Charge nurses, please work out coverage among yourselves so floor staff can come. If you truly can't leave the unit, the stream link's below, but questions from the room get answered first.\\n\\nThanks, y'all.\\nKenji\\n\\n---------- Forwarded message ----------\\nFrom: Office of the COO\\nSubject: Town Hall: The Ashforge Site Opening and Staffing\\nWhen: Thursday, 7:30–8:30 AM (timed for night-shift handover)\\nWhere: Main Auditorium, Level 1 | Livestream on the intranet\\nWho: All clinical and administrative staff, Medical & Surgical services (59 invited)\\n\\nRough agenda:\\n- Where Ashforge stands: opening date, which services move (Oskar Jovanovic)\\n- Staffing plan and transfer options, floated for feedback before it's finalized (Ulla Hakimi, Nursing)\\n- Parking and shuttle between campuses (Abebe Ferraro)\\n- Open floor. Bring the hard questions. Zoe Hollander and Deepa Rinaldi will collect anything we can't answer on the spot and post replies within a week.\\n\\nCoffee and breakfast provided. Leon Bramwell's team is covering the 7 AM break.\\n\\nSt. Hollander Hospital\"},{\"spec_id\":\"spec_0485\",\"text\":\"FW: FW: Quarry 2.0 retaining wall: Liam/Teo/Tess DECIDE redesign vs. delay, 60m\"}]}"
+}

@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0148",
+ "request_hash": "17cc858907d617f3",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2765,
+  "output_tokens": 1312,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0736\",\"text\":\"Sorry all!! Ember migration timeline + owners only, Yara/Tariq presenting!! 30 min!!\\n\\n---------- Forwarded invite ----------\\nAll-Staff: Ember Migration Update | City of Silvercrest | 166 guests\"},{\"spec_id\":\"spec_0737\",\"text\":\"Gingham budget review - Erik / Rafael / Raj (60 min)\"},{\"spec_id\":\"spec_0738\",\"text\":\"Forwarding this since a few people apparently didn't see it the first time. Attendance is expected. I know calendars are busy, but this one was sent two weeks ago, so I'm assuming everyone has had plenty of time to make room. Please don't reply asking what it's about. Sana and Lucia will walk through everything, and slides will be circulated afterward for anyone who still has questions. It would be great if cameras were on this time. Last time it was hard to tell who was actually there.\\n\\nAlso, Jada, Delia, Farid: your RSVPs are still showing as \\\"maybe.\\\" Just flagging.\\n\\n- Dana\\n\\n---------- Forwarded message ----------\\nFrom: Dana\\nTo: Summitworks Creative - All Studio (28)\\nSubject: Mosaic 2.0 - Team Session\\nWhen: Thursday, 2:00-3:00 PM\\nWhere: Large conference room / video link in calendar\\n\\nTeam,\\n\\nPlease hold this hour for a Mosaic 2.0 session. Sana Moreau and Lucia Gallo will present. Mariam Dube will be taking notes.\\n\\nPlease plan to stay for the full hour.\\n\\nThanks,\\nDana\"},{\"spec_id\":\"spec_0739\",\"text\":\"Site-Wide Town Hall: Project Tangerine Path Forward\\nWednesday · 11:00 – 11:30am\\nJoin with Google Meet: [link]\\nGuests: 150 (Redspring Therapeutics - All Staff)\\nOrganizer: Delia\\n\\nPer the governance procedure for program-level determinations, all personnel are requested to attend the session below. Attendance will be recorded for compliance purposes.\\n\\n---------- Forwarded message ---------\\nFrom: Fern Whitcombe\\nTo: Delia\\nSubject: RE: Tangerine - need broader input before Friday\\n\\nDelia,\\nThe steering group could not reach consensus on the two options. Lars and Quinn feel strongly that the bench teams need to weigh in directly before we commit resources. A live poll and an open Q&A would be the most efficient route. Can you arrange it?\\n\\n> From: Jonas Vasquez\\n> The staffing implications differ substantially between options. Uriel's group and Emeka's group will be affected most. I'd rather surface objections now than after the decision.\\n\\nAgenda (as approved):\\n1. Summary of options A and B. Fern Whitcombe (5 min)\\n2. Impact on lab operations. Uriel Kessler, Emeka Lindqvist (5 min)\\n3. Open Q&A and live poll [link] (15 min)\\n4. Next steps. Delia (5 min)\\n\\nPre-read: [link]\\nPlease review it in advance. The input collected will inform the steering group's final determination on Friday.\"},{\"spec_id\":\"spec_0740\",\"text\":\"Prep: Garnet rollout kickoff planning\\n\\nSorry to add one more thing. Hector: confirm the kickoff date. Tess: draft the attendee list. Omar: book the room. That should cover it, apologies for the hour block.\\n\\nMicrosoft Teams meeting\\nJoin on your computer or mobile app\\nClick here to join the meeting\\nOr call in (audio only)\\nConference ID: [link]\\nOakline Therapeutics | Learn more | Meeting options\"}]}"
+}

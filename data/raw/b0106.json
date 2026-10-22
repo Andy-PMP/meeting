@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0106",
+ "request_hash": "92df4e51f60d9a77",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2813,
+  "output_tokens": 1202,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0526\",\"text\":\"Since some people still not know the new system, all 10 of us meet 1 hour tomorrow, ok?\"},{\"spec_id\":\"spec_0527\",\"text\":\"Stoneforge State College – Department of History\\nSearch Committee Meeting: Assistant Professor (Public History)\\nThursday, 2:00–2:45 PM, Hartley Hall Room 310\\nConvener: Zainab\\nCommittee: G. Whitcombe, Z. Kowalczyk, V. Ahmadi, M. Gunawardena, T. Haddad, B. Fairweather\\n\\n1. Confirmation of quorum and conflict-of-interest disclosures (Zainab, 5 min)\\n2. Review of rubric scores for the six long-listed candidates (V. Ahmadi, 15 min)\\n3. Discussion and vote on the campus-visit shortlist of three (all, 15 min)\\n4. Diversity statement compliance check per HR Policy 4.2 (T. Haddad, 5 min)\\n5. Assignment of visit hosts and reference-call owners (M. Gunawardena, 5 min)\\n\\nMembers are requested to submit individual scores to the shared folder no later than Wednesday 5:00 PM. Votes under item 3 must be recorded in the minutes.\"},{\"spec_id\":\"spec_0528\",\"text\":\"Subject: Daily 9:15 check-in (starting Monday)\\n\\nHi all,\\n\\nSince a few things seem to keep slipping through the cracks lately 🙂, I'm putting a 15 min standup on everyones calendar every morning at 9:15 starting Monday. Jada, Thandi, Vera, Nico, Darius, Raj, you're all on it, plus Imogen from planning.\\n\\nPlease come ready to say what you did yesterday and what your doing today. I know we all have the tracker, and I know some of us actually update it 👀, but apparently that isnt enough right now.\\n\\nCameras on would be apreciated.\\n\\nThanks so much!! 🙏\\nGrace\\nStonelight Outfitters – Merch Ops\"},{\"spec_id\":\"spec_0529\",\"text\":\"Title: Ashlight Admin Town Hall 🎉\\nWhen: Fri 12:00–1:00 PM\\nWhere: Auditorium B + Teams\\nDescription: Quick updates from Bruno on Q3 budget, Uriel on the Lindqvist contract, and the new badge policy. Open Q&A at the end! 🍕 Lunch provided. Garage C closed Friday, use Lot 4. Cake for Gus's birthday after! 🎂 —Mariam\"},{\"spec_id\":\"spec_0530\",\"text\":\"Sam,\\n\\nForwarding the below for your attention. Please prioritize attending; I'd prefer we discuss this in person rather than in writing. 🙏 Agenda materials at [link].\\n\\nRegards,\\nBianca\\n\\n---------- Forwarded message ----------\\nFrom: Bianca\\nTo: Sam Kessler\\nSubject: 1:1 – Bianca / Sam\\nWhen: Tuesday, 4:00–4:30 PM\\nWhere: Admin Suite, Conference Room 2 (door closed) | Teams backup: [link]\\n\\nNo preparation required. Please bring your notes from last week's conversation with Tariq Carvalho and Dmitri Whitcombe regarding the Abernathy account. 📎\\n\\nMillspring Health – Office of Administrative Services\"}]}"
+}

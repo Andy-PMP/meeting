@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0115",
+ "request_hash": "37d42b38d0bd4534",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2785,
+  "output_tokens": 1303,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0571\",\"text\":\"Fwd: Kickoff – the Kestrel rollout\\nPushing this to all 6 of us. 90 min, Thurs 6:00–7:30pm, clubhouse.\\n\\n---\\nAgenda: scope, vendor timeline, resident notice, budget Q&A.\\n\\n> Noor: 90 feels long for four items?\\n> Farid: budget part could run. Leave it.\\n> Grace: can I drop after the vendor bit?\\n\\n– Liam\"},{\"spec_id\":\"spec_0572\",\"text\":\"Zapata vendor demo, 30m, 9 ppl: API auth + SLA gaps, owners below.\\n\\n> Joaquin: I'll drive auth.\\n> Bianca: SLA redlines from me, need go/no-go live.\"},{\"spec_id\":\"spec_0573\",\"text\":\"DAILY STANDUP!!! Project Quill :)\\n9:00–9:30, Room 214, all 7 of us\\n- Emeka: blockers for the grant data, please to decide together who takes the lab slot\\n- Yara / Bea: survey merge conflict, we fix live\\n- Parking lot B closed today!!\\n- Cake for Kemi birthday at 12, so happy!!\"},{\"spec_id\":\"spec_0574\",\"text\":\"Fwd: Brightline site jam\\n\\nHey all, forwarding Darius's invite so the art folks are on it too. Bring sketches, half-baked stuff welcome. Whiteboard room, Tue 2–3pm, 8 of us.\\n\\n---------- Forwarded message ----------\\nFrom: Darius Dube\\nTo: Goran Esposito, Kenji Bramwell, Esme Iversen\\nSubject: Brightline site jam\\n\\nBooking an hour Tuesday. Goran, can you bring the old landing page mockups? Kenji, the trailer cut too if it exists.\\n\\n> Esme: Yes please, I've got three directions for the hub page and they kind of contradict each other lol\\n> Goran: will bring printouts\\n\\nAdding Sam and Mariam since they own the community side. See you there!\\n— Wes\"},{\"spec_id\":\"spec_0575\",\"text\":\"GLENWOOD CONSULTING – HIRING PROCESS SYNC (Quarry rollout staffing)\\nDuration: 30 minutes\\nTime: 10:00 GMT / 11:00 CET (Note: previous circulation listed 10:00 CET in error; please confirm against your local calendar)\\nAttendees: Elena (Chair), Zoe Grummond, Nadia Tanaka, Ulla Wexler, Ada Carvalho, Liam Ostrowski, Noor Lindqvist\\n\\n1. Status of open requisitions\\n   1.1 Senior Analyst (2 positions): Nadia to report current pipeline counts as recorded in the tracker.\\n   1.2 Engagement Manager (1 position): Offer extended; Ulla to confirm acceptance status if received.\\n2. Process changes effective next month\\n   2.1 Revised interview scorecard template has been approved by the Practice Lead and will be circulated with these minutes. No further input is being sought at this stage.\\n   2.2 Panel composition guidance updated per HR policy; Zoe to summarise the change.\\n3. Scheduling\\n   3.1 Interview availability for the coming fortnight to be entered into the shared calendar by Friday close of business (UK time).\\n   3.2 Liam to note any conflicts with the Quarry rollout client workshops.\\n4. AOB\\n   4.1 Reminder that candidate feedback must be submitted within 48 hours of interview.\\n\\nPre-read: hiring tracker (updated Monday). Attendees are asked to review in advance. Minutes will be distributed by Elena following the session.\"}]}"
+}

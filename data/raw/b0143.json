@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0143",
+ "request_hash": "e28e965e912dc47d",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2747,
+  "output_tokens": 1896,
+  "output_tokens_details": {
+   "thinking_tokens": 438
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0711\",\"text\":\"PTA prep huddle (1 hr, Ivan + Darius, Jonas, Tess, Hector) - planning the BIG parent meeting about the Quill initiative before it goes sideways - who presents what, do we have the budget numbers ready, what if parents ask about the fundraising shortfall again, room booking, sign-in sheet, snacks?, and honestly just making sure we're all saying the same thing so nobody gets blindsided like last spring - PLEASE come\"},{\"spec_id\":\"spec_0712\",\"text\":\"STUDIO OAKFORGE - INTERVIEW DEBRIEF\\nRole: Senior Account Strategist (the Ashford site engagement)\\nCandidate: Paloma Kessler\\nDuration: 30 minutes\\nAttendees: Lucia (Chair), Pilar Szabo, Omar Achterberg, Imani Achterberg, Nils Uchenna\\n\\nPurpose\\nTo consolidate panel feedback and reach a hiring recommendation for the above role.\\n\\nAgenda\\n1. Welcome and opening remarks (Lucia) - 3 min\\n2. Recap of the Senior Account Strategist job description and team structure (Lucia) - 5 min\\n3. Overview of Q3 hiring pipeline status across all open roles (Omar) - 5 min\\n4. Review of interview scheduling logistics and lessons learned (Imani) - 4 min\\n5. Individual panel feedback on candidate (all) - 8 min\\n6. Hiring recommendation: PROCEED / DO NOT PROCEED (all) - 3 min\\n7. Next steps and AOB (Lucia) - 2 min\\n\\nPre-Read\\nAll panelists are requested to submit scorecards in the hiring portal BEFORE the session. Scorecards submitted after the meeting will NOT be included in the record. 📋\\n\\nNotes\\n- Item 3 will also be circulated in writing following the session.\\n- Nils Uchenna will join from the Ashford site visit and may arrive late.\\n- Odette Gunawardena (HR) has been copied for visibility and is not required to attend.\\n\\nWe kindly ask that all attendees come prepared with concise, evidence-based observations aligned to the competency framework. Thank you for your continued support of our recruitment efforts. 🙏\\n\\nLucia\\nTalent & Operations, Studio Oakforge\"},{\"spec_id\":\"spec_0713\",\"text\":\"Agenda: Summitwood schedule change, new gate hours, questions - all crew, 30 min, Priya\"},{\"spec_id\":\"spec_0714\",\"text\":\"Title: Dovetail 2.0 - Go-Live Announcement for Claims Team\\nDate/Time: Thursday, 10:00-10:30\\nLocation: Conference Room 4B / Teams\\nDescription:\\nAs per decision of steering committee, Dovetail 2.0 is going live on Monday. Please to attend for below items:\\n1. Cutover timeline - Cyrus Lefebvre\\n2. Changes in claims intake workflow - Bea Tanaka\\n3. Open questions from each unit, to be answered on the spot - Sofia Zielinski\\nAttendance is mandatory for all team leads.\\nKavya\"},{\"spec_id\":\"spec_0715\",\"text\":\"Subject: Opal migration standup - every morning this week, 8:30-9:00\\n\\nMorning all,\\n\\nWith the Opal migration cutover landing Friday, I'd like the eleven of us on one call each day this week. Things are moving fast enough that yesterday's plan is stale by lunch.\\n\\nEach day:\\n- Rosa: overnight batch results, what failed and why\\n- Abebe: policy record mismatches, which ones need a call from underwriting\\n- Teo + Imani: whether we're still green on Friday or need to pull the trigger on the fallback\\n- Beth: what agents are seeing on the front end\\n- Wes: blockers that need somebody's sign-off before noon\\n\\nIf a mismatch needs untangling between two teams, we'll sort it right there rather than chase it over chat for half a day. If we're done in fifteen, everybody gets their time back.\\n\\nCoffee's on me Friday if we make it.\\n\\nHollis\"}]}"
+}

@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0121",
+ "request_hash": "c816c0eed51a7489",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2772,
+  "output_tokens": 673,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0601\",\"text\":\"Per HR protocol, required attendance: hiring panel decision session, Thursday 2:00-2:30. —Callum\"},{\"spec_id\":\"spec_0602\",\"text\":\"Tariq / Will catch-up\\nFriday, 11:00am – 11:30am\\nWillowspring Films – Edit Suite B (or [link])\\n\\nHey Will, grabbing 30 min before the weekend. Bring whatever's been bugging you on your end, I've got a couple things too. Coffee's on me if you're in person!\\n\\nJoin with Google Meet: [link]\"},{\"spec_id\":\"spec_0603\",\"text\":\"Debrief time, team!! Quick 30 min Tuesday to share our candidate scores! 🎉 —Ivan\"},{\"spec_id\":\"spec_0604\",\"text\":\"@channel heads up!!! Booking a 90 min walkthrough Weds for everyone touching the Indigo rollout!! Covering the new CI/CD pipeline, branch-per-feature flow, build farm queueing, and a demo of the asset bake tooling from Rosa!!! Then Q&A on perf budgets + crash telemetry hooks. All 26 of you pls be there!! 🚀\"},{\"spec_id\":\"spec_0605\",\"text\":\"Northbridge budget review\\nMon 10:00-11:00 | Organizer: Oskar\\nRequired: Nico Carvalho, Yusuf Kariuki, Uma Oyelaran, Bianca Xu, Ben Haddad\\n\\n1. Approve Q3 contractor overage (Yusuf), 10 min\\n2. Travel line restate (Uma)\\n3. Read-out of spend to date (Bianca)\\n\\n________________________________\\nMicrosoft Teams meeting\\nJoin on your computer or mobile app\\n[link]\\nMeeting ID: [link]\\nDial in by phone: [link]\\nLearn more | Meeting options\\n________________________________\"}]}"
+}

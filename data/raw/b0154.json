@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0154",
+ "request_hash": "bca50e22a4f8aefd",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2759,
+  "output_tokens": 1417,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0766\",\"text\":\"Subject: Quick hiring sync - counselor + para positions\\n\\nHey all!\\n\\nCan we grab 30 min Thursday 3:00-3:30 in the library conference room? Six of us total.\\n\\nAgenda:\\n1. Nils - recap of where the 3 counselor candidates are (he'll send scores ahead, so just skim)\\n2. Delia - para posting closes Friday, any edits to the description?\\n3. Soren + Liam - pick a date for the counselor panel interviews (the only thing we really need to decide together)\\n4. Ximena - reminder that HR needs reference forms by the 15th\\n5. Hollis - interview room booking update\\n\\nAlso FYI the staff lot is getting restriped Thursday, so park on Elm. And there's cake in the front office for Delia's birthday afterward, come hungry!\\n\\nThanks friends,\\nGemma\\nCedarridge Public Schools\"},{\"spec_id\":\"spec_0767\",\"text\":\"Title: Hiring - Program Coordinator (again)\\nWhen: Tue 2:00-2:45 PM\\nWhere: Board Room, Silverforge Foundation\\nDescription: Since we apparently still can't agree on finalists after three email threads, let's sort this out in person. Chidi, Sana, Elena, Kemi, Goran, Dmitri - please bring your rankings and be ready to actually decide. -Omar\"},{\"spec_id\":\"spec_0768\",\"text\":\"All-staff, 30 min: sorry for short notice - Quill 2.0 layoffs Q&A. -Sam\"},{\"spec_id\":\"spec_0769\",\"text\":\"Good afternoon, all.\\n\\nI would like to schedule a session for Wednesday from 10:00 to 10:45 in the site trailer at the east yard, with a dial-in available for those off site. Invited: @Valentina Dorsey, @Sam Fitzgerald, @Vera Nwachukwu, @Rhys Gallo, @Jonas Yamamoto, @Will Ferraro.\\n\\nAs you are aware, we have now closed out the Grummond contract. Before the team disperses to the next phase of work, I believe it is important that we sit down together while the experience remains fresh. Several of you have raised points with me individually over recent weeks, and I would prefer that those conversations happen with everyone present rather than through me.\\n\\nI would ask each of you to come prepared to speak candidly. Please bring any notes, photographs, daily logs, or correspondence you feel are relevant. Valentina, if you are able to bring the revised schedule history, that would be helpful. Rhys and Jonas, your field perspective will be particularly valuable, and Will, please bring the subcontractor records.\\n\\nThis will be a working session. I do not intend to present slides, and I would ask that we keep phones aside for the duration. Our aim is to leave with a shared and agreed understanding that the whole group can stand behind, and that we can carry into the next bid.\\n\\nPlease confirm your availability in this thread by end of day Monday. If Wednesday morning presents a conflict with a pour or inspection, let me know and I will look at Thursday instead.\\n\\nRegards,\\nNils\\nProject Manager, Kowalczyk Construction\"},{\"spec_id\":\"spec_0770\",\"text\":\"GLENBROOK FREIGHT - Project Heron Talent Pipeline Sync\\nOwner: Ines | 30 min | Attendees: J. Rinaldi, Y. Nwachukwu, R. Nwachukwu, D. Rinaldi, R. Jovanovic, C. Wexler\\n\\n1. Req status walkthrough - dispatcher + yard lead reqs, funnel metrics by stage (ATS export, 10 min)\\n2. Sourcing channel KPIs - cost-per-hire, time-to-fill vs. SLA\\n3. Interview loop calibration - align on scorecard rubric for ops-facing roles\\n4. Headcount alignment with Heron ramp / peak-season capacity plan\\n5. AOB\\n\\nPre-read: req tracker in shared drive. Goal is general alignment on the pipeline going into Q3.\"}]}"
+}

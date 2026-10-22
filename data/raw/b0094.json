@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0094",
+ "request_hash": "dc289bc42bc1a096",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2793,
+  "output_tokens": 1546,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0466\",\"text\":\"Kowalczyk Account – Weekly Status Sync\\nTuesday 10:00–10:30 AM (UTC+01:00)\\nOrganizer: Lars\\nRequired: Wen Jovanovic; Lucia Ostrowski; Aisha Kessler; Chidi Iversen; Liam Cho; Elena Achterberg\\n\\nPer standing practice, this recurring sync will cover the following for the Kowalczyk account:\\n1. Workstream status by owner (creative, media, analytics) 📊\\n2. Review of open action items from prior week\\n3. Client feedback on Q3 concepts: decision needed on revision scope\\n4. AOB\\n\\nPlease submit updates to the shared tracker no later than Monday EOD. ✅\\n\\n________________________________________________________________________________\\nMicrosoft Teams meeting\\nJoin on your computer, mobile app or room device\\nClick here to join the meeting\\nMeeting ID: 384 221 907 556\\nPasscode: Gp7xQ2\\nDial in by phone\\n+44 20 0000 0000,,51928374# United Kingdom, London\\nPhone Conference ID: 519 283 74#\\nLearn More | Meeting options\\n________________________________________________________________________________\"},{\"spec_id\":\"spec_0467\",\"text\":\"Lakeworks Health\\nHollander Account – Working Session\\n\\nDate: Thursday\\nTime: 2:00–3:00 PM\\nLocation: Admin Conference Room B\\nAttendees: Olu Delacroix, Gus Carvalho, Gemma Esposito\\n\\nAgenda:\\n1. Overview of current Hollander reporting schedule (Valentina)\\n2. Ideas\\n3. Next steps\\n\\nPre-read: Q2 Hollander billing summary (attached)\"},{\"spec_id\":\"spec_0468\",\"text\":\"Quarry migration – pre-planning sync to align on agenda, stakeholders, success criteria & logistics for the kitchen ops cutover working session (scope TBD; bring POS/BOH dependencies, vendor touchpoints, menu-data owners, rollout cadence thoughts) – Joaquin / Zoe / Hector / Bianca / Ines / Vikram / Mei – 60 min – Whitcombe's Kitchens\"},{\"spec_id\":\"spec_0469\",\"text\":\"Subject: Let's all get together Thursday – HQ huddle\\n\\nHey folks,\\n\\nPavel here. It's been a spell since we had the whole crew in one spot, so I've put 30 minutes on everybody's calendar Thursday at 11 in the big training room (and on the video link for the remote gang). That's all 115 of y'all.\\n\\nThere's a fair bit going on: Hector Bramwell and Tariq Dube will give the rundown on the Eriksen contract, Erik Oyelaran's got some numbers from the spring season, and Uma Varga wants to say a few words about the benefits portal. Ivan Kariuki and Rafael Carvalho might chime in too if there's time.\\n\\nNothing you need to prep. Just come on by, grab a coffee, and we'll catch up like neighbors do.\\n\\nSee you there,\\nPavel\\nIroncrest Home Goods\"},{\"spec_id\":\"spec_0470\",\"text\":\"Juniperworks Site Install – RETROSPECTIVE!!! 🎉\\nFriday 1:00–2:00 PM\\nOrganizer: Sam\\nAttendees: Callum Xu; Abebe Delacroix; Bruno Tanaka; Uriel Hollander; Mariam Nwachukwu; Fern Tanaka; Sam; Facilities\\n\\nTeam, WE DID IT!! Let's reflect together!\\nAgenda:\\n- Crate delivery delays: Bruno (5 min)\\n- Lighting rig sign-off gap: Mariam (5 min)\\n- Label proofing turnaround: Fern (5 min)\\n- Action items: Callum\\n\\n---------- Forwarded message ----------\\nFrom: Uriel Hollander\\nSubject: RE: Juniperworks wrap\\nHappy to join, though I think the three issues are pretty well understood at this point?\\n\\n________________________________________________\\nMicrosoft Teams meeting\\nClick here to join the meeting\\nMeeting ID: 271 004 883 19\\nPasscode: Ff9kLm\\nDial in: +1 555-010-0000,,882193# \\nMeeting options\\n________________________________________________\"}]}"
+}

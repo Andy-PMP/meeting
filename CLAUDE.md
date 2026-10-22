@@ -20,6 +20,16 @@ py -3.14 -m venv .venv
 .\.venv\Scripts\ruff check pipeline
 .\.venv\Scripts\ruff format --check pipeline
 
+# data (P1)
+.\.venv\Scripts\python pipeline\specs.py                # data\specs.jsonl (800, fixed seed; refuses if generations exist)
+.\.venv\Scripts\python pipeline\generate.py --dry-run   # prompt preview + cost estimate, no API
+.\.venv\Scripts\python pipeline\generate.py --limit 4   # first 4 bundles = 20 invites (costs money)
+.\.venv\Scripts\python pipeline\generate.py             # everything not cached (resumes an interrupted batch)
+.\.venv\Scripts\python pipeline\generate.py --rebuild   # no API: rebuild invites.jsonl from data\raw
+.\.venv\Scripts\python pipeline\sample.py --first 20    # review (-n N random, --all → pipeline\.cache\review.txt, --hints)
+.\.venv\Scripts\python pipeline\report.py               # docs\data-report.md: coverage, word counts, spend
+.\.venv\Scripts\python pipeline\validate.py             # schema, references, test/train leakage (also in CI)
+
 # web (run from the repo root; npm workspaces forward to web/)
 npm install                                   # once
 npx -w web playwright install chromium        # once, for e2e
@@ -34,6 +44,8 @@ Windows PowerShell 5.1 drops `--` when passing args through npm, so run e.g. `np
 ## Conventions
 - Pipeline scripts run as `python pipeline\<script>.py` and import each other as top-level modules (`from paths import ...`). Shared paths live in `pipeline/paths.py`.
 - Never hand-edit generated files in `data/` or `models/`; rerun the script.
+- Generation: 5 specs per request ("bundle" `b0001`…), one invite per spec; invite id mirrors spec id (`spec_0042` → `inv_0042`). `data/raw/` holds every response plus its request hash and is committed, which makes the dataset reproducible without re-calling the API. Prompt changes go in a new `prompts/generate_vN.md` + `PROMPT_VERSION` bump (only changed requests regenerate). Replaced responses move to `data/raw/superseded/` (never deleted), so history and the spend figure stay complete. Current: `generate_v2`, 800 invites, $3.36 total. Never delete `data/raw/_pending.json` while a batch is running: it's how an interrupted run resumes without paying twice.
+- Don't show `gen_hint` (the verdict asked of the generator) in labeling or default review output; labels must be blind.
 - The test set (`data/test/`) is owner-written and must never be used for training or tuning. `evaluate.py` runs once per frozen model.
 - Front end: logic in pure, unit-tested modules in `web/src/lib/`; browser-only glue in `web/src/scripts/`; shared chrome in `web/src/layouts/Layout.astro` and `web/src/components/`. Colour tokens live in three blocks in `global.css` (light, dark-by-device, dark-by-toggle), and `contrast.test.ts` enforces WCAG AA on all of them.
 - **Never commit or push.** The owner does both (pushing to main deploys the live site). Leave changes in the working tree and suggest a commit message.

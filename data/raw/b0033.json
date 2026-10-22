@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0033",
+ "request_hash": "ee324e2b242e8ef3",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2860,
+  "output_tokens": 1610,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0161\",\"text\":\"Glencrest qPCR / LIMS walkthru\\nThu 1:00 PM - 2:30 PM\\nRequired: Rhys Jaramillo; Fern Yilmaz; Cyrus Jaramillo; Beth Carvalho\\n\\n> Fern: is this the Ct thresholding SOP or the new plate-map import? both?\\n> Rhys: if it's just the import I've done it on the QS7 already, can I drop at 1:45?\\n\\n________________\\nJoin Microsoft Teams Meeting\\n+1 555-0142,,8812047# \\nConference ID: 881 204 7#\"},{\"spec_id\":\"spec_0162\",\"text\":\"Brainstorm: Castellano Account Retention Options\\nTue 10:00-10:45 AM | Conf Rm 3B / Teams\\n1. Fee waiver scenarios - Kenji Zapata\\n2. Relationship pricing tiers - Uma Rasmussen\\n3. Treasury mgmt bundle - Will Yamamoto\\n\\n> Raj: Attending for awareness only.\\n> Keiko: Same, will listen in.\\n\\nJoin on your computer or mobile app\\nDial-in: +1 555-0177, ID 334 920 115#\"},{\"spec_id\":\"spec_0163\",\"text\":\"MANDATORY: Silverridge Site BSL-2 Biosafety Cabinet Certification & Hands-On Decontamination Procedure Training (Required Prior to Lab Access Reinstatement, In-Person at Silverridge Bay 4, PPE Provided, Competency Sign-Off by Hana Achterberg and Erik Mbatha, Bring Badge) 9:00 AM Pacific / 12:00 PM Eastern (Note: Earlier Invite Listed 9:00 Eastern in Error - Pacific Is Correct)\"},{\"spec_id\":\"spec_0164\",\"text\":\"Ironpoint Games - Candidate Debrief\\nSenior Gameplay Engineer (Thistle rollout backfill)\\n30 min | Ximena Hakimi, Joaquin Brennan, Pavel Yilmaz, Cyrus Ferraro, Yusuf Wexler, Ada Esposito\\n\\nLoop recap\\n- Systems design (Pavel): Strong Hire, ECS arch solid, handled netcode rollback q well\\n* Coding (Cyrus): Hire, minor perf nits on the pathfinding kata\\n- Culture/collab (Ada) - Hire\\n  -- Yusuf: Hire, shipped live-ops before, gets cert cadence\\n* Hiring mgr (Joaquin): Strong Hire\\n\\nScorecards all in Greenhouse-equivalent tracker, no Lean No's.\\nComp band: L5, within range per Ximena.\\nNext: offer draft\"},{\"spec_id\":\"spec_0165\",\"text\":\"Hiring Sync - Claims Adjuster Reqs (Nakagawa contract staffing)\\nWed 2:00 PM - 2:45 PM\\nAttendees: Joaquin Ferraro; Tess Tanaka; Abebe Bramwell; Beth Kariuki; Rafael Carvalho; Sam Jaramillo\\n\\nSince the last two syncs ended without anyone actually deciding anything, I'm putting the agenda in writing. Again.\\n\\n1. Status of open reqs (Tess) - please just read the tracker beforehand, I'll recap anyway since some of us apparently don't\\n2. Recruiter pipeline numbers (Abebe) - same numbers as the weekly report\\n3. Interview panel assignments (Beth) - also already in the shared sheet\\n4. DECISION: do we drop the 5-year experience requirement for the Nakagawa adjusters or keep losing candidates? (Joaquin, Rafael) - this is the only item that actually needs all of us, so it'd be nice if we reached it this time\\n5. Offer approval routing (Sam) - quick\\n\\nReminder: the garage level P2 is closed Wednesday, park on P4 or the overflow lot. Also, cake for Beth's birthday in the 3rd floor kitchen at 3, so let's please not run over like last time.\\n\\nLunch order for Thursday's panel day is due to me by noon Tuesday. If you don't reply I'm getting you the turkey.\\n\\n________________________________\\nMicrosoft Teams meeting\\nJoin on your computer, mobile app or room device\\nClick here to join the meeting\\nMeeting ID: 245 118 903 77\\nOr call in (audio only) +1 555-0190,,61027734#\\nPhone Conference ID: 610 277 34#\"}]}"
+}

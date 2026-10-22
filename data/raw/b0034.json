@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0034",
+ "request_hash": "233eba367bd7aff6",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2771,
+  "output_tokens": 1406,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0166\",\"text\":\"QUICK HUDDLE: Project Velvet\\nRasmussen Vasquez Law Group | Conf Rm 3B (or just holler from your office)\\nThurs 9:00-9:15\\n\\nFolks on the hook: Jamal, Dmitri Rasmussen, Emeka Kariuki, Thandi Jaramillo\\n\\n1. Where we're at on Velvet, roughly\\n   - Emeka: status on the document pull\\n   - Thandi: where the redlines landed\\n2. Anything stuck in the mud?\\n3. Dmitri, any word from the other side?\\n4. Same time next week, or let it ride?\\n\\nNotes:\\n- Coffee's on me if anybody beats me there.\\n- If you've got nothing new, just come say so and we'll all be back at our desks before the pot goes cold.\"},{\"spec_id\":\"spec_0167\",\"text\":\"🎉 NEW GRANT TRACKER TRAINING!! 🎉\\nMillcrest Foundation | the Quill initiative\\nWednesday, 1:00-2:30 PM | Main Hall + video link\\nInvited: All program & development staff (19)\\n\\nFriends, our shiny new grant tracker is HERE and I could not be more excited to show you around!! 🚀✨\\n\\nAGENDA\\n1:00 Welcome + why we switched! (Uriel) 💛\\n1:10 Logging in and setting your password (Hana Fitzgerald). The steps are also in the PDF I'm attaching!\\n1:25 Tour of the dashboard (Quinn Ekwueme) 📊\\n1:45 How to enter a new grant record (Dmitri Dube). Quick demo, plus a one-page cheat sheet\\n2:00 Report templates for Quill funders (Maeve Whitcombe) 📝\\n2:15 Where to find the FAQ and help videos (Oskar Yilmaz) 🎥\\n2:25 Wrap-up + group photo!! 📸 (Farid Bakshi)\\n\\nBefore you come:\\n✅ Watch the 6-minute intro video (link in the attachment)\\n✅ Skim the cheat sheet\\n✅ Bring your laptop!\\n\\nEvery section is being recorded and posted to the shared drive afterward, so you can rewatch anytime!! 🙌\\n\\nSnacks provided 🍪🍪 See you there, superstars!!\"},{\"spec_id\":\"spec_0168\",\"text\":\"Kiln 2.0: Phase 2 stakeholder review\\nTue 14:00-15:00\\nHarborforge, Boardroom A / video bridge\\n\\nAttendees: Fatima Abernathy, Fern Szabo, Arjun Bakshi, Beth Bakshi, Farid Underhill, Goran Fitzgerald\\n\\n- Findings recap (10 min)\\n- Choose a rollout option: A vs B ⚖️\\n- Client concerns re: scope\\n\\nCome prepared to decide. Deck to follow. -Tariq\"},{\"spec_id\":\"spec_0169\",\"text\":\"Sorry!! Vendor show us camera rig demo for Pelican!! 30min, all 8 invited!!\"},{\"spec_id\":\"spec_0170\",\"text\":\"Brainstorm: Haddad contract renewal ideas\\nFri 10:00-10:45 AM\\nFirst Bluehaven Bank, 4th floor huddle room / dial-in\\n\\nAttendees: Zoe Achterberg, Marcus Varga, Uriel Dube, Hollis Sorensen\\n\\nApologies for grabbing time on a Friday, I know it's a lot. Rough plan:\\n- I'll walk through the renewal terms Legal ALREADY approved (sorry, these are final)\\n- Go over the pricing sheet Hector Ilunga sent Tuesday\\n- Confirm who owns which follow-up (I've drafted assignments)\\n- Any questions\\n\\nPlease read the attached summary BEFORE we meet, since most of the session will be me going through it. Sorry again for the short notice!\\n\\n- Joaquin\"}]}"
+}

@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0119",
+ "request_hash": "e75dd137e9067761",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2795,
+  "output_tokens": 1606,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0591\",\"text\":\"Hey all, forwarding this so it's on your calendars. Mostly so Arjun and Quinn don't get blindsided by the lab scheduling bit. Bring coffee!\\n- Vera\\n\\n---------- Forwarded invite ----------\\nYarrow Rollout Planning, Spring Term\\nThu 2:00-3:00pm, Hollis Hall Rm 214\\nAttendees: Yasmin Abernathy, Arjun Mbatha, Quinn Achterberg, Ulla Nwachukwu, Jada Gallo, Erik Bramwell, Vera\\n\\nAgenda:\\n1. Recap of fall pilot numbers (Ulla, 10 min)\\n2. Updated training dates for TAs (Jada, 10 min)\\n3. IT ticket summary (Erik, 10 min)\\n4. Decide lab scheduling for Yarrow sections, which conflicts with the methods courses (Arjun + Quinn, 20 min)\\n5. Comms to faculty (Yasmin, 10 min)\"},{\"spec_id\":\"spec_0592\",\"text\":\"FW: FY26 budget review!!\\n\\n> From: Jonas Thorne\\n> Kenji, can we get everyone in a room on this before Friday?!!\\n\\nDone!!! Please attend.\\n\\nWed 10:00-11:00 | Board Room / Teams\\nJonas, Leon, Oskar, Abebe, Nils, Sana\\n\\n________________\\nMicrosoft Teams meeting\\nJoin on your computer or mobile app\\nMeeting ID: 284 551 903 17\\nPasscode: rW7k2q\\nDial in: +1 555-0142,,8831#\"},{\"spec_id\":\"spec_0593\",\"text\":\"Postmortem: Compass 2.0 issue last week\\n\\nHello all, I want to make sure everybody is aware about what happened. I will share the timeline and the fix that IT already applied, nothing is needed from you to prepare.\\n- timeline of the event\\n* the fix that was done\\n-already closed ticket\\n\\nAttendees: Priya Fitzgerald, Teo Sorensen, Valentina Quintero, Xavier Yilmaz, Pilar Cho, Carmen Kessler\\nTue 1:00-1:45 PM\\n\\nMicrosoft Teams meeting\\nJoin on your computer or mobile app\\nMeeting ID: 419 002 776 81 | Passcode: Bf3m9x\\nCall in (audio only): +1 555-0199,,4410#\"},{\"spec_id\":\"spec_0594\",\"text\":\"Gallo contract brainstorm (45 min, all 6 of us, AGAIN, since last time's \\\"quick sync\\\" went nowhere): Fatima on the creature pitch recap, Pavel on milestone dates nobody read, Nico + Wanjiru on the boss encounter concepts that actually need ideas, Kavya on the art budget, Vera on the marketing beats, please come having looked at the doc\"},{\"spec_id\":\"spec_0595\",\"text\":\"STUDIO WESTBRIDGE: ANCHOR INITIATIVE ALIGNMENT TOUCHPOINT\\nOrganizer: Maeve\\nDuration: 30 min | All hands, account + creative (13)\\nInvitees: Raj Wexler, Sam Jovanovic, Grace Ahmadi, Dmitri Szabo, Tess Mbatha, Sana Brennan, + broader pod\\n\\nPURPOSE\\nTo socialize where we've landed on the Anchor initiative and level-set the org on go-forward posture.\\n\\nAGENDA\\n1. Context-setting (Maeve, 5 min)\\nHigh-level narrative on why Anchor matters to our omnichannel north star.\\n\\n2. Leadership readout (Raj, 10 min)\\nRaj walks through the finalized positioning framework and the brand architecture refresh. Already signed off by the client, so this is informational.\\n\\n3. Workflow implications (Sam, 5 min)\\nSam to share how intake, trafficking and asset handoffs will flow under the new operating model. A one-pager will be circulated.\\n\\n4. Resourcing snapshot (Grace, 5 min)\\nUpdated pod allocations and utilization targets for Q3. Owners will be notified individually.\\n\\n5. Housekeeping (Dmitri, 5 min)\\nNew naming conventions for the shared drive and the Anchor Slack channel.\\n\\nNOTES\\nNo pre-read required. Deck will be shared post-session for async consumption. Tess and Sana, please flag any blockers via the usual channels.\\n\\nCameras on appreciated.\"}]}"
+}

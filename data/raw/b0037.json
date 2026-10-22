@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0037",
+ "request_hash": "e8a71c63f0398ba9",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2795,
+  "output_tokens": 1162,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0181\",\"text\":\"Basalt budget catch-up!!\\nThursday, March 14 · 2:00 – 3:00pm\\nBeaconwood Pictures – Edit Bay 2 / Google Meet link below\\nGuests: Delia (organizer), Mei Esposito, Emeka Haddad, Raj Zielinski\\n\\nHey all!! Grabbing an hour to go over where we're at on Basalt money stuff!! Mostly just want everyone looking at the same numbers!\\n\\n---------- Forwarded message ---------\\nFrom: Fern Nwachukwu\\nTo: Delia\\nSubject: Fwd: Basalt rollout – updated cost report\\n\\nDelia, attached is the updated cost report. Nothing's changed since last week except the catering line went up a bit. All in the sheet.\\n\\n> From: Will Bakshi\\n> Final invoices from the grip vendor are in, I've logged them.\\n\\nI'll share my screen and walk through Fern's sheet so we're all caught up!! Bring snacks!!\"},{\"spec_id\":\"spec_0182\",\"text\":\"Sorry all – Underhill claims outage postmortem (everyone, 45 min, apologies!)\"},{\"spec_id\":\"spec_0183\",\"text\":\"Dear colleagues,\\nPlease find below the invitation for our quarterly town hall. Attendance of all staff is very much expected!!\\nLeon\\n\\n---- Forwarded invite ----\\nMaplebridge Advisory Town Hall – All Staff (299)\\nFriday 10:00–10:30\\nAgenda:\\n1. Welcome words from Ulla Underhill\\n2. Q3 results read-out (Lucia Petrakis)\\n3. Office updates and new joiners\\n4. Open questions on the Zielinski account restructure!!\\nKindly to join on time!!\"},{\"spec_id\":\"spec_0184\",\"text\":\"Atlas migration – MES cutover readiness & line impact briefing\\nWhen: Tuesday 07:30–08:30 (shift overlap)\\nWhere: Microsoft Teams Meeting / Conference Room B\\nRequired: Line leads, Maintenance, QA, Production Planning (37)\\n\\nTeam – Atlas go-live moves to the Line 3/4 changeover weekend. Hector Dorsey will cover the revised cutover sequence, Zainab Xu the OEE baseline freeze and WIP reconciliation, and Valentina Petrakis the LOTO and PLC tag remap impacts. We need each area lead to confirm downtime windows and flag any MRP or SPC dependencies live, as several hand-offs between shifts still have no owner.\\n\\nEmeka\\n\\n________________________________________________\\nMicrosoft Teams meeting\\nJoin on your computer, mobile app or room device\\nClick here to join the meeting\\nMeeting ID: 284 551 903 117\\nPasscode: 7xQp2N\\nOr call in (audio only)\\n+1 555-0142,,628193074#\\nPhone Conference ID: 628 193 074#\\nFind a local number | Reset PIN\\n________________________________________________\"},{\"spec_id\":\"spec_0185\",\"text\":\"Title: Fatima / Bianca – quick talk\\nWhen: Wed 4:30–5:00pm\\nLocation: Admin office 2B\\nDescription: Please can we speak today, is important, sorry.\"}]}"
+}

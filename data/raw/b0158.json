@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0158",
+ "request_hash": "22c61e96e2013c15",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2803,
+  "output_tokens": 1500,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0786\",\"text\":\"FYI, Echo rollout decision already taken by Olu, please only confirm attendance.\"},{\"spec_id\":\"spec_0787\",\"text\":\"Hey all!! Since apparently nobody saw my last three messages about this!!! I've booked the vendor for Thursday 2:00-2:30 on the floor by Line 4. Nico, Thandi, Vera, Zainab, Callum, Dmitri, you're all on it!! They're bringing the actual unit, so if you want a say in what we bolt onto the line for the Mosaic initiative, this is your chance to poke at it yourselves instead of telling me afterward it won't fit the conveyor height!!! Dmitri, bring your tolerance numbers. Callum, maintenance questions are on you. Vera, you'll want to see the changeover live. Would be GREAT if everyone showed up on time this go-round!! 30 min, they have another plant after us.\"},{\"spec_id\":\"spec_0788\",\"text\":\"Subject: Let's get everyone up to speed on Jasper 2.0!!\\n\\nHello wonderful people!\\n\\nI am SO excited to finally bring all of us together to dig into Jasper 2.0! There's so much good stuff in this release and I want to make sure every single one of us feels confident and ready to go.\\n\\nI've reserved the 14th floor conference room for 90 minutes next Tuesday, 10:00-11:30, for all 20 of us, partners, associates and paralegals alike. Bruno and Rosa will help me walk through things, and Fatima has kindly offered to bring pastries!\\n\\nPlease come with laptops and an open mind. It's going to be a fantastic session and I can't wait to see you all there!\\n\\nWarmly,\\nAda\\nPractice Support, Dube & Dorsey LLP\"},{\"spec_id\":\"spec_0789\",\"text\":\"Summitpath Site - Reuse Ideas Brainstorm\\nWednesday 1:00 PM - 2:30 PM\\nLocation: City Hall, Room 210 / Microsoft Teams\\nRequired: Rafael Gunawardena; Carmen Fairweather; Sana Jovanovic\\nOrganizer: Gemma\\n\\nHi folks,\\n\\nCouncil's asked us to come back next month with two or three honest-to-goodness options for the old Summitpath site, and I'd rather we cook those up together than trade memos for six weeks. Bring your wild ideas and your sensible ones.\\n\\nHere's the plan:\\n1. Where things stand (Rafael, 10 min): soil report, zoning limits, what the deed restrictions let us do.\\n2. Neighbors' wish list (Sana, 15 min): highlights from the spring listening sessions and survey comments.\\n3. Money picture (Carmen, 15 min): grant windows we could chase and what the capital budget can stomach.\\n4. Open brainstorm (all, 40 min): park, housing, mixed use, something nobody's thought of. We'll sketch on the whiteboard.\\n5. Narrow it down (Gemma, 10 min): pick the top three to flesh out and who takes each.\\n\\nIf you can, skim the site map I sent around Friday before we meet. Coffee's on me.\\n\\nThanks kindly,\\nGemma\\nCity of Brightline Planning & Development\\n\\n________________________________________________\\nMicrosoft Teams meeting\\nJoin on your computer, mobile app or room device\\nClick here to join the meeting\\nMeeting ID: 284 551 903 117\\nPasscode: Bq7rTz\\nOr call in (audio only)\\n+1 555-0142,,61839205# United States\\nPhone Conference ID: 618 392 05#\\nFind a local number | Reset PIN\\nCity of Brightline IT | Meeting options\\n________________________________________________\"},{\"spec_id\":\"spec_0790\",\"text\":\"Groundskeeper Hiring Check-In\\nThu 6:30-7:15 PM | Clubhouse / Teams\\nLiam, Rosa, Omar, Carmen, Gus, Andre\\n\\nEvenin all, quick go-round on the applicants, then we pick who gets a SECOND interview. Plese read the resumes ahead of time!\\n\\nMicrosoft Teams meeting\\nMeeting ID: 419 207 553 82 | Passcode: Pf3kW\\nDial-in: +1 555-0188,,4471920#\"}]}"
+}

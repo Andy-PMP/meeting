@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0103",
+ "request_hash": "b1813f003751ce08",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2825,
+  "output_tokens": 1660,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0511\",\"text\":\"Subject: Zephyr migration – Q3 planning session\\n\\nDear colleagues,\\n\\nPlease attend a 90-minute session on Thursday, 10:00–11:30, Room 2B. I will present the finalised Zephyr migration timeline and the cutover dates agreed with the depot leads. Slides will follow in advance.\\n\\nVisitor parking is closed Thursday; please use Lot C.\\n\\nRegards,\\nElena\\nRedvale Logistics\"},{\"spec_id\":\"spec_0512\",\"text\":\"Debrief – Grummond contract analyst candidates\\nOrganizer: Deepa\\nRequired: Tess Ishikawa; Mei Zielinski; Andre Szabo; Sana Varga; Rosa Ostrowski\\nWed 14:00–14:30\\n\\nScorecards are already in. All five interviewers rated both candidates.\\n\\nAgenda:\\n1. I read out the scores\\n2. Confirm offer goes to candidate A (top on every scorecard)\\n3. Rosa to send rejection to candidate B\\n\\nNo prep needed. Scores attached.\\n\\n________________________________________________________________________________\\nMicrosoft Teams meeting\\nJoin on your computer, mobile app or room device\\nClick here to join the meeting\\nMeeting ID: 284 551 903 17\\nPasscode: kT8vQ2\\nDownload Teams | Join on the web\\n\\nOr call in (audio only)\\n+1 555-0142,,61839204#   United States, Toll\\nPhone Conference ID: 618 392 04#\\nFind a local number | Reset PIN\\n\\nJoin with a video conferencing device\\nishikawapartners@m.teams-vtc.example\\nVideo Conference ID: 117 204 886 3\\nAlternate VTC instructions\\n\\nIshikawa Partners – this meeting may be recorded for internal quality purposes. By joining you consent to recording.\\nLearn More | Meeting options\\n________________________________________________________________________________\"},{\"spec_id\":\"spec_0513\",\"text\":\"Kariuki loan – crate damage, quick huddle!! 🎨\\nFri 9:00–9:15 | Priya\\nXimena Ishikawa, Kemi Moreau, Soren Yilmaz, Kenji Kessler, Yoko Pruitt\\n\\nSo sorry for the short notice, everyone, but we've GOT this!! See below. We need to decide together before the courier arrives at 11 whether we accept the two scuffed crates or refuse delivery under the Kariuki contract. Kenji has the condition photos, Yoko has the insurance clause!\\n\\n---------- Forwarded message ---------\\nFrom: Soren Yilmaz\\nSubject: RE: crates 4 & 7\\nCorners crushed on both. Registrar needs a yes/no before unloading.\\n\\nJoin Microsoft Teams Meeting [link]\\nConference ID: [link]\\nLocal numbers [link]\"},{\"spec_id\":\"spec_0514\",\"text\":\"Postdoc debrief 30 min – Thandi scores, Rafael ref check; parking Lot B\"},{\"spec_id\":\"spec_0515\",\"text\":\"Compass initiative – kickoff 🚀\\nTuesday, March 12 · 1:00 – 2:30pm\\nRoom 304, Hall of Humanities (also Google Meet link below)\\nOrganizer: Cyrus\\nGuests (11): Lucia Haddad, Hector Zielinski, Andre Haddad, Maeve Oyelaran, Fatima Xu, Valentina Cho, + advising office, registrar rep, IT liaison, two student reps\\n\\nHi all!\\n\\nSo finally the Compass initiative is starting, thank you everyone for agree to be part. I know many of you have different idea what Compass should be exactly, and honestly this is the point of meeting — we sit together and make it more clear what we are trying to do for the students and who is doing which part.\\n\\nI don't want to make a heavy agenda, more I want we talk openly. Some things I am hoping we cover, but we will see where conversation goes:\\n- what problem we really solving (Lucia and Fatima have little different view, both good)\\n- what we can do in this semester vs later\\n- who take care of which piece\\n\\nPlease come with your opinions, even strong ones, is better to argue now than in May haha. The student reps especially, please speak, we need your voice more than ours.\\n\\nI will bring coffee and some snacks from the bakery on corner. If you cannot come in person the Meet link is fine but camera on please if possible, is easier for discussion.\\n\\nThanks and see you!\\nCyrus\\n\\nJoin with Google Meet: meet.google.com/xqe-hdpw-rmn\\nJoin by phone: +1 555-0193 PIN: 448 201 937#\\nLakeforge State College\"}]}"
+}

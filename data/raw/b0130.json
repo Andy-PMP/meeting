@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0130",
+ "request_hash": "b79699c42b55feab",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2706,
+  "output_tokens": 1221,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0646\",\"text\":\"FYI, please attend. Oskar\\n---------- Forwarded ----------\\nAll Department Leads: Beaconwood Site, 2:00-2:30 PM, Auditorium B\"},{\"spec_id\":\"spec_0647\",\"text\":\"INTERVIEW DEBRIEF: Senior Associate candidate (Atlas rollout team)\\nBlueford Advisory | Thurs 3:00-3:30 | Room 4 / dial-in in the invite\\nOrganizer: Carmen\\nAttendees: Quinn Yilmaz, Chidi Thorne, Zoe Xu\\n\\nPurpose: Get our heads together on the candidate.\\n\\n1. Housekeeping & coffee (5 min)\\nGrab a cup, settle in. I'll give a quick lay of the land on where hiring stands for Atlas. Short version: we've still got two seats to fill and the client's breathing down our necks a bit.\\n\\n2. Round the table: first impressions (10 min)\\nEach of you gets a few minutes to tell us how your session went. Quinn had the case, Chidi had the behavioral round, Zoe did the culture chat. If you've already filled in your scorecard (and bless you if you have), you can just read from it.\\n\\n3. Recap of the Atlas rollout staffing plan (5 min)\\nThe same slide you've all seen in the last two staffing calls, for anyone who wants a refresher.\\n\\n4. Hire / no hire (5 min)\\nThe actual question. Thumbs up, thumbs down, or \\\"let's see one more.\\\"\\n\\n5. Next steps & any other business (5 min)\\nWho calls the candidate, who calls the recruiter, that kind of thing.\\n\\nNotes: Please have your scorecards in by Wednesday night if you can manage it. I'll pull them into one sheet so we're not squinting at four different docs. Holler if the time doesn't work and we'll wiggle it.\\n\\nThanks, y'all,\\nCarmen\"},{\"spec_id\":\"spec_0648\",\"text\":\"Project Echo brainstorm (round 3, since rounds 1-2 didn't stick): ideas, then actually decide\"},{\"spec_id\":\"spec_0649\",\"text\":\"FOXCREST BUILDERS\\nStakeholder Review: Driftwood Migration\\nMonthly Session | 10:00-11:00 | Conference Room 2 / Remote\\nDistribution: Project Stakeholder Group (16)\\nConvener: Carmen\\n\\nAgenda\\n1.0 Call to order and confirmation of attendance (Carmen)\\n2.0 Approval of prior session minutes, previously circulated\\n3.0 Schedule status report, per PM dashboard (Hiroshi Grummond)\\n4.0 Budget variance summary, Q3 figures (Fatima Kowalczyk)\\n5.0 Subcontractor compliance register update (Paloma Oyelaran)\\n6.0 Document control: revision log for record (Keiko Sorensen)\\n7.0 Items for noting\\n8.0 Adjournment\\n\\nSupporting materials will be distributed 48 hours in advance. Attendees are requested to review prior to the session. Questions may be submitted to the convener in writing.\"},{\"spec_id\":\"spec_0650\",\"text\":\"Lighthouse: VFX vendor demo + Q&A. Nadia (pipeline fit), Jonas (render costs), Zainab (sched), Gus (color), Jamal (contract terms). Vendor gets 40, we huddle after. Bring the hard questions, folks\"}]}"
+}

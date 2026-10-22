@@ -20,3 +20,4 @@ jobs:
       - run: ruff check pipeline
       - run: ruff format --check pipeline
       - run: pytest
+      - run: python pipeline/validate.py

@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0110",
+ "request_hash": "fae8b227e82d396b",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2766,
+  "output_tokens": 901,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0546\",\"text\":\"Yarrow Budget Review AGAIN!!! Owners read your line items aloud!!! Thu 2-3pm, Rm B\"},{\"spec_id\":\"spec_0547\",\"text\":\"Need a go/no-go before Fri. Pls come with a position, not just questions.\\n\\n---------- Forwarded invite ----------\\nRe: the Ostrowski contract - decision\\nWed 10:00-11:00, Lab 3 conf rm\\nHana, Wes Uchenna, Cleo Kariuki, Pavel Kowalczyk, Deepa Uchenna, Rhys Lindqvist\\nWe need to settle wether we sign or walk. Bring numbers.\"},{\"spec_id\":\"spec_0548\",\"text\":\"Westwave County Monthly All-Staff Get-Together\\nTuesday, 9:00-9:30 AM, Council Chambers (and on the stream for the road crews)\\nInvited: All county staff (99)\\n\\nAgenda\\n1. Howdy and coffee - Jonas\\n2. Parking lot repaving schedule update - Omar Ishikawa (dates are on the board by the break room)\\n3. Reminder: timesheets due Fridays, same as always - Ada Uchenna\\n4. The Orbitvale site: still waiting on the state, nothing new yet - Yusuf Jaramillo\\n5. Holiday potluck sign-up sheet is going around - Keiko Ekwueme\\n6. Benefits enrollment window opens next month, packets coming in the mail - Vera Mbatha\\n7. Anything else folks want to holler about\\n\\nWear your boots if you're coming from the yard, Teo says the floors just got waxed.\"},{\"spec_id\":\"spec_0549\",\"text\":\"PTO General Membership Meeting, Thu 7:00-7:30pm, all 263 members invited\"},{\"spec_id\":\"spec_0550\",\"text\":\"Thistle 2.0 Sync - Pricing File Confirmation\\nWednesday 11:00-11:15 AM\\nRequired: Nils, Ada Lindqvist\\n\\nAgenda:\\n1. Ada to confirm the final SKU pricing file was uploaded to the shared drive.\\n2. Nils to confirm sign-off date has been logged with Merchandising.\\n\\n________________________________\\nMicrosoft Teams meeting\\nJoin on your computer or mobile app\\nClick here to join the meeting\\nOr call in (audio only)\\n+1 555-0142,,8830271# \\nPhone Conference ID: 883 027 1#\\nRedpoint Outfitters | Learn More | Meeting options\"}]}"
+}

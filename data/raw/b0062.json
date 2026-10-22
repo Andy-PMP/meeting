@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0062",
+ "request_hash": "2ba84f3d284717de",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2793,
+  "output_tokens": 1641,
+  "output_tokens_details": {
+   "thinking_tokens": 346
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0306\",\"text\":\"Subject: Board & Committee Planning Session\\n\\nDear Committee Members,\\n\\nPlease hold 90 minutes on Thursday, 6:30-8:00 PM, for a planning session regarding the Nutmeg rollout. Attendance from all twelve invitees is requested. 📅\\n\\nRegards,\\nTeo\\nCedarwave Village HOA\\n\\nJoin by phone: +1 555-0142, PIN 448 2091#\\nMeeting ID: 873 220 4416\"},{\"spec_id\":\"spec_0307\",\"text\":\"Granitewave 15m sync (4): KPI readouts, SKU velocity deltas, then planogram go/no-go.\"},{\"spec_id\":\"spec_0308\",\"text\":\"🎉🏡 SUPER Exciting All-Hands Cross-Team Alignment Kickoff for Project Cobalt!!! 🚀✨ Landscaping Committee + Architectural Review + Social Events Crew + Finance Volunteers + Communications Team + Board + Anyone Who Wants To Be In The Loop 🙌 Let's Get Everybody On The Same Page About Where Project Cobalt Is Heading This Season!! 🌳🌷 Quick Round-The-Room Updates From Every Committee (Oskar, Goran, Beth, Nadia, Pavel, Keiko please be ready to share your wins!! 🏆) Followed By Sharing Our Big Vision, Celebrating Momentum, Talking Through How We All Fit Together, Brainstorming Synergies Between Committees, And Hopefully Landing On Who Owns The Pool-Area Signage Question Since That's Been Bouncing Around For A While 😅 Plus Open Floor For Shoutouts, Ideas, Questions, Dreams, Anything At All!!! 💬💡 Snacks Provided At The Clubhouse 🍪☕ Also On Zoom For Those Who Can't Make It In Person 💻 Full Hour Blocked So We Have Plenty Of Breathing Room To Really Connect 🤝 All 25 Of You Are Invited And Truly Wanted There 💙 Ironbrook Homeowners Association Rocks!!! Can't Wait!!! — Erik 🎊🎊🎊\"},{\"spec_id\":\"spec_0309\",\"text\":\"Hearth migration – cross-team alignment\\nWed 2:00-3:00 PM | 15 attendees\\n\\nSorry, I know this is a lot of people, just want to be safe:\\n1. Catalog export status – Kavya\\n2. Image rights fields – Mariam\\n3. Cutover date decision – Wes/Rafael\\n\\n—Ivan\\n\\nMicrosoft Teams meeting\\nJoin on your computer or mobile app\\nMeeting ID: 291 448 703 115\\nPasscode: Gh7xQp\"},{\"spec_id\":\"spec_0310\",\"text\":\"☀️ Morning Huddle – Jaramillo Account!\\nMon-Fri · 8:00 – 8:30am\\nOrganizer: Xavier\\nGuests: Callum Wexler, Liam Yamamoto, Esme Cho\\n\\nGood morning, superstars!! Let's kick off every day together! Each of us will go around and share what we finished yesterday and what's on deck today for the Jaramillo account billing reconciliation. No decisions needed, just great energy and staying in the loop! I'll also read out any updates from the St. Grummond Hospital finance office so nobody misses a thing. Love this team!!\\n\\nJoin with Google Meet\\nmeet.google.com/rkq-zvta-mpe\\nJoin by phone\\n(US) +1 555-0187 PIN: 604 118 932#\\nMore phone numbers\"}]}"
+}

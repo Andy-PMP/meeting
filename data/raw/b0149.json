@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0149",
+ "request_hash": "239353cab4594597",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2717,
+  "output_tokens": 1779,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0741\",\"text\":\"Vendor Demonstration – Content Operations Platform\\nThursday, March 14 · 10:00 – 10:30am (Eastern Time)\\nGoogle Meet: meet.google.com/qvx-trbn-kwe\\nJoin by phone: +1 555-0142 PIN: 448 921#\\n\\nOrganizer: Nils (Studio Orbitbrook)\\n\\nGuests (12):\\nNils – organizer\\nYara Carvalho\\nTess Varga\\nPilar Bramwell\\nIvan Iversen\\nHiroshi Cho\\nOdette Cho\\nAccount Services (3)\\nCreative Operations (2)\\n\\nDescription:\\nDear colleagues,\\n\\nPlease accept this invitation to a vendor demonstration session. The vendor's representatives will join us directly and will be presenting their platform, followed by time for questions as available.\\n\\nKindly note the following:\\n- The session is scheduled for 10:00am Eastern. Our colleagues in the Lisbon office should note this corresponds to 3:00pm local time. (Correction: given the recent daylight saving change in the US, this may be 2:00pm Lisbon. Please verify against your own calendar view.)\\n- The vendor has requested that cameras be on for the duration of the session.\\n- The vendor has asked that all attendees be present for the full demonstration, as the presentation runs approximately 25 minutes before questions.\\n- Pilar Bramwell and Ivan Iversen, your attendance is optional should your schedules not permit.\\n- A recording will be requested from the vendor; however, availability cannot be guaranteed.\\n\\nAs a reminder, the Copperpoint site team members are included on this invitation for visibility. Hiroshi and Odette, please coordinate between yourselves as to whether both of you need to attend.\\n\\nShould you have questions you would like put to the vendor in advance, please forward them to me no later than Wednesday close of business (Eastern).\\n\\nKind regards,\\nNils\\nStudio Orbitbrook\\n\\nReminders: 1 day before, 10 minutes before\\nVisibility: Default\"},{\"spec_id\":\"spec_0742\",\"text\":\"hey all 👋 pulling the whole dept together (all 20 of ya) for a half hour next Tuesday, 2:00–2:30 in Hartwell 214, or Zoom if you're stuck at home with a sick kiddo. It's mostly an Echo rollout catch-up so nobody's caught flat-footed come fall.\\n\\nRough lay of the land:\\n• Yusuf's gonna walk through the new login screens and what's changin for advising notes\\n- Sofia has the training dates (three sessions, pick one, she'll post the sign-up sheet too)\\n* Thandi on what happens to the old system archives (short version: nothing scary)\\n• Bea and Elena will share the timeline for when each course section switches over\\n- then the bit I actually need your brains for: Marcus has been chewin on whether grad TAs get faculty-level access or their own role. Couple of folks feel strongly both ways, and I'd rather we hash it out with everybody in the room than over 40 replies in here 😅\\n\\nIf you skim nothin else, skim that last bullet. Thandi's slides and Sofia's dates I'll drop in this channel afterward anyhow, so don't sweat taking notes on those.\\n\\nCoffee's on me, the good kind from the cart downstairs. Holler if Tuesday's a disaster for you and we'll figure somethin out.\\n\\n— Ulla\"},{\"spec_id\":\"spec_0743\",\"text\":\"Garnet hiring sync, 45 min: Thandi shortlist, Xavier refs, Farid dates—quick yall.\"},{\"spec_id\":\"spec_0744\",\"text\":\"Subject: Sorry for the short notice — Project Jasper town hall, Thurs 4:00pm\\n\\nAll staff,\\n\\nApologies for the late notice. Board vote changes bell schedules next year; we need your input before finalizing. Thursday 4:00–5:00pm Pacific (an earlier draft said Central—sorry!), Lincoln auditorium or livestream. Agenda: proposal overview, open Q&A, quick polling by building.\\n\\nChidi\"},{\"spec_id\":\"spec_0745\",\"text\":\"Budget check-in\\nFriday, April 5 · 1:00 – 2:00pm\\nConference Room B / Google Meet link attached\\n\\nGuests: Thandi (organizer), Ben Kessler, Ilse Thorne, Andre Abernathy, Omar Grummond\\n\\nHey gang,\\n\\nGrabbin an hour Friday for us to look at the numbers together. I'll pull up the Q1 spreadsheet on the big screen and we'll scroll through it line by line, same as last time. Foxglove migration actuals are in there now too, Omar updated 'em Wednesday so they should be current.\\n\\nNo prep needed, just come as you are. If you've already peeked at the sheet in the shared drive, great, you'll be ahead of the rest of us.\\n\\nBring a snack, Fridays are long.\\n\\n— Thandi\\n\\nAttachment: Q1_Budget_Lakepoint.xlsx\"}]}"
+}

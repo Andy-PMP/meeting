@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0023",
+ "request_hash": "896830d24e7dd532",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2820,
+  "output_tokens": 1532,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0111\",\"text\":\"FYI all!! Forwarding this along so it's on everyone's radar. You do NOT want to miss this one, it's going to be so exciting!! Please accept even if you just listen in. :)\\n- Nadia\\n\\n---------- Forwarded message ----------\\nFrom: Nadia\\nTo: Claims Ops (All), Underwriting Support (All)\\nSubject: Invitation: Umber Kickoff Celebration!! @ Thu 2:00pm - 2:30pm\\n\\nHello wonderful Ironridge Insurance Group team!\\n\\nWe're SO thrilled to gather all 40 of you for a quick look at what's coming with the Umber initiative! Emeka Brennan and Ilse Lindqvist will share some big-picture highlights, and Darius Cho has a few words too. Get ready to feel inspired!\\n\\nWhen: Thursday, 2:00-2:30pm\\nWhere: Large Conference Room B / video link in invite\\n\\nCameras optional, enthusiasm required!!\"},{\"spec_id\":\"spec_0112\",\"text\":\"hey all, sorry, I know everyone's slammed with the Ember 2.0 runs, but I think we should probably do a standup tomorrow? just want to make sure we're not missing anything. Nadia, Mariam, Will, Maeve, Kemi, does 9:00 work? I booked 9:00-9:15 but honestly if we need longer I can extend, I just don't want things slipping\\n\\n-----\\nEmber 2.0 Daily Sync\\nTue 9:00 AM - 9:15 AM (Eastern)\\nJoin online meeting\\nMeeting ID: 482 119 3307\\nPasscode: 55812\\nDial in by phone: +1 000-555-0147\\nFind a local number | Reset PIN\\nLearn more about meeting options\\n-----\\n\\nalso if anyone has updates already, maybe drop them here first? sorry, just nervous after last week\"},{\"spec_id\":\"spec_0113\",\"text\":\"Per below, convening re: Zapata contract Fri 10-10:30, attendance requested.\\n\\n> Fwd: RE: RE: Zapata redlines (Esme/Rafael/Pilar)\\n> Garage level 2 closed Fri; lunch is Vera's birthday cake 12:30.\"},{\"spec_id\":\"spec_0114\",\"text\":\"Title: Bianca / Sana check-in!!\\nDate: Wednesday, 3:15 PM - 3:45 PM\\nLocation: Room 214 (my classroom!), Brightcrest Public Schools - Eastview Middle\\n\\nDescription:\\nHi Sana!!! Grabbing a little time together, I am SO glad we finally found a slot!! Bring whatever you've got and let's dig in!!! Coffee's on me!!\\n\\n---------- Forwarded message ----------\\nFrom: Paloma Kessler\\nTo: Bianca\\nCc: Andre Iversen\\nSubject: Re: Hearth initiative - 7th grade pilot\\n\\nBianca, before the board packet goes out we need you and Sana aligned on whether her section stays in the pilot. Her attendance data and the parent feedback point different directions and I'd rather you two hash it out than me guess. Need an answer by Friday.\\n\\n> From: Sana Xu\\n> To: Bianca\\n> Subject: Hearth initiative - 7th grade pilot\\n> Honestly I'm torn about continuing. Some kids are thriving, a few are really struggling and I'm not sure the format works for them. Can we talk it through? It's hard to explain over email.\\n\\nSee you Wednesday!!! This is going to be great!!!\"},{\"spec_id\":\"spec_0115\",\"text\":\"DAILY 0615 @ BASECAMP - Zapata ctx: Teo (1st AD) call sheet/turnaround flags; Wes (DP) LUT + B-cam lens swap; Darius (gaffer) genny load-in, condor permits; Rosa (UPM) OT burn vs. hot cost, SAG meal pen exposure; Goran (loc mgr) neighbor sign-offs, honeywagon reposition; Tess (script sup) continuity wild lines, 2nd unit pickups; + art, props, wardrobe, sound, transpo, post liaison round-robin status; Kavya: Zapata contract deliverables recap (QC specs, M&E, textless) + walk-through of Day 14 one-liner; hard out 0630\"}]}"
+}

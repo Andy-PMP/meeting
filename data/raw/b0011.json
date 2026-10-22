@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0011",
+ "request_hash": "198b7ebb1b6413f0",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2854,
+  "output_tokens": 1603,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0051\",\"text\":\"Foxglove sync: Jada / Pilar / Cleo\\n\\nTue 10:00-10:15 | Brightstone & Co. Conf Rm 3 / Microsoft Teams\\n\\n________________________________________________________________________________\\nMicrosoft Teams meeting\\nJoin on your computer, mobile app or room device\\nClick here to join the meeting\\nMeeting ID: 284 551 903 117\\nPasscode: kT9xQ2\\nOr call in (audio only)\\n+1 555-0142,,73920184# United States\\nPhone Conference ID: 739 201 84#\\nFind a local number | Reset PIN\\n________________________________________________________________________________\\n\\n> Pilar Petrakis: Accepted. FYI the garage on level B is closed Tuesday, use the street lot.\\n> Cleo Delacroix: Accepted. Will bring the two headline options so we can pick one before the client call at 11. Also cake for Darius's birthday is in the kitchen at 3.\"},{\"spec_id\":\"spec_0052\",\"text\":\"Gingham rollout: pre-prod alignment ahead of the big PPM\\nThursday, 2:00pm – 3:00pm\\nMillbrook Films – Stage B production office / Google Meet link below\\n\\nGuests: Grace (organizer), Darius Underhill, Quinn Rinaldi, Cyrus Abernathy, Hana Rinaldi, Ines Carvalho, Gemma Tanaka\\n\\nHey all, before we drag the full dept heads into the PPM for the Gingham rollout I want us six in a room to get our ducks in a row. Rough idea of what we're working through:\\n\\n- Who owns which block on the one-liner, since the strip board's still shifting with the location swap\\n* Whether we lock the DOOD now or hold until the cast deal memos come back\\n- What the PPM actually needs to land on: shot list sign-off vs. a full tech scout recap\\n  - Cyrus / Hana: where you're at on the lighting package + grip truck, roughly\\n* Ines: ballpark on the extras count and whether it pushes us into a second holding area\\n-Gemma, any flags from the 2nd AD side on turnaround or company moves\\n\\nHonestly not sure yet how much of this needs the whole crew vs. us sorting it out first, which is kind of the point. If we go into the PPM with open questions on schedule and budget it'll eat three hours and the dept heads will walk.\\n\\nBring your latest versions of whatever you've got (cross-plots, call sheet drafts, budget top sheet). No deck needed.\\n\\nJoin with Google Meet: meet.google.com/gfw-qtrx-pnd\\nJoin by phone: +1 555-0198 PIN: 662 913 004#\\n\\nReminder: 10 minutes before\"},{\"spec_id\":\"spec_0053\",\"text\":\"hey all 👋 grabbing 2 hrs Weds afternoon for Pinewood site planning, invite going to the 9 of us. see below from Yusuf\\n\\n---------- Forwarded message ---------\\nFrom: Yusuf Ekwueme\\nSubject: Pinewood site\\nSitemap's final, client approved. Page copy owners same as last round. Launch still the 14th, nothing's changed.\"},{\"spec_id\":\"spec_0054\",\"text\":\"@channel 30 min all-hands Fri on Tangerine migration: DMS cutover dates + matter-coding changes 📂⚖️\"},{\"spec_id\":\"spec_0055\",\"text\":\"Subject: Tangerine migration retro (please try to attend!!)\\nWhen: Thursday 1:00 PM-1:45 PM\\nWhere: Microsoft Teams Meeting\\nRequired: Delia Ekwueme; Rosa Wexler; Oskar Bakshi; Sofia Dorsey\\n\\nHi all, I know the migration was rough and I really dont want this to turn into a blame thing, so I've tried to keep it structured:\\n\\n1. What broke on cutover night (Oskar, 5 min)\\n2. Client comms gaps (Sofia, 5 min)\\n3. Two things we'd change next time (everyone, 5 min)\\n\\nIf we finish early please feel free to drop. Sorry if this lands on a busy week, I just think we shoud capture it while its fresh.\\n\\n________________________________________________________________________________\\nMicrosoft Teams meeting\\nJoin on your computer, mobile app or room device\\nClick here to join the meeting\\nMeeting ID: 419 882 306 551\\nPasscode: Wm4zP7\\nCall in (audio only): +1 555-0167,,58210394#\\n________________________________________________________________________________\"}]}"
+}

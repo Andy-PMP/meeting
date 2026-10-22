@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0054",
+ "request_hash": "70ec32c724ef6302",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2812,
+  "output_tokens": 1885,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0266\",\"text\":\"Cedarleaf Community Trust: Daily Standup, Programs & Partnerships\\nTues–Fri this week, 9:00–9:15am, Room 2 / [link]\\nAttendees: Noor, Zoe Fairweather, Aisha Abernathy, Cleo Esposito, Goran Fitzgerald, Cyrus Ferraro, Delia Carvalho\\n\\nSorry, everyone. I know I said we'd drop the daily standups after the spring appeal, and I really did mean it. With the Fairweather account grant report due Friday and the budget numbers still moving, I think we need a quick daily check this week only. I'll keep it to 15 minutes, I promise, and I'll cut people off (kindly) if we run long.\\n\\nRough agenda:\\n- Where the Fairweather report draft stands (Zoe). Which sections are still open?\\n* Budget variance. Goran and Cyrus still don't agree on how to count volunteer hours as in-kind. We need to settle this together, not over email, because it changes page 4.\\n- Blockers, round robin, 30 seconds each\\n  - Aisha: outcomes data from the youth program\\n  - Cleo: photos/consent forms\\n* Delia: anything from the funder side?\\n- Who's doing what before tomorrow\\n\\nDraft report: [link]\\nBudget sheet (v3, please don't edit v2): [link]\\n\\nIf you have nothing new on a given day, just say \\\"no change\\\" and that's fine. Again, sorry for adding something to your calendars in a week that's already full. I'll cancel the rest the minute we submit.\\n\\nNoor\"},{\"spec_id\":\"spec_0267\",\"text\":\"Title: Project Basalt, Weekly Status Sync (MANDATORY)\\nDate/Time: Thursday, 2:00 PM – 3:00 PM\\nLocation: Conference Room 14B / Dial-in [link]\\nOrganizer: Femi\\nRequired: Ivan Mbatha, Wen Thorne, Kemi Haddad, Maeve Lindqvist, Rosa Ekwueme, Ulla Nakagawa\\n\\nDescription:\\nUnder the matter management protocol for Project Basalt, the weekly status sync will take place as scheduled. Attendees are asked to arrive prepared to report on their assigned items in the order below.\\n\\n1. Document production status: Ivan Mbatha to report the number of documents reviewed and remaining in Batch 7. Tracker: [link]\\n2. Privilege log: Wen Thorne to confirm that entries for Custodians 3–5 have been finalized.\\n3. Deposition scheduling: Kemi Haddad to circulate the confirmed dates for the two remaining witnesses.\\n4. Expert retention: Maeve Lindqvist to confirm the engagement letter has been executed.\\n5. Billing: Rosa Ekwueme to report month-to-date hours against budget. Billing summary: [link]\\n6. Filing calendar: Ulla Nakagawa to read out all deadlines falling in the next 14 days.\\n\\nPlease note that time entries for the sync MUST be recorded under the Basalt matter number and NOT under general administrative time.\\n\\nAttendees who cannot attend must submit their written update to the organizer NO LATER THAN 12:00 PM on the day of the meeting.\\n\\nMinutes will be circulated after the meeting and filed to the matter workspace: [link]\"},{\"spec_id\":\"spec_0268\",\"text\":\"Forwarding this so you're all on it. I'm honestly a bit nervous about this one. Leadership is asking questions, and I'd rather have too many people there than miss someone. Please come even if you were only on the edges of it.\\n\\n---------- Forwarded invite ----------\\nNimbus migration: Checkout Outage Postmortem\\nWed 10:00–10:45, HQ Boardroom + video\\nInvited: Store Ops, POS Support, Payments, Infra, Comms, Regional Leads (15)\\n\\nAgenda (rough):\\n- Timeline of Saturday's checkout failures (Jonas Hollander)\\n- Root cause: the config cutover step (Hiroshi Esposito)\\n- What we're changing before the next wave (Mariam Iversen)\\n- Store impact numbers (Vera Bakshi)\\n- Comms recap (Grace Brennan)\\n- Open Q&A\\n\\nPre-read from Fatima Nakagawa to follow.\"},{\"spec_id\":\"spec_0269\",\"text\":\"Hearth 2.0 Site Super req: debrief + scorecard calibration + offer/comp band + next-round panel + onboarding pipeline + RFI on the PM backfill (Kenji, Hiroshi, Noor W., Vikram, Priya, Hector), 30 min\"},{\"spec_id\":\"spec_0270\",\"text\":\"hey Arjun, Nico, Nils 👋 sorry to throw this on your calendars so late in the week. Could we grab 30 min tomorrow at 3 to talk about the candidate from Tuesday? I know you've all already sent over your notes, sorry, I just thought we should sit down together on it 🙏\\n\\nAlso, unrelated: the Northleaf site lot is closed Friday for the crane delivery, so park on the street. Ben's birthday cake is in the break room at 12, and Pavel is ordering lunch if anyone wants in. Just reply to him by 10.\\n\\nI'll send an invite unless anyone objects. Thanks and sorry again!\"}]}"
+}

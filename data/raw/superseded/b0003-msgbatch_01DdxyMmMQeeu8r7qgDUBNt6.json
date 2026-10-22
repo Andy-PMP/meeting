@@ -1,0 +1,29 @@
+{
+ "bundle_id": "b0003",
+ "request_hash": null,
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v1",
+ "batch_id": "msgbatch_01DdxyMmMQeeu8r7qgDUBNt6",
+ "created": null,
+ "result_type": "succeeded",
+ "recovered_from_api": true,
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2172,
+  "output_tokens": 1585,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0011\",\"text\":\"Sorry all 23 — bed-flow alignment 10-11 CET (not EST!): Imaging/Lab/Porters each 5min, rest open\"},{\"spec_id\":\"spec_0012\",\"text\":\"Line 3 jam postmortem, 1hr, 2pm ET or CT?? root cause (Dev) + fix (me) ~15min\"},{\"spec_id\":\"spec_0013\",\"text\":\"Subject: Weekly sync this Thursday, sorry, need everyone live\\n\\nHi all,\\n\\nApologies for doing this to your calendars again. I know the weekly sync has mostly been a quick round of updates lately, and I've been meaning to just send those around in writing. This week is different, though, and I'd really rather we talk it through together than trade replies on a thread.\\n\\nWithout going into too much detail over email: the Halvorsen engagement has shifted in a way that touches all three workstreams. A couple of you have already heard pieces of it from different people at the client, and I suspect those pieces don't quite match. Before anyone responds to them, I want the seven of us in one room (virtual room) to sort out what we actually know, what we're willing to commit to, and who owns which conversation going forward. That last part is the one I'm most worried about getting wrong.\\n\\n30 minutes, Thursday at 9:00. And here's where I apologize a second time: I sent the original hold as 9:00 Singapore time, which is very much not what I meant. It's 9:00 London. Priya and Tomasz, I realize that's an early start for you in Singapore anyway. If it's unworkable, tell me and I'll shift it to 8:30 London. Marco, you're on Lisbon time, so it's the same clock for you.\\n\\nPlease don't prep slides. Just come with whatever you've heard from the client side since Monday, even if it's only hallway stuff.\\n\\nThanks for bearing with me. I owe everyone coffee.\\n\\nWen\\nBeaconwave Labs\"},{\"spec_id\":\"spec_0014\",\"text\":\"🎉 Gala retro – recap + survey results 📊\\nMicrosoft Teams meeting\\nJoin on your computer or mobile app\\nClick here to join the meeting\\nMeeting ID: 284 551 903 117\\nPasscode: Lh7xQ2\\n\\nOr call in (audio only)\\n+1 555-0148,,62019384#   United States\\nPhone Conference ID: 620 193 84#\\nFind a local number | Reset PIN\\n\\nLanternhaven LLC – Learn more | Meeting options\\n________________________________________________________________________________\\n• Thurs 2:00–3:00 PM\\n- 9 attendees: Rafael (organizer) + gala committee\\n* agenda: I'll walk through the numbers 😊\\n________________________________________________________________________________\"},{\"spec_id\":\"spec_0015\",\"text\":\"NORTHWORKS & SONS — DISTRICT FACILITIES & OPERATIONS\\nWeekly Status Coordination Meeting — Agenda\\nDate: Tuesday | Time: 1:00–1:45 PM | Location: Admin Bldg, Conf. Rm B / call-in\\nConvener: Will\\nDistribution (8): Transportation, Food Services, Custodial, IT, Maintenance, Safety Office, Business Office, Principals' Liaison\\n\\n1. Call to order and attendance taking (2 min)\\n\\n2. Review of action items from previous week's meeting (5 min)\\n   - Items are to be closed out or carried over according to the standing procedure\\n\\n3. Departmental status reporting, round of table (approx. 4 min each)\\n   a. Transportation: route adjustment status for the winter schedule\\n   b. Food Services: inventory reporting\\n   c. Custodial: staffing coverage for the week\\n   d. IT: device deployment numbers\\n   e. Maintenance: work order backlog count\\n   f. Safety Office: drill completion reporting\\n\\n4. Discussion item: Portable classroom relocation at Eastbrook Elementary (10 min)\\n   - Transportation, Maintenance and Safety Office must come to an agreement on the move date, as the bus loop will be closed during the relocation and the fire lane is affected\\n   - The Principals' Liaison to bring the building's view\\n\\n5. Other business / announcements (as time is permitting)\\n\\n6. Adjournment\\n\\nNote: Departmental reports in item 3 shall be given verbally, please. Written summaries are optional but kindly to be submitted to the convener before Monday end of day if possible, for inclusion in the minutes. Attendance of all distribution members is expected per district coordination policy section 4.2.\"}]}"
+}

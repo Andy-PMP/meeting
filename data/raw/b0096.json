@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0096",
+ "request_hash": "ceb97e7fd489b149",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2801,
+  "output_tokens": 1880,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0476\",\"text\":\"Title: All-Hands: Fitzgerald Contract Kickoff (attendance expected, again)\\nWhen: Thu 9:00–10:00 AM\\nWhere: Main Yard Hall + stream\\n\\nSince last time's Q&A got skipped by half the crew 🙃:\\n- Scope + phasing (Sofia Kessler)\\n* Site safety changes, open Q&A (Hector Hollander)\\n- Crew reassignments, bring objections NOW (Femi Oyelaran)\\n\\n—Pavel\"},{\"spec_id\":\"spec_0477\",\"text\":\"Driftwood: Cross-Team Alignment\\nTue 2:00 PM – 3:00 PM\\nRequired: Jada Grummond, Victor Sorensen, Kavya Nwachukwu, Yara Zielinski, Farid Ferraro, Erik Underhill, +1\\n\\nPurpose: align engineering, art and design on Driftwood dependencies. Leads MUST attend or send a delegate with authority.\\n\\n________________\\nJoin Microsoft Teams Meeting\\nDial-in: +1 555-0142, Conference ID: 418 227#\\nElmridge Interactive. Learn more | Meeting options\"},{\"spec_id\":\"spec_0478\",\"text\":\"hey Maeve, sorry to bug you again, I know you're buried with the council packet 😬\\n\\nwould you have 15 min tomorrow or Thursday for a quick check-in on the Dovetail rollout? totally fine if not, I just didn't want to fire off a wall of text.\\n\\nroughly what I wanted to cover:\\n- the updated training schedule for permit counter staff (Darius sent it over, it's here: [link])\\n* whether Parks still goes in wave 2 or slides to wave 3. Yusuf thinks 3 but said it's your call\\n- the FAQ draft for residents: [link]. Sofia Zapata already reviewed it, just needs your ok\\n• and a heads up that the vendor moved the data migration window to the weekend of the 14th, so nothing on our side should change but I wanted you to know\\n\\nhonestly most of it is me reporting where things landed, the only real question is the Parks one. but I've been getting things wrong over chat lately (sorry again about the wave 1 email mixup) so I figured talking it through would be safer.\\n\\nif a call is too much this week I can also just send you a summary and you can reply when you get a sec. whatever's easier for you! I'll hold Thursday 10:30 tentatively but feel free to decline.\\n\\nthanks, and sorry for the long message 🙏\\n—Yasmin\"},{\"spec_id\":\"spec_0479\",\"text\":\"Title: DECISION: Beaconpath site, lease renewal vs. relocation\\nDate/Time: Wed 11:00–11:30 AM\\nLocation: Conf Room B / video link in calendar\\nAttendees: Hector Iversen, Jada Cho, Zainab Dorsey, Soren Varga, Jamal Grummond, Andre\\n\\nWe've now had three threads on this without a conclusion, so let's try making the decision in a room.\\n\\nRough agenda:\\n1. Facilities cost comparison (Soren, please actually bring the numbers this time)\\n2. Impact on the cell culture timeline if we move in Q3 (Jada / Zainab)\\n3. Decide: renew, relocate, or short extension\\n\\nThe landlord needs an answer by Friday. If you can't make it, send your position in writing beforehand, since \\\"I wasn't consulted\\\" won't be an option afterward.\\n\\nAndre\"},{\"spec_id\":\"spec_0480\",\"text\":\"LAKESTONE FREIGHT: OPERATIONS COORDINATION\\nYarrow 2.0 Weekly Check-In\\nDuration: 30 minutes | Mon 9:30–10:00\\nOrganizer: Hana\\nParticipants: Uriel Underhill, Ivan Uchenna, Ximena Castellano, Goran Kessler, Pilar Kessler, Jada Zapata\\n\\nPurpose:\\nOngoing alignment of stakeholders regarding Yarrow 2.0 progress and related operational matters.\\n\\nStanding Agenda:\\n1. Opening and confirmation of attendance (Hana)\\n2. Review of action items from prior session\\n3. Workstream status reports, in order:\\n   a. Dispatch integration (Uriel Underhill)\\n   b. Warehouse scanner configuration (Ivan Uchenna)\\n   c. Carrier onboarding (Ximena Castellano)\\n   d. Reporting and dashboards (Goran Kessler)\\n   e. Training materials (Pilar Kessler)\\n4. Discussion: route-exception handling ownership between Dispatch and Carrier teams (Jada Zapata)\\n5. Any other business\\n6. Confirmation of next session\\n\\nPreparation:\\nEach workstream owner is requested to prepare a verbal update of approximately three to four minutes covering progress, risks, and upcoming milestones. Supporting documentation should be uploaded to the shared Yarrow 2.0 folder no later than end of business on the preceding Friday.\\n\\nNotes:\\nMinutes will be recorded and circulated within two business days. Attendance is expected for all named participants; where a participant is unavailable, a delegate should be nominated in advance and the organizer notified accordingly.\\n\\nItems not resolved within the allocated time will be carried forward to the subsequent session.\"}]}"
+}

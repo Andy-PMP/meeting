@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0122",
+ "request_hash": "4c703a1e00b81ec4",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2815,
+  "output_tokens": 1489,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0606\",\"text\":\"Vendor Session: Branch Services Platform Evaluation – the Beaconstone site\\nThursday, March 14 · 10:00 – 11:00am\\nGoogle Meet joining info: meet link in invite\\nConference Room 4B, Operations Building\\n\\nGuests (10): Rafael (organizer), Yara Kowalczyk, Maeve Varga, Delia Iversen, Pilar Varga, Vera Achterberg, Omar Cho, + 3 others\\n\\nDescription:\\nPer the Procurement Committee directive, this session is scheduled in connection with the ongoing evaluation for the Beaconstone site. The vendor will present, and attendees are expected to participate in the question period in accordance with their respective control areas (Compliance, Information Security, Branch Operations).\\n\\nPlease review the materials circulated by Delia Iversen prior to attendance. Evaluation forms are to be completed before leaving the room and returned to Vera Achterberg.\\n\\nFirst Glenstone Bank – Internal Use Only\"},{\"spec_id\":\"spec_0607\",\"text\":\"Title: Nadia / Lars – sync 🎮\\nDate/Time: Tuesday, Oct 8, 2:00 – 2:30 PM\\nLocation: Huddle Room \\\"Boss Fight\\\" (3rd floor, east side)\\n\\nDescription:\\nHey Lars, grabbing 30 with you before the milestone gate. Want to go deep on a few things re: the Ashfield site build, mostly where your head's at on the vertical slice scope and whether the current perf budget is realistic given what Keiko flagged on the draw-call spikes in the streaming zones. Also want to talk through your ownership on the encounter pipeline going forward, since Fern's rolling off to live-ops next sprint and someone needs to own the tuning loop and the telemetry hooks. No deck, just bring your honest read on velocity and any blockers you haven't surfaced in standup 🙏\\n\\nIf we have time I'd love your take on the crunch-avoidance plan Carmen and I sketched for the content lock, specifically the cut list. Your call on what's P0 vs. nice-to-have matters here.\\n\\nRandom logistics while I have you:\\n🚗 Garage level B is closed Tues–Wed for resurfacing, use the overflow lot on the north side\\n🍕 Lunch is catered Thursday for the playtest, Dmitri is collecting dietary restrictions\\n🎂 Lucia's birthday is Friday, card is at the front desk, sign it!\\n\\nSee you Tuesday 👍\\n– Nadia\\nOakridge Interactive\"},{\"spec_id\":\"spec_0608\",\"text\":\"Rook 2.0 Stakeholder Review!!! 🎉\\nWed 11:00–12:00 | 10 attendees\\n\\nDear all, we are so much excited to see everybody for review the Rook 2.0 together! Please to come with energy!\\n\\n________________\\nMicrosoft Teams meeting\\nJoin on your computer or mobile app\\nClick here to join the meeting\\nOr call in (audio only)\\nConference ID: 482 915 307#\\nCedarfield Community Trust\"},{\"spec_id\":\"spec_0609\",\"text\":\"PRE-SYNC to align on stakeholder convening cadence – Underhill account (MANDATORY)\"},{\"spec_id\":\"spec_0610\",\"text\":\"Adding you all. Need everyone there.\\n– Omar\\n\\n---------- Forwarded message ---------\\nFrom: Cleo Ahmadi\\nSubject: Re: Cobalt 2.0 – Saturday\\n\\nAgree w/ Abebe, kitchen and FOH both need to be in the room. Different stories on the ticket times.\\n\\n> From: Abebe Wexler\\n> Can we get Cyrus on this too? He was closing.\\n\\n> From: Sofia Cho\\n> I can bring the POS export.\\n\\n---------- Invite ---------\\nCobalt 2.0 – Saturday review\\nMon 3:00–3:45pm, Back office, Harbor St location\\nAttendees: Omar, Cleo Ahmadi, Abebe Wexler, Cyrus Petrakis, Odette Underhill, Sofia Cho, Ximena Tanaka, +3\\nAshlight Hospitality Group\"}]}"
+}

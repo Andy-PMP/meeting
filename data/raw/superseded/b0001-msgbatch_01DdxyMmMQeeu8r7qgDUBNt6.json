@@ -1,0 +1,29 @@
+{
+ "bundle_id": "b0001",
+ "request_hash": null,
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v1",
+ "batch_id": "msgbatch_01DdxyMmMQeeu8r7qgDUBNt6",
+ "created": null,
+ "result_type": "succeeded",
+ "recovered_from_api": true,
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2134,
+  "output_tokens": 1773,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0001\",\"text\":\"Subject: Site super hiring - 30 min Thurs 7:30am, trailer B\\n\\nAll,\\n\\nNeed the panel in one room before we make offers. Three finalists for the Harbor Street superintendent role, scores are split and we lose Candidate 2 to another firm if we don't answer by FRIDAY.\\n\\nAgenda:\\n1. Score review, where the panel disagrees (Marco, Dee)\\n2. Reference check flags on Candidate 1 (Priya)\\n3. Salary band. Can we stretch past the posted range? (Valentina, Tom from finance)\\n4. Decide: offer, second interview, or repost (all)\\n\\nAttendees: Marco, Dee, Priya, Tom, Rashid, Joanne, Luis, me.\\n\\nBring your scorecards. Do NOT send me written feedback instead, I need the argument in the room.\\n\\n30 min. Hard stop, pour starts at 8:15.\\n\\nValentina\\nBluegate & Sons\"},{\"spec_id\":\"spec_0002\",\"text\":\"Sorry, forwarding in case this got missed?? Not sure if we're supposed to prep anything. -Nadia\\n\\n---------- Forwarded ----------\\nRetro: Q3 matter\\nWed 2:00-2:45pm, Conf Rm 4 (9 guests)\\n\\n> Greg: is this the Hollis filing one?\\n> Amara: I think so, can't make it, will send notes\\n> Greg: same\"},{\"spec_id\":\"spec_0003\",\"text\":\"FW: FW: Spring Fair sync - PTA x Booster Club x Teachers (ALL 6 of us!!) 1hr - budget, volunteer slots, quick date check 🎉\"},{\"spec_id\":\"spec_0004\",\"text\":\"Team!!! Forwarding this so it's on everyone's radar. SO excited for this one, it's going to set the tone for the whole season!! Please accept ASAP so I can get a headcount for snacks 🙌\\n\\nFemi\\n\\n---------- Forwarded message ----------\\nFrom: Femi Adeyemi\\nTo: Merchandising, Store Ops, Regional Leads (12)\\nSubject: Holiday 2025 Planning Kickoff!!\\nWhen: Tuesday, 10:00am-12:00pm\\nWhere: HQ Boardroom 3 / video link in calendar\\n\\nHello amazing Silverspring Partners crew!\\n\\nIt's that time of year again and I could not be more pumped! This session is all about getting us aligned and energized heading into holiday planning. I'll be walking everyone through where we landed on the big-picture direction for the season, including the updated calendar of key dates, the themes merchandising has locked in, and how the regional rollout is going to look store by store.\\n\\nWe've done a ton of great work behind the scenes to get here and I really want everyone to hear it together and feel the momentum! I'll have the full deck ready to share on screen and will make sure there's time at the end for any questions that come up.\\n\\nNo prep needed at all, just bring your enthusiasm (and maybe a coffee, it's a two-hour one!). If you can't make it, no stress, I'll make sure the slides get circulated afterward.\\n\\nThis is going to be our best holiday yet, I can feel it!!\\n\\nCheers,\\nFemi\"},{\"spec_id\":\"spec_0005\",\"text\":\"BLUERIDGE GROUP\\nPreparatory Session: Client Steering Committee Workshop (Halvorsen Logistics)\\nDate: Monday, 09:00-09:30\\nAttendees: Z. Marsh (Chair), D. Okafor, L. Brennan, R. Iqbal, S. Whitlow, A. Castellanos, M. Teo, J. Varga\\n\\nPurpose\\nTo finalise arrangements for the Steering Committee workshop scheduled for the following Thursday.\\n\\nAgenda\\n1. Confirmation of workshop date, venue and client attendee list (S. Whitlow, 5 min)\\n2. Review of draft workshop agenda as circulated Friday (Z. Marsh, 5 min)\\n3. Status of pre-read materials: operating model summary and benchmarking appendix (D. Okafor, L. Brennan, 5 min)\\n4. Agreement on facilitation approach for the network-consolidation discussion, specifically whether to present a single recommendation or three options to the client (R. Iqbal, A. Castellanos, 10 min)\\n5. Catering, AV and logistics confirmation (M. Teo, 3 min)\\n6. Actions and next steps (J. Varga, 2 min)\\n\\nPre-reading\\nDraft workshop agenda (v0.3) and pre-read outline, both available in the engagement folder.\\n\\nNotes\\nAttendees are asked to review the circulated materials in advance and to come prepared with any comments on items 2 and 3. Item 4 is expected to require discussion, as views within the team currently differ. Logistical items are included for completeness.\\n\\nPlease advise the Chair of any conflicts by close of business Friday.\\n\\nZoe Marsh\\nEngagement Manager, Blueridge Group\"}]}"
+}

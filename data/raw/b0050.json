@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0050",
+ "request_hash": "fd187f901e1c5254",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2757,
+  "output_tokens": 1530,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0246\",\"text\":\"Atlas migration catch-up, quick hello across teams, nothing to prep! :)\\n\\nMicrosoft Teams meeting\\nJoin on your computer, mobile app or room device\\nClick here to join the meeting\\nMeeting ID: 284 117 903 552\\nPasscode: 7Hq2Lx\\nOr call in (audio only)\\n+1 555-0142,,61839204# United States\\nPhone Conference ID: 618 392 04#\\nFind a local number | Reset PIN\\nLearn More | Meeting options\\n\\nOrganizer: Cleo (Tidalpath Advisory)\\n7 attendees · 60 min\"},{\"spec_id\":\"spec_0247\",\"text\":\"Candidate Review: Senior Consultant Requisition SC-114\\nThursday · 2:00 – 2:45pm\\nGoogle Meet: meet.google.com/rvx-qkda-pmt\\n\\nGuests: Dana (organizer), Ben Abernathy, Tess Sorensen, Imani Ekwueme\\n\\nDescription:\\nPer the Ironwave Consulting talent acquisition procedure, a formal panel debrief is required following completion of the final-round interview cycle. This session is intended to consolidate panel assessments and reach a determination on the requisition in question, including whether an offer is to be extended and to which candidate, given that the two finalists received divergent scores across panelists. Staffing needs for the Jasper migration engagement are relevant and will be considered.\\n\\nPanelists are requested to submit scorecards in the HR portal prior to the session. Outcomes will be recorded for compliance purposes.\\n\\nAttendance by all panel members is mandatory; delegation is not permitted.\"},{\"spec_id\":\"spec_0248\",\"text\":\"Subject: Mandatory Attendance: Project Wren Policy Administration Update Briefing 📢\\n\\nTo: Claims Operations, Underwriting Support, Customer Service (47 recipients)\\nFrom: Liam\\n\\nColleagues,\\n\\nIn accordance with the Northlight Insurance Group change management framework, all personnel within the affected departments are required to attend a briefing regarding the next phase of Project Wren. The session is scheduled for Wednesday, 10:00–10:30, in Conference Room 3B, with a Teams link provided for remote staff.\\n\\nThe proposed agenda is as follows:\\n\\n1. Opening remarks and attendance confirmation (Liam), approx. 5 minutes\\n2. Reading of the Phase 2 go-live memorandum (Esme Ferraro)\\n3. Overview of the revised claims intake form fields (Odette Whitcombe)\\n4. Confirmation of the updated training schedule (Chidi Brennan)\\n5. Open question period: specifically, team leads must confirm whether the cutover weekend of the 14th poses staffing conflicts, as this determination must be finalised by Friday (Hiroshi Ekwueme, Ilse Achterberg)\\n6. Closing remarks (Zoe Thorne)\\n\\nPlease note that the memorandum referenced in item 2 and the form specification in item 3 were circulated on Monday and are available on the shared drive. Attendees are expected to have reviewed these materials in advance; they will nonetheless be summarised in full during the session for the record. 📄\\n\\nAcknowledgement of attendance is to be recorded via the sign-in sheet or, for remote attendees, the Teams chat. Absences must be pre-approved by your line manager.\\n\\nThank you for your cooperation. ✅\\n\\nRegards,\\nLiam\\nProgramme Office, Project Wren\"},{\"spec_id\":\"spec_0249\",\"text\":\"Lattice rollout planning, sorry so long! Owners per room assignment; lunch provided, park Lot C\\nTue 9:00–11:00am · Education Studio B · 12 guests · Cedarvale Museum of Art\"},{\"spec_id\":\"spec_0250\",\"text\":\"MOSAIC ROLLOUT — DAILY STANDUP (9:00–9:30, 6 ppl)\\n\\n1. Andre Hollander: doc templates migrated, done ✔\\n2. Rhys Quintero: training slots posted, sign up by Thurs\\n3. Jada Moreau: matter-number import 80%, finishing today\\n4. Vikram Dorsey: no blockers\\n5. Soren Esposito: login issue fixed\\n\\nAny Qs, ping Noor :)\"}]}"
+}

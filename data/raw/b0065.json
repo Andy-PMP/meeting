@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0065",
+ "request_hash": "9d54da6ab0b59d00",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2767,
+  "output_tokens": 731,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0321\",\"text\":\"Folks, forwarding this along. Six of us for half an hour, though Rhys and Ivan only need the first bit.\\n\\n---------- Forwarded invite ----------\\nCurator interview debrief, Velvet 2.0 role\\nThu 2:00-2:30pm, Gallery B office\\n1. Rhys and Ivan: quick panel notes\\n2. Omar: references\\n3. Arjun and Joaquin: pick a candidate\\n4. Callum: offer timing\"},{\"spec_id\":\"spec_0322\",\"text\":\"Budget check (Umber)\\nTue 10-11am · Zoom\\n- Wen, Yasmin, Lars\\n* please come\"},{\"spec_id\":\"spec_0323\",\"text\":\"Weekly Status Sync - Cobalt\\nMonday 9:00 – 10:00am\\nGoogle Meet: meet.google.com/xqr-plmn-kto\\nGuests (11): Yoko Xu, Quinn Rasmussen, Yusuf Dube, Hana Lefebvre, Uma Underhill, Lucia Petrakis +5\\n\\nAll team please join for doing the updates of the week, each one tell status. Also we need decide the Cobalt deadline shortly.\"},{\"spec_id\":\"spec_0324\",\"text\":\"Summitstone Q3 budget review\\nWed 3:00-4:00pm, Room 4 / Teams\\nVariance numbers, forecast, Q&A.\\n________________\\nJoin Microsoft Teams Meeting\\n+1 555-0142, Conference ID: 448 207 913#\"},{\"spec_id\":\"spec_0325\",\"text\":\"Zielinski contract: resolve scope dispute and approve revised terms prior to Friday deadline.\\n\\n________________________________________________________________________________\\nMicrosoft Teams meeting\\nJoin on your computer, mobile app or room device\\nClick here to join the meeting\\nMeeting ID: 291 554 870 336\\nPasscode: Pc7kQ2\\nOr call in (audio only)\\n+1 555-0198,,604112#\\nFor organizers: Meeting options\"}]}"
+}

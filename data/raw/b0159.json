@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0159",
+ "request_hash": "21ca3ded74ae3884",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2768,
+  "output_tokens": 1351,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0791\",\"text\":\"Postmortem: Ostrowski contract / SIS rollout\\nThursday, March 14 · 1:00 – 2:00pm\\nOrbitleaf USD District Office, Rm 210 + Google Meet\\n\\nGuests (14): Abebe (organizer), Ben Whitcombe, Gus Rasmussen, Ivan Gunawardena, Kemi Nwachukwu, Tess Bramwell, Darius Ostrowski, IT Ops, Ed Services, Site Admin reps (5), Purchasing\\n\\nDeck to follow. Pls review the MOU, SLA tracker, and the Tier 2 ticket export beforehand.\"},{\"spec_id\":\"spec_0792\",\"text\":\"Subject: quick chat?\\n\\nHi Sana,\\n\\nSorry to add another thing to your week. Could you spare 15 minutes with me tomorrow or Friday? Totally understand if it's tight. Happy to work around your schedule, even a few minutes would help.\\n\\nApologies again,\\nCyrus\\nTanaka & Oyelaran LLP\"},{\"spec_id\":\"spec_0793\",\"text\":\"Subject: Nutmeg 2.0 – Wrap Review (Tues 10am... your 10am, not mine, apparently)\\n\\nHi all,\\n\\nI'm setting up a 45-minute review of last week's location shoot, since it seems a few of us remember it very differently.\\n\\nFor anyone who missed the many messages: we lost most of Day 3 because the generator truck showed up at the wrong lot, and the permit window closed before we got set up. The permit was emailed to the full list twice. I'll just leave that there.\\n\\nThe rough plan:\\n- Timeline of Day 3 (I'll walk through it. I already have it written up and will attach it.)\\n- Revised call sheet process going forward (Wes is circulating the new template.)\\n- Updated vendor contact list (Priya)\\n- Reminder of who confirms transport (it's Vikram now, effective immediately)\\n\\nAll 10 of you are invited: Wes, Priya, Imani, Vikram, Beth, Wen, plus the AD team and both PAs.\\n\\nTime: Tuesday 10:00am. To be clear, that's 10am PACIFIC. Last time I said 10am, half the team joined from the London edit suite at their 10am and sat in an empty call for eight hours, give or take. Imani and Wen, that's 6pm for you. I realize that isn't ideal, but it's the only slot that works for everyone else.\\n\\nI'll present everything above and take questions at the end, assuming there are any after you've actually read the attachment. Please do read it. It's four pages.\\n\\nThanks so much,\\nHana\\nProduction Manager, Ashfield Films\"},{\"spec_id\":\"spec_0794\",\"text\":\"Title: Quinn / Raj – Cobalt 2.0 menu cut: decide today\\nWhen: Wed 3:30–3:45pm\\nWhere: Back office, Harbor St location\\nDescription: Supplier won't hold pricing past Friday. Need your call on which 4 items stay. Bring food cost sheet. — Quinn\"},{\"spec_id\":\"spec_0795\",\"text\":\"Thistle 2.0 – working session\\nFri 9:00–11:00 AM | Hale Hall 304 / Microsoft Teams\\nPriya Underhill; Bea Wexler; Hana Nakagawa; Leon Jaramillo\\n\\nPlease bring your section drafts, we NEED to settle the budget split before Monday. Lot C is closed, use the garage. Cake after for Mei's birthday!\\n\\n________________\\nMicrosoft Teams meeting\\nJoin on your computer or mobile app\\nClick here to join the meeting\\nOr call in (audio only)\\n+1 555-014-2290,,48213# \\nPhone Conference ID: 482 13#\\nBluelight University | Learn More | Meeting options\"}]}"
+}

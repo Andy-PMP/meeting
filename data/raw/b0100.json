@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0100",
+ "request_hash": "3f840b5588f5c133",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2804,
+  "output_tokens": 1148,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0496\",\"text\":\"Hello all 🌻 Thandi here. I am wanting to gather us for some brainstorm about family night ideas for spring, also small bit about the Ilunga contract catering. Cleo, Zainab, Ivan, Farid, Hiroshi, Odette please join, all 7 of us.\\n\\nI put 45 minutes Thursday 3pm, but wait, that is 3pm my time which is Eastern, so for the folks at the west campus office it is 12 noon?? or 1? I am never sure, please check your calendar it should convert itself I hope.\\n\\nRough plan:\\n- go around and everybody say their ideas (we can do it in 10 min honestly)\\n- pick top 2\\n- Ilunga catering quick yes/no\\n\\nProbably we finish early, but I booked long just in case, you know how we get talking like old hens at a fence 😄 Bring a coffee!\"},{\"spec_id\":\"spec_0497\",\"text\":\"Project Heron – Hiring Sync (Research Associate)\\nTue, 10:00–10:30 AM\\nConf Room B2 / video link\\n\\nSorry, I know calendars are packed. Agenda:\\n1. Zoe – confirm final panel slots\\n2. Kenji – reference check status\\n3. Rhys – offer range from HR\\n4. Paloma – onboarding badge request\\nI just want to make sure nothing slips, we really can't lose this candidate.\"},{\"spec_id\":\"spec_0498\",\"text\":\"Mosaic migration kickoff (since apparently we're doing this now) – ALL hands, attendance expected this time\"},{\"spec_id\":\"spec_0499\",\"text\":\"hey team!! 👋 trying to lock in our Project Atlas Q3 planning session. Thinking Wed 1:00–2:30 in the big conf room (snacks on me 🍪). Invite going to Zoe, Andre, Jonas, Kenji, Oskar, Dmitri + me.\\n\\nHere's what I've got so far:\\n1. Assay timeline recap – Jonas (just walking through where we landed last quarter, mostly the same slides from the July review)\\n2. Reagent inventory status – Oskar (current stock levels + what's on backorder)\\n3. Instrument booking calendar – Kenji, quick walkthrough of who has the plate reader when\\n4. Vendor contract renewal update – Dmitri\\n5. THE BIG ONE: deciding whether we push the cell line expansion to October or eat the overtime and keep September. Zoe + Andre have pretty different takes here and I think we NEED to hash it out together, this affects everyone's bench time\\n6. Open floor / anything else\\n\\nI know 90 min feels like a lot but I'd rather not rush #5, it's honestly the main reason I'm calling this. Jonas and Oskar, if you can keep your parts tight that'd be amazing, but no pressure, I know there's a lot of detail in there.\\n\\nPlease DO read Zoe's memo on the September option before Wed, it'll save us a ton of back and forth. Link is pinned in #atlas-planning.\\n\\nIf Wed doesn't work for anybody, shout and I'll shuffle. thanks y'all!! 🙌\"},{\"spec_id\":\"spec_0500\",\"text\":\"Saffron migration budget review!! 🎬💰 • numbers • Q&A - next steps 🎉\"}]}"
+}

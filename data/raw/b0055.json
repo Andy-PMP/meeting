@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0055",
+ "request_hash": "fefef4b5cd01641d",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2828,
+  "output_tokens": 1434,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0271\",\"text\":\"Project Indigo – Planning Sync!!\\nOrganizer: Ben\\nRequired: Hector Cho; Pilar Kowalczyk; Chidi Esposito; Hana Hakimi; Sam Brennan; Wes Nakagawa; +5 others\\nThu 10:00 AM – 11:00 AM\\n\\nHi all!! Sorry for the short notice!! I'll walk everyone through where Project Indigo stands and the dates we've got locked in so far. Please just join and listen in, nothing to prep!!\\n\\n________________________________________________________________________________\\nMicrosoft Teams meeting\\nJoin on your computer, mobile app or room device\\nClick here to join the meeting\\nMeeting ID: 284 551 903 127\\nPasscode: Fx7qH2\\nOr call in (audio only)\\n+1 555-0142,,771203#   United States\\nPhone Conference ID: 771 203#\\nFoxhaven Health | Learn More | Meeting options\\n________________________________________________________________________________\"},{\"spec_id\":\"spec_0272\",\"text\":\"FW: FW: RE: Mbatha contract – assay transfer retrospective (lessons learned + decisions on revised SOP before resubmission) – 45 min, 9:00 AM ET / 3:00 PM CET, NOT 9:00 CET per Will's earlier note – Wanjiru Fitzgerald, Pavel Grummond, Emeka Kessler, Bruno Quintero, Dana Lefebvre, Ada Delacroix + QA/Validation leads (10) – Elmwave Biosciences Conf Rm 3B / Teams\"},{\"spec_id\":\"spec_0273\",\"text\":\"Zielinski acct – Day 14 rig incident PM / RCA + revised safety callsheet protocol sign-off w/ Stunts, G&E, Grip, 1st AD, UPM, Insurance – Sofia B, Erik U, Xavier W, Quinn T, Thandi G, Uriel A +8 – 60m – Stage 4 prod office | Glenhaven Films Zoom ID 812 4471 0093 pw: wrap24 | Dial +1 555-0190 US\"},{\"spec_id\":\"spec_0274\",\"text\":\"Gunawardena Account Retro\\nTue, Mar 12 · 2:00–2:45 PM\\nLocation: City Hall Rm 210 / [link]\\n\\nHey folks! Let's get together on this one.\\n- Hiroshi, Ximena, Kenji\\n* Will, Delia, Carmen + Parks & Permits reps\\nBring your honest takes 🙂 notes doc: [link]\\n\\n– Fern\"},{\"spec_id\":\"spec_0275\",\"text\":\"Team!! Forwarding this so you all have it — this is THE one, we finally get to make the call on Project Gingham!! Uriel, Bea, please bring the staffing numbers and the two vendor quotes so we can actualy pick. Fern, your discharge-flow data is going to be huge here. So excited!!\\n\\n– Nadia\\n\\n---------- Forwarded message ----------\\nFrom: Nadia\\nSubject: Project Gingham – Go-forward decision\\nWhen: Wednesday, 1:00 PM – 2:00 PM\\nWhere: Admin Conference Room B, 4th floor, Lakevale Medical Center\\nAttendees: Uriel Lindqvist, Bea Zapata, Fern Lefebvre, Nico Lindqvist, Arjun Tanaka\\n\\nHi everyone!\\n\\nWe've been circling on Project Gingham for a few weeks now and I think we're finaly ready to land it. I'd love for us to walk out of this room with a direction everyone can stand behind — there are some real tradeoffs between the options and I want to hear where each of you lands, espcially on what it means for night shift and for the step-down unit.\\n\\nNico and Arjun, you'll be the ones living with whatever we pick operationally, so please come ready to push back if something won't work on the floor.\\n\\nI'll circulate the comparison sheet the day before. Coffee and pastries on me!!\\n\\nCan't wait!!\\nNadia\"}]}"
+}

@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0123",
+ "request_hash": "3d0808ad63bc8d1a",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2811,
+  "output_tokens": 1412,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0611\",\"text\":\"Subject: Get together Thurs eve\\n\\nHowdy all,\\n\\nNeed both the grounds committee and the board in one room Thursday 7-8pm at the clubhouse. Bring your thoughts on the Bakshi contract, we gotta hash it out before the vote.\\n\\nPark on the east lot, west ones getting re-striped. Cake after for Ada's birthday!\\n\\nThanks kindly,\\nHector\"},{\"spec_id\":\"spec_0612\",\"text\":\"Dispatch Lead Req: Hiring Pipeline Sync\\nTuesday, 2:00 – 2:45pm\\nGoogle Meet: meet.google.com/qhx-ttrn-bpa\\n\\nGuests: Soren (organizer), Carmen Tanaka, Liam Nwachukwu, Maeve Gunawardena, Dana Zapata\\n\\nRough agenda:\\n- Funnel metrics WoW (sourced > screened > onsite), Dana to share the ATS export\\n- Panel calibration status for the ops-floor loop\\n- Comp band confirmation vs. the L4 benchmark\\n- Headcount impact if Indigo migration slips into Q3 (TMS cutover = net-new WMS analyst req?)\\n- Next steps / AIs\\n\\nPlease review the scorecard roll-up in the shared drive before joining so we can keep this tight. No decisions expected, mainly so everyone has line of sight on where the req stands.\"},{\"spec_id\":\"spec_0613\",\"text\":\"All,\\n\\nForwarding the below for visibility. Please accept if available.\\n\\nRaj\\n\\n---\\nFrom: Fern Zielinski\\nThanks Raj, I will attend. Could someone circulate the current assay data beforehand?\\n\\nFrom: Jamal Kessler\\nI have a conflict with the 10:00 stability run. Happy to send written input instead if that is acceptable.\\n\\n---------- Forwarded invitation ----------\\nMosaic 2.0: Ideation Session\\nWednesday, 10:00–11:00, Conference Room B\\nAttendees: Raj, Nico Achterberg, Jamal Kessler, Imani Fairweather, Fern Zielinski, Rosa Hollander\\n\\nPurpose: To gather perspectives on potential directions for Mosaic 2.0 going forward.\"},{\"spec_id\":\"spec_0614\",\"text\":\"Hello everyone!! So excited to share this with all of you!\\n\\nPlease to find below the invitation for our postmortem. Kindly make yourself available, we will learn very much together!\\n\\nRhys\\n\\n---------- Forwarded message ----------\\nPostmortem: Billing Interface Outage (Rasmussen account)\\nFriday 9:00–9:45, Admin Boardroom 3 + Teams\\nInvited: Patient Accounts, IT Integrations, Revenue Cycle (14)\\n\\nAgenda:\\n1. Timeline of the outage, it was resolved Monday 4pm (Kenji Thorne, 10 min)\\n2. Root cause: expired interface certificate (Wen Carvalho, 10 min)\\n3. Fix applied and cert monitoring now active (Pavel Gallo, 10 min)\\n4. Rebilling of 212 claims, already completed (Sana Whitcombe, 10 min)\\n5. Questions (Pilar Ostrowski, 5 min)\\n\\nWritten summary is attached in advance.\"},{\"spec_id\":\"spec_0615\",\"text\":\"CROSS-UNIT ALIGNMENT MEETING!!\\nDept. of Applied Linguistics + Grants Office + Facilities\\nMon 13:00-14:00, Hollis Hall 210 (19 participants)\\n\\n1. Kowalczyk contract: deliverables vs. IRB timeline, to decide who owns WP3!!\\n2. Lab space allocation conflict (Soren Ilunga / Keiko Esposito)\\n3. Budget re-phasing, need consensus before submission deadline!!!\\n\\nPlease to come prepared with your unit's constraints!\\n— Elena\"}]}"
+}

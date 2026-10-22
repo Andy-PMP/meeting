@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0007",
+ "request_hash": "c6a065f1b5c2ece7",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2735,
+  "output_tokens": 1828,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0031\",\"text\":\"Subject: Bramwell contract - let's settle the carrier question\\n\\nHey folks,\\n\\nWell, the Bramwell contract has been sitting on the porch long enough. We need to pick between renewing with the current linehaul setup or switching the Midwest lanes over to the split-carrier model Grace floated. That's the one thing we've got to decide, and I'd like it decided before Bramwell's folks call us Friday.\\n\\nI've booked an hour Thursday at 2:00. That's 2:00 Central, I think. Or it might've put it in as Eastern since I set it up from the Atlanta office. Farid, you're out in Denver, so double-check what your calendar shows and holler if it looks off.\\n\\nRough plan, give or take:\\n- Quick round the table, everybody shares what's going on in their shop this week\\n- Yasmin walks through Q3 volume numbers (these are the same ones from last month's deck)\\n- Bianca gives a rundown on the new dock scheduling software rollout\\n- Grace lays out the split-carrier option, maybe 10 minutes\\n- Make the call on Bramwell\\n- Any other business\\n\\nInviting: Quinn Fairweather, Grace Oyelaran, Yasmin Abernathy, Farid Yamamoto, Bianca Lefebvre, Yara Esposito.\\n\\nHonestly, Grace and Quinn have done most of the legwork on the carrier math, and Yara owns the Bramwell relationship, so those three are the ones I really need in the chair. Everybody else is welcome to pull up a seat.\\n\\nBring coffee. I'll bring the donuts if the Atlanta bakery's open.\\n\\nThanks y'all,\\nUriel\\nGranitewood Freight\"},{\"spec_id\":\"spec_0032\",\"text\":\"Weekly sync - Vasquez account\\n\\nOrganizer: Pavel\\nRequired: Nadia Zapata; Farid Brennan; Ines Esposito; Pilar Gallo\\nWhen: Tuesday 10:00-11:00\\nWhere: Microsoft Teams Meeting / Edit Bay 2\\n\\nHello all,\\n\\nAs some of you maybe did not notice, last week's sync was moved three times, so the problems from the Vasquez cut are still with us. I keep this one at the hour, because we need to look at the things together and actually finish them, not discuss them again by chat for four days.\\n\\nPlease to come with the footage open. Nadia and Farid, I think you have two different versions of reel three and both of you believe yours is the approved one. We will sort it in the room, with Ines and Pilar looking at the same screen, since the client feedback is depending on which one we send.\\n\\nI am sure everybody is very busy, so I will not take more time than this hour.\\n\\nThanks,\\nPavel\\nHarborspring Films\\n\\n________________________________________________________________________________\\nMicrosoft Teams meeting\\nJoin on your computer, mobile app or room device\\nClick here to join the meeting\\nMeeting ID: 284 551 903 17\\nPasscode: hS7k2q\\n\\nOr call in (audio only)\\n+1 555-0142,,61839204#   United States\\nPhone Conference ID: 618 392 04#\\nFind a local number | Reset PIN\\nLearn More | Meeting options\\n________________________________________________________________________________\"},{\"spec_id\":\"spec_0033\",\"text\":\"hey @Beth Rinaldi @Pilar Ishikawa @Wen Moreau 👋\\n\\nso Quill migration planning is officially a thing we need to do lol. I grabbed a 90 min block Wednesday 1-2:30 in the big conf room (or Teams if you're remote). I was thinking we go something like:\\n\\n1. everyone does a lil update on what their team's been up to (15-20 min-ish?)\\n2. I'll recap the vendor kickoff, which I know you all saw the recording of but whatever, refreshers are nice\\n3. Wen shows the new claims dashboard mockups (unrelated to Quill but she wanted eyes on it)\\n4. the actual thing: we need to figure out which policy lines go first and roughly when, so we can give IT a sequence by end of month\\n5. open floor / snacks\\n\\nhonestly #4 is the whole reason we're meeting, the rest is kinda just... while we're all there 😅 but I figured if I'm stealing an hour and a half of your Wednesday we might as well catch up properly\\n\\nPilar, can you bring the policy volume breakdown? that'll make #4 go way faster. Beth, if you have the underwriting freeze dates handy that'd be clutch too\\n\\nlmk if Wed doesn't work and I'll shuffle! 🙏\"},{\"spec_id\":\"spec_0034\",\"text\":\"Subject: Weekly sync - sorry, need everyone this time\\n\\nAll,\\n\\nSorry for the full hour and the big list. Gunawardena changed scope again overnight and it touches every team. Thursday 11-12, all 11 of you. Sofia and Leon will frame the tradeoffs; we need to agree on what slips.\\n\\nApologies again,\\nNils\"},{\"spec_id\":\"spec_0035\",\"text\":\"Bonfire migration ideas jam\\nThu 3:00-4:00 PM | Conf Rm 4B\\nShare folder naming ideas; Abebe compiles list after.\"}]}"
+}

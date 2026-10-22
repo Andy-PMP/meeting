@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0140",
+ "request_hash": "e67ef5cbf20d0cd7",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2826,
+  "output_tokens": 1786,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0696\",\"text\":\"Dept town hall: Atlas initiative Q&A, live vote on lab space. Bring questions!\"},{\"spec_id\":\"spec_0697\",\"text\":\"Forwarding this AGAIN since apparently half of you missed last week's. We are not doing the thing where everyone \\\"syncs async\\\" in the channel and then three people build the same feature. Again.\\n\\nWe need to sort out Yarrow 2.0 together. That's it. Come with your stuff. Cameras on would be NICE but I won't hold my breath.\\n\\n- Callum\\n\\n---------- Forwarded invite ----------\\nYarrow 2.0 Weekly Sync\\nThursday 2:00pm - 2:45pm\\nOrganizer: Callum\\nGuests: Xavier Ekwueme, Ximena Underhill, Abebe Iversen, Ben Quintero, Wanjiru Hollander, Paloma Pruitt, + 1 more\\nLocation: Big Room / video link in calendar\"},{\"spec_id\":\"spec_0698\",\"text\":\"Y'all, pulling this back up top. Grab coffee, this one's a sit-down. DON'T send a stand-in.\\n-Elena\\n\\n> Thandi: I'll be there, bringing the line 3 numbers.\\n> Femi: Can we push to 10? Shift change.\\n> Elena: NO, 9 sharp.\\n\\n--- Forwarded ---\\nLighthouse Budget Review\\nTue 9:00-10:00am, Plant Office B\\nThandi Oyelaran, Femi Yilmaz, Sam Bramwell\"},{\"spec_id\":\"spec_0699\",\"text\":\"Hiring Process Sync - Store Operations Requisitions\\nWednesday, 10:00am - 10:45am\\nLocation: HQ Conference Room 4B / video link attached\\nOrganizer: Noor\\nGuests: Fatima Wexler, Vera Nwachukwu, Bruno Thorne, Zoe Ishikawa, Grace Xu, Gemma Gallo\\n\\nDescription:\\nPer the Talent Acquisition Coordination Policy, this standing session is convened to ensure alignment across stakeholders regarding open requisitions.\\n\\nAgenda:\\n1. Review of requisition status report (circulated Monday; please read in advance)\\n2. Round-robin updates from each hiring manager on pipeline counts\\n3. Recruiting calendar reminders for Q3\\n4. Decision required: whether to consolidate the two Underhill account analyst postings into a single requisition (Fatima and Vera to weigh in)\\n5. Any other business\\n\\nAttendees are requested to confirm acceptance via calendar no later than 24 hours prior to the session. Minutes will be recorded by Grace and distributed within two business days.\\n\\nAdministrative notes:\\n- Visitor parking in Lot C is closed Wednesday for resurfacing. Please use Lot E and allow additional walking time.\\n- Lunch will NOT be provided; the cafeteria opens at 11:30.\\n- Zoe's birthday card is circulating in the 4th floor mail room. Kindly sign by Tuesday close of business.\\n- Badge renewals are due end of month per Facilities.\\n\\nShould you be unable to attend, please designate a delegate and notify the organizer in writing.\"},{\"spec_id\":\"spec_0700\",\"text\":\"Yarrow 2.0 Budget Review!!! Let's DO this!\\nFriday, 1:00pm - 2:00pm\\nLocation: Curatorial Workroom (2nd floor, past the textile vault)\\nGuests: Oskar Ilunga, Yusuf Gunawardena, Abebe Carvalho, Bruno Ferraro, Wanjiru Szabo\\n\\nHi all!! So excited for this one! The revised Yarrow 2.0 exhibition numbers came back and, okay, we're about 18% over on fabrication. Sooo we need to figure out together what gets trimmed and what we fight for. Rough plan:\\n- Bruno walks us through the new fabrication quote (10 min)\\n- Options: cut the interactive map wall vs. reduce loan pieces vs. ask the board for more\\n- Wanjiru on what the grant restrictions actually let us move\\n- Pick a direction so Oskar can go to the board on the 14th!\\n\\nPasting the thread below so everyone has context:\\n\\n---------- Forwarded message ----------\\nFrom: Bruno Ferraro\\nSubject: RE: Yarrow 2.0 fab estimate\\nJamal, vendor revised up. Mounts and climate cases are the big jump. Don't think I can absorb it on my side.\\n\\n> From: Wanjiru Szabo\\n> Grant money can't touch case costs, FYI. Could maybe shift some to programming.\\n\\n> From: Oskar Ilunga\\n> Need a recommendation before the board meeting, not a menu.\\n\\nOther stuff!!\\n- Staff lot is half closed for the gala setup, park on Elm St.\\n- Cupcakes after for Yusuf's birthday!! 🎉\\n- Lunch is on your own, sorry!\\n\\nCan't wait, team!! - Jamal\"}]}"
+}

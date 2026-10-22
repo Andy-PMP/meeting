@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0029",
+ "request_hash": "da35baf317cc8dcb",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2770,
+  "output_tokens": 505,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0141\",\"text\":\"Prep call: planning the Haddad contract review meeting\\nSorry for another invite, all! Just want to pick a date, attendees and agenda for the real review. 1 hr, 10:00 ET (9:00 CT? apologies if that's wrong for the Chicago folks).\\nThandi, Hollis, Fern, Odette, Bruno, Victor\\n________________\\nJoin Microsoft Teams Meeting\\nDial-in: +1 555-0142, Conference ID: 448 219 03#\\nYamamoto's Kitchens | Learn more | Meeting options\"},{\"spec_id\":\"spec_0142\",\"text\":\"Gus, Lars!! We've got THREE strong finalists for the assay scientist role and we need to pick one by Friday 🎉 45 min tomorrow to compare notes and decide?? Lmk!\\nJoin Zoom Meeting\\nhttps://zoom.us/j/5550199\\nMeeting ID: 555 0199  Passcode: orbit\"},{\"spec_id\":\"spec_0143\",\"text\":\"Budget Review (again, since last time apparently wasn't enough) · 1 hr · 10 guests\"},{\"spec_id\":\"spec_0144\",\"text\":\"Harborridge kickoff Thu 90 min, all 13 of us. Agenda + owners in the doc.\"},{\"spec_id\":\"spec_0145\",\"text\":\"Sorry, one more: Tanaka contract retro (45 min)\"}]}"
+}

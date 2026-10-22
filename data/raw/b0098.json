@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0098",
+ "request_hash": "718a8ef23e355379",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2808,
+  "output_tokens": 1134,
+  "output_tokens_details": {
+   "thinking_tokens": 308
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0486\",\"text\":\"Quick Chat 🙂\\nThursday, 6:00 PM – 6:15 PM\\nLocation: Summitbrook HOA Clubhouse, small office (the one with the working AC)\\n\\nDescription:\\nRosa + Lucia Moreau\\n\\nLucia, since my last two emails seem to have gotten lost somewhere, I figured putting something on the calendar might work better 😊 It shouldn't take long, assuming we're both on the same page, which I'm sure we will be once we actually talk.\\n\\nI've blocked 15 minutes, but honestly we may not need all of it. Or we might, depending. 🤷‍♀️\\n\\nPlease come on time. I know Thursdays are busy for everyone, not just some of us.\\n\\nThanks so much!! 🙏\\nRosa\\nSummitbrook Homeowners Association, Board Secretary\"},{\"spec_id\":\"spec_0487\",\"text\":\"Hiii all!! 🎉 Dana, Uma, Bruno, can we do the debrief for the assistant principal candidates tommorow 3:30-4:00?? We must to decide who goes to final round, both are SO great, I am very exciting! Bring you scoring sheets pls 🙌\"},{\"spec_id\":\"spec_0488\",\"text\":\"So sorry, adding you late, should have been on this from the start. —Sam\\n\\n> Ximena: Can Andre cover the generator timeline? I wasn't on set.\\n> Andre: Yes, will bring logs.\\n\\n---------- Forwarded invite ----------\\nPostmortem: Day 14 Power Loss, Kowalczyk contract\\nFri 10:00–11:00, Stage B office (15 invited)\\n1. Timeline – Andre\\n2. Insurance/schedule impact – Gemma\\n3. Fixes before reshoot – Vikram\"},{\"spec_id\":\"spec_0489\",\"text\":\"FYI, plese attend. —Wanjiru\\n> FW: All-Hands: Yarrow 2.0 Annoucement, Tue 9:00–10:00\"},{\"spec_id\":\"spec_0490\",\"text\":\"Daily Standup – Xu Account Assay Team (Sample Status, Instrument Booking, Blockers) – Mandatory for Bench Leads, QC, and Data Analysis – 9:00–9:30 AM, Lab 3 Confrence Room / Dial-In\"}]}"
+}

@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0132",
+ "request_hash": "b5e4b384ba0cf8f6",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2772,
+  "output_tokens": 1599,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0656\",\"text\":\"[First Glenworks Bank] Commercial Lending & Treasury Mgmt All-Hands Readout: Q3 CECL Reserve Methodology Recalibration / Updated DSCR Covenant Thresholds / Revised KYC-CDD Refresh Cadence for Tier 2 Relationships / Varga Account Credit Memo Re-underwrite Status (Teo Bramwell, Elena Iversen) / ALCO Liquidity Stress Scenario Outputs / Basel III Endgame RWA Impact Preliminary Estimates / BSA-AML Alert Disposition Backlog Metrics (Jamal Grummond) / CRA Assessment Area Data Integrity Check / Loan Origination System Release 4.2 Cutover Dates (Ivan Ekwueme) / Participation & Syndication Desk Pipeline Snapshot / Deposit Beta & NIM Compression Trends / Regulatory Exam Prep Timeline (OCC Safety & Soundness) / Concentration Risk Limits CRE-Office Exposure Update / Treasury Mgmt Positive Pay Onboarding Metrics / ACH Origination Limit Exception Review / Wire Callback Procedure Change Effective 1st of Month / Zoe Varga & Emeka Varga Relationship Hierarchy Consolidation (Varga Account) Discussion: Single Obligor Aggregation vs. Separate Facilities / Model Risk Mgmt Validation Findings / Q&A / Next Steps — Deepa — 60 min — 13 attendees\"},{\"spec_id\":\"spec_0657\",\"text\":\"Sorry, short notice: Compass migration go/no-go, Gemma owns rollback plan, Raj owns build\"},{\"spec_id\":\"spec_0658\",\"text\":\"Heyyy Omar and Delia!! 🎉🎉 Okay so I am SO pumped about the site supervisor candidates for the Ashridge site, honestly the best batch we've seen all year 🙌\\n\\nCan we grab 30 min tomorrow afternoon to debrief? I'm thinking 2:00–2:30 if that works for you both!\\n\\nRough plan:\\n- quick round of everyone's overall impressions of all four (Priya Oyelaran, Marcus Underhill, Wen Szabo, Raj Carvalho) 😊\\n- I'll walk through the scorecards I already collected from each of you (I've got them all in the tracker, so mostly recap!)\\n- recap the reference check notes I sent around Monday\\n- go over the start date + onboarding timeline for whoever we pick 📅\\n- then the big one: Priya vs. Marcus!! 🤔 They were neck and neck on scores but Omar flagged Priya's lighter experience on steel framing and Delia felt Marcus was a bit shaky on the safety walkthrough questions, so I really want us to hash that out together and land on an offer\\n\\nWen and Raj are pretty clearly not the fit for this one based on everyone's scores, so we can probably fly through those 🚀\\n\\nI'll bring coffee ☕☕☕ Let me know!! This is gonna be great 💪\"},{\"spec_id\":\"spec_0659\",\"text\":\"Title: Vendor Demonstration – Asset Management Platform (Project Pelican)\\nDate/Time: Thursday, 10:00 AM – 11:00 AM\\nLocation: Conference Room B / Video link to follow\\nOrganizer: Zainab\\nAttendees: Bruno Hollander, Jada Fairweather, Delia Yamamoto\\n\\nDescription:\\nThe vendor shortlisted for Project Pelican will present a demonstration of their digital asset management platform. Please note that the vendor has indicated the standard demonstration runs approximately 20 minutes, with time thereafter for questions.\\n\\nProposed agenda:\\n- Introductions\\n- Platform demonstration\\n- Questions regarding licensing and integration with our existing workflow\\n- Open discussion\\n\\nJada will circulate the pricing summary in advance. Attendees are kindly requested to review it prior to the session.\"},{\"spec_id\":\"spec_0660\",\"text\":\"status sync, 60 min, Thurs. mostly updates, plus we need to pick a carrier for the Bramble lane.\\n\\n---------- Forwarded message ---------\\nFrom: Raj Lindqvist\\nSubject: RE: Bramble carrier quotes\\nTwo quotes in, need a call by Fri.\\n\\nJoin Microsoft Teams Meeting\\nMeeting ID: 284 551 903\\nDial-in: +1 555-0142,,284551903#\"}]}"
+}

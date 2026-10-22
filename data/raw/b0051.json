@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0051",
+ "request_hash": "907b37dbea3d049e",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2794,
+  "output_tokens": 1322,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0251\",\"text\":\"Mosaic rollout planing - pls all come, we discuss the next steps togheter\\n2:00pm - 3:30pm\"},{\"spec_id\":\"spec_0252\",\"text\":\"@channel need 30 min with the 8 of us before the Velvet migration kickoff. Agenda for the prep call:\\n- who's on the kickoff invite (owner reps? subs?)\\n- what date works, sometime week of the 14th\\n- who presents schedule vs. budget\\n- room or Teams\\n\\nGus, Uma: you two know the sub availability, so I need you there. Goran, bring the draft schedule if you have it. Hollis wants to know by Friday who's presenting.\\n\\nProposing Thurs 7:30am, site trailer or call in. Thumbs up if that works, otherwise reply with a better slot. -Femi\"},{\"spec_id\":\"spec_0253\",\"text\":\"Forwarding this so everyone has it. Sorry, I know it's long again. Leon asked that we leave time at the end for the Stonewood site water damage reserve question, since the number may need to change before month-end and I really don't want us to get caught out. Please come ready on that one. Also, the garage level 2 is closed Thursday, and it's Thandi's birthday so there's cake at 3!\\n\\n---------- Forwarded invite ----------\\nWeekly Claims Status Sync\\nThu 10:00-10:45am | Conf Rm B / Teams\\nAttendees: Sofia Esposito, Liam Bakshi, Thandi Thorne, Elena Iversen, Leon Vasquez, Chidi Yilmaz +4\\nAgenda:\\n- Round-robin updates (each team)\\n- Open claims backlog numbers\\n- Stonewood site reserve discussion\\n- AOB\"},{\"spec_id\":\"spec_0254\",\"text\":\"Ashlight Site Opening: Staffing Model Change & Q&A\\nWednesday 3:00pm - 3:30pm\\nAttendees: GMs, Kitchen Leads, Ops (22 guests)\\n\\nWe will announce the revised staffing model for the Ashlight site, effective at opening. Shift structures, cross-location coverage, and tip pooling will change for several teams.\\n\\nAgenda:\\n1. Summary of changes (Liam, 10 min)\\n2. Impact by location (Farid Bakshi, Ximena Szabo)\\n3. Open questions from managers. Your teams' concerns must be raised HERE so we can adjust before the schedules are published Friday.\\n\\nPlease DO NOT share details with staff before this session. Arjun Esposito from HR will attend to answer policy questions.\"},{\"spec_id\":\"spec_0255\",\"text\":\"Underhill Weekly: where we're at & the fork in the road\\nTue 9:00-9:45am ET (that's 3pm for Elena and Soren, I think, unless the clocks changed over there already. Shout if I've botched it again)\\nGuests: Andre Esposito, Elena Xu, Soren Gunawardena, Wanjiru Nwachukwu\\n\\nMorning folks. Same old Tuesday, but this week has a bit more meat on the bone.\\n\\n* Quick lap around the table: 2 min each, tops. Just flag anything stuck\\n- Client feedback on the interim deck. Wanjiru's got notes, and some of them sting a little\\n* The real business: Underhill wants us to either fold the procurement workstream into phase 1 or push it out to phase 2. Andre and Soren see this differently, and honestly both of 'em have a point. I'd like us to hash it out and land on one answer, since the client expects it from us Thursday\\n  -- staffing impact\\n  -- what it does to the fee\\n- Anything else\\n\\nIf we land the procurement piece early we can all have our coffee in peace. Bring numbers if you've got 'em.\\n\\nJonas\"}]}"
+}

@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0045",
+ "request_hash": "870fbce10d42af04",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2793,
+  "output_tokens": 1242,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0221\",\"text\":\"Sorry for the late notice, all. Forwarding this, please don't skip it. Underhill audit is close.\\n\\n---------- Forwarded invite ----------\\nLockout/Tagout Procedure Changes: Walkthrough\\nThu 1:00-2:00 PM, Line 3 Break Room\\nOrganizer: Abebe\\nAttendees: Kemi Bakshi, Gus Bramwell, Goran Rinaldi, Deepa Hollander, Arjun Lefebvre, Joaquin Gunawardena +6\\nGoing through the revised LOTO sheet and new sign-off form for the Underhill contract.\"},{\"spec_id\":\"spec_0222\",\"text\":\"Echo Rollout Hands-On Lab, 90 min: Hiroshi demos order entry, Hana covers discharge screens, Odette runs practice scenarios, Nils fields downtime questions. All 17 unit leads, bring your login, y'all!\"},{\"spec_id\":\"spec_0223\",\"text\":\"Heyyy team!! 🎉 Can we grab a quick 15 min huddle this afternoon? Ximena, Olu, Mariam, Jonas, Delia, Hiroshi, would LOVE everyone there! Just want to touch base on the Ahmadi contract stuff and make sure we're all vibing on the same page! 🙌 Super quick, promise!!\"},{\"spec_id\":\"spec_0224\",\"text\":\"Subject: Weekly Status: Indigo Rollout\\nWhen: Tuesday 6:00 PM-6:45 PM (Eastern Time)\\nOrganizer: Bruno\\nRequired: Lucia Fairweather; Will Zielinski; Vera Zapata; Yara Iversen\\n\\nGood afternoon,\\n\\nPlease find below the standing invitation for our weekly status sync regarding the Indigo rollout. Attendance is REQUIRED for all committee members. We will review general progress and any outstanding items.\\n\\n-----Original Message-----\\nFrom: Lucia Fairweather\\nSent: Monday 9:14 AM\\nTo: Bruno\\nSubject: RE: Indigo rollout\\n\\nBruno, the vendor confirmed the new gate access fobs ship next week. Nothing else changed on my end. Do we still need Tuesday?\\n\\n-----Original Message-----\\nFrom: Bruno\\nSent: Friday 4:02 PM\\nTo: Lucia Fairweather; Will Zielinski; Vera Zapata; Yara Iversen\\nSubject: Indigo rollout\\n\\nAll, please send any updates prior to our next sync. The Board expects a CONSISTENT reporting cadence.\\n\\n________________________________________________________________________________\\nMicrosoft Teams meeting\\nJoin on your computer, mobile app or room device\\nClick here to join the meeting\\nMeeting ID: 284 551 903 72\\nPasscode: 7kQx2m\\n\\nOr call in (audio only)\\n+1 555-0142,,61837294# United States\\nPhone Conference ID: 618 372 94#\\nFind a local number | Reset PIN\\nLearn More | Meeting options\\n________________________________________________________________________________\\n\\nThank you for your continued service to Westfield Village HOA.\\n\\nRespectfully,\\nBruno\\nCommittee Chair\"},{\"spec_id\":\"spec_0225\",\"text\":\"Varga Contract Planning, Wed 1-3pm, Room Oak. Owners per doc, NO CHANGES.\\n\\nJamal: my section's filled in already 👍\\nTess: same, just reading it\"}]}"
+}

@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0008",
+ "request_hash": "52321db741c2b3b8",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2746,
+  "output_tokens": 1430,
+  "output_tokens_details": {
+   "thinking_tokens": 318
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0036\",\"text\":\"Sorry all, need a decision on something, 7–8pm, Teams link below\\nJoin: +1 555 0142, ID 884 213\"},{\"spec_id\":\"spec_0037\",\"text\":\"Hiii everyone!! 🎉 So excited to finally kick off planning for the Northworks site move!! I've grabbed 90 min Thursday 1:00–2:30 for all 10 of us (Pilar, Odette, Yusuf, Ines, Sam, Priya + unit leads) 🙌\\n\\nRough plan:\\n• I'll walk through the final move-in timeline facilities sent over (dates are locked!)\\n• Odette shares the updated parking + badge pickup process\\n• Yusuf runs through which admin desks go to which floor (already approved by leadership)\\n• Quick look at the new signage mockups!!\\n\\nI'll have the slides ready ahead of time so you can follow along. Snacks are on me 🍪 This is going to be AMAZING, can't wait!!! 💙\"},{\"spec_id\":\"spec_0038\",\"text\":\"Forwarding this since apparently not everyone saw it the first three times. Please note it's 10:00 Eastern, not Central. Last time half of us showed up an hour late. Rhys, Mei, Carmen, Ilse, Goran, Valentina, and the rest of the ops group: attendance is expected.\\n\\n---------- Forwarded message ----------\\nSubject: Vendor Demo: Statement Automation Tool (Nwachukwu account)\\nWhen: Tue 10:00–10:30 AM (ET) / 9:00 CT\\nAttendees: 12\\n\\nAgenda:\\n1. Vendor walkthrough of the recorded demo (Rhys to share the screen)\\n2. Mei reviews the pricing sheet (already attached)\\n3. Carmen confirms the go-live date. The contract is signed.\\n4. Goran notes the login setup steps (also in the attached PDF)\"},{\"spec_id\":\"spec_0039\",\"text\":\"Standup (please come, 30m): Andre: crash on Ashbridge build, can we ship Fri?? / Soren + Jada: decide level-3 cut vs. delay / Abebe: QA blocker on save system / Wen: need a yes/no on overtime\"},{\"spec_id\":\"spec_0040\",\"text\":\"Interview Debrief, 30 min, the five of us (Rhys, Andre, Ivan, Sofia, Tess). To be clear, this is the same debrief we were supposed to have last week, before it got moved twice. It's for the candidate for the analyst role supporting the Hollander account, in case anyone has forgotten which one. Everyone has already submitted scorecards except, I'm told, one person, and the scores all point the same direction anyway, so I'm honestly not sure what's left to discuss. But apparently we need to 'align,' so here we are. Please read the scorecards beforehand, since they're already in the shared folder where they've been for days. HR only needs a single hire/no-hire from Vikram by Friday, which in theory someone could reply with in one line. Cameras optional. Patience appreciated. Agenda TBD, purpose: debrief, I suppose. If anything changes I'll update this title again, since apparently that's where we communicate now.\"}]}"
+}

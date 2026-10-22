@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0052",
+ "request_hash": "0fcada0fc6ab15ad",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2793,
+  "output_tokens": 1212,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0256\",\"text\":\"Lattice migraton hands-on walkthru!!! Bring laptops, we're doing it togther!! Thu 2-3pm, Ulla\"},{\"spec_id\":\"spec_0257\",\"text\":\"Fwd per HR policy 4.2, debrief required, 30 min.\\n---\\nLucia: 10am ET or CT?\\nSana: ET. Mine's quick, all scorecards in.\\n---\\nFrom: Vikram, First Lakeford Bank\\nSubject: Interview debrief, Opal 2.0 analyst req, Fri 10:00-10:30 ET\\nTo: Lucia Yilmaz, Sana Sorensen\"},{\"spec_id\":\"spec_0258\",\"text\":\"Title: Quick sync, Marcus / Soren\\nDate/time: Tuesday, 8:45 – 9:00 AM\\nLocation: My office (2nd floor, by the vault corridor), or Teams if you're remote\\n\\nDescription:\\nSoren, sorry for the short notice, and sorry it's so early. I know your calendar is packed before the branch opens. I really need to talk this through with you directly, ideally before anything goes out today. It shouldn't take more than fifteen minutes, but I'd rather not put it in writing yet and I'd rather not wait until our regular Thursday slot.\\n\\nIf 8:45 doesn't work, please tell me what does and I'll move things around. I can come to you. Please don't forward this. I'll explain when we meet.\\n\\nThanks,\\nMarcus\"},{\"spec_id\":\"spec_0259\",\"text\":\"Quill 2.0 Cutover: What's Changing for Dispatch!\\nWed 10:00 – 11:00am · Ops Room B + Meet link\\nGuests: Dispatch leads, Yard, Customer Desk (13)\\n\\nSo sorry to grab a full hour this close to peak!! I know it's a lot, but the go-live date moved up and a few of the changes hit your shift patterns directly, so I'd really rather do this face to face than drop it in a doc!!\\n\\nAgenda:\\n1. New go-live date + what moved (Tariq, 10 min)\\n2. Load-board screen changes, live demo (Callum, 15 min)\\n3. Handoff rules for night shift, needs your input on edge cases (Gus + Soren, 20 min)\\n4. Customer Desk scripts + escalation path (Yusuf, 10 min)\\n5. Open questions (Dmitri)\\n\\nSorry again, and thank you!!! Coffee's on me!!\\n— Ines\"},{\"spec_id\":\"spec_0260\",\"text\":\"hey all, fwding Callum's invite since Thandi wasnt on the orig. also heads up, the lot B gate is broken again so park on the street. and it's Sam's bday Thurs, cake in the kitchen at 3!!\\n\\n---------- Forwarded invite ----------\\nFrom: Callum (Maplepath Films)\\nTo: Uriel Abernathy, Thandi Rasmussen, Sam Lefebvre, Dana Vasquez\\nWhen: Thu 11:00–11:30am\\nWhere: edit bay 2 / zoom\\nSubject: Coord candidate — debrief\\n\\nHi gang! Grabbing 30 for the production coordinator interview from tuesday. Pretty sure we're all landing in the same place on her, but figured lets just get together. Lunch is getting ordered for the Mosaic rollout crew after so stick around if you want tacos.\\n\\ncheers,\\nC\"}]}"
+}

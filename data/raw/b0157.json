@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0157",
+ "request_hash": "593db1eb8f539e0e",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2746,
+  "output_tokens": 1775,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0781\",\"text\":\"Sorry for the short notice all 🙏 need 60 min Thurs 10-11 for Fjord initiative Q3 planning, all 10 of us. We have to agree priorities together, can't do it async:\\n- claims intake scope (Wanjiru)\\n* vendor timeline vs budget tradeoff (Abebe + Ilse)\\n- staffing gaps (Nils)\\n• pick go-live date (Kemi, Fern)\\nInvite coming, apologies again\"},{\"spec_id\":\"spec_0782\",\"text\":\"Arjun / Paloma 1:1\\nWed 2:00-2:30pm\\n\\nSorry, moved this twice now, my fault.\\n\\n- Open floor\\n- \\n- \\n\\n(Notes from last time: you mentioned wanting to talk about the Northpoint site stuff and \\\"the thing with Yusuf\\\" — happy to start there if still on your mind)\"},{\"spec_id\":\"spec_0783\",\"text\":\"Interview Debrief: Backend Engineer Candidate\\nNorthbridge.io\\nOrganizer: Lars\\nAttendees: Ines Lefebvre, Sofia Varga, Jada Ferraro\\nTime: Fri 3:00-3:30pm\\nLocation: Room 2 / video link in invite\\n\\nPurpose: Debrief on candidate.\\n\\nAgenda\\n\\n1. Welcome (5 min)\\n- Confirm attendees.\\n- Recap role (backend, Compass initiative team).\\n\\n2. Recap of interview loop (5 min)\\n- Lars reads schedule of the day.\\n- Who interviewed when.\\n\\n3. Process reminders (5 min)\\n- Scorecards due in ATS before meeting.\\n- Rubric unchanged from last req.\\n- Bias reminder.\\n\\n4. Feedback round (10 min)\\n- Ines: system design.\\n- Sofia: coding.\\n- Jada: values/culture.\\n- All three scorecards already submitted: all three \\\"strong hire.\\\"\\n\\n5. Decision (3 min)\\n- Hire / no hire.\\n\\n6. Next steps (2 min)\\n- Recruiter (Will Eriksen) sends offer.\\n- Lars to update hiring tracker.\\n- Lucia to schedule reference checks.\\n\\nPrep\\n- Read all scorecards beforehand.\\n- No laptops during feedback round.\\n\\nNotes\\n- If scorecards missing, flag to Lars by noon.\\n- Will Eriksen optional.\\n\\nThanks.\\nLars\"},{\"spec_id\":\"spec_0784\",\"text\":\"Mornin' folks 🤠\\n\\nSo, starting Monday I'm gonna put a little 15-min huddle on the books, 8:00-8:15 every weekday, video link here: [link]. Invite's going out to the whole crew — Nico, Andre, Ulla, Kemi, Zoe, Liam, plus the dispatch desk and both yard leads, so eleven of us all told.\\n\\nFigured we'd just go around the horn like usual. Everybody gives their bit — what you hauled yesterday, what's on the docket today, anything snagging you. Nico, you can kick us off with the overnight dock counts since you're up earliest anyhow. Andre and Ulla, y'all can do the carrier updates back to back. Kemi, same weekly routing numbers you post in the channel, just read 'em out loud for us. Zoe and Liam, whatever you've got going on Nutmeg 2.0 testing — the scanner glitch at bay 4 has been eating everyone's lunch so I'd love for us to actually chew on that one for a few minutes while we're all there.\\n\\nIf you can't make it just drop your update in the thread here [link] or in the tracker [link], no harm no foul.\\n\\nI know 15 minutes with eleven folks is tight, so let's keep it moving like a well-oiled forklift. If we run over we run over.\\n\\nHoller if the time's rough for anybody — I know the yard boys start early.\\n\\nThanks y'all,\\nErik\"},{\"spec_id\":\"spec_0785\",\"text\":\"Subject: All-Hands: Quill Rollout — What's Changing and Your Questions\\nWhen: Tuesday 12:00 PM-1:00 PM (ET)\\nWhere: Main Conference Room / Microsoft Teams Meeting\\nRequired: All attorneys and staff (53)\\n\\nHi everyone,\\n\\nGrab a sandwich and come on by. We're gathering to talk through the Quill rollout before it goes live in two weeks. Mei and Esme will walk through how it touches billing and matter intake, and then we'll hand it over to you. We really want to hear the snags from each practice group so Rhys and Deepa can sort out workflow fixes on the spot. Lunch is on the firm.\\n\\nGrace\\n________________________________\\nMicrosoft Teams meeting\\nJoin on your computer or mobile app\\nClick here to join the meeting\\nOr call in (audio only)\\n+1 555-0142,,804417# United States\\nPhone Conference ID: 804 417#\\nFerraro & Mbatha LLP | Learn more | Meeting options\\n________________________________\"}]}"
+}

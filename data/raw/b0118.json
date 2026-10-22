@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0118",
+ "request_hash": "b1ee519491f20ebb",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01Ns1MWbfgLEEAw2VFrZNUwT",
+ "created": "2026-10-21T23:47:43+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2828,
+  "output_tokens": 1178,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0586\",\"text\":\"Wanjiru: Since SOME of us missed the last three threads, booking 1hr Thurs 2-3pm for all 18 on the Basalt initiative. Agenda: Hana: timeline, Deepa: budget, Imani: creative handoff. Please ACTUALLY read the deck first.\\nAisha Petrakis: does everyone in design need to be there?\\nValentina Ekwueme: +1, maybe just leads?\"},{\"spec_id\":\"spec_0587\",\"text\":\"Freezer -80 #3 excursion: quick look back 🧊\\nFoxcrest Therapeutics | 45 min | 8 ppl\\n- what happened\\n* timeline (Dmitri?)\\n- anything we'd do diff 🤔\\n  • samples ok?\\nRaj: low-key, just want to close it out 👍\"},{\"spec_id\":\"spec_0588\",\"text\":\"Hey all, proposing a 60-min sync next Tues 10-11 with ops, carrier mgmt, WMS and CX leads on the Driftwood rollout. Flagging up front that the purpose is a bit fuzzy because the problem itself is fuzzy.\\n\\nWhat we're seeing: dock-to-stock SLAs slipping at two DCs since cutover, OTIF down a few pts, and every team has a different root-cause hypothesis. Rosa thinks it's slotting logic in the new WMS config, Arjun's seeing carrier tender rejections spike on the LTL lanes, Carmen's CX queue says ASN mismatches. Gemma and Victor have floated rolling back wave planning entirely, which would have downstream impact on labor scheduling Hana owns.\\n\\nWe've tried async in the channel for a week and it keeps looping because each fix touches someone else's KPIs. I'd like everyone in the same room (virtual is fine) to walk the end-to-end flow, agree which levers are actually upstream, and land on whether we pause, patch, or push forward. Not a status meeting, please don't prep slides, bring data if you have it.\\n\\nI know 17 is a lot. If you think your team is covered by someone else, tell me and I'll mark you optional. Otherwise invite going out tonight.\\n\\n- Uma\"},{\"spec_id\":\"spec_0589\",\"text\":\"Subject: Sr. Scientist req, decision Thu 3:00-3:30\\n\\nYasmin, Farid, Nadia, Arjun,\\n\\nFinal panel done. Need to pick between the two finalists for the Moreau account assay lead. Offer must go out FRIDAY or we lose candidate B.\\n\\nAgenda:\\n1. Yasmin: technical debrief, both candidates (5 min)\\n2. Farid: team fit concerns re: candidate A (5 min)\\n3. Nadia: comp band, can we stretch? (5 min)\\n4. Decide. Arjun drafts offer.\\n\\nScorecards in by Wed EOD. NO new interviews.\\n\\nAda\\nSilverpath Biosciences\"},{\"spec_id\":\"spec_0590\",\"text\":\"Westline site kickoff prep!!!\\nWed 1:00pm - 2:00pm\\nGuests: Soren, Ada Sorensen, Liam Dorsey\\nGoogle Meet link\\n\\nLet's align on the kickoff!! Scope the agenda, stakeholders, swim lanes, etc. Want to make sure we're set up for success before the big one!!!\"}]}"
+}

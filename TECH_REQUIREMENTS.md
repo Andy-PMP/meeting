@@ -41,12 +41,12 @@ specs (seeded) → generate (Claude Batches, cached) → dedup → label (CLI) �
   - messiness: typos, forwarded chains, emoji, ALL CAPS, pasted calendar boilerplate, dial-in junk, bullet soup
   - `gen_hint`: the label "flavor" we ask for, used only to keep the classes roughly balanced
 - **`gen_hint` is never a training label.** You label everything blind. The eval page reports, as a curiosity, how often your label matched the hint.
-- **Prompt.** Versioned template at `pipeline/prompts/generate_v1.md`. Changing it means creating `_v2`. Each call asks for 5 invites from one spec, returned as JSON through structured outputs (`output_config.format`).
+- **Prompt.** Versioned template at `pipeline/prompts/generate_v1.md`. Changing it means creating `_v2`. Each call carries 5 different specs and returns one invite per spec, as JSON through structured outputs (`output_config.format`). Every invite keeps exact metadata, and the model varies the 5 against each other.
 - **Model and cost.**
   - `claude-opus-5-5` at effort `low`, sent via the Message Batches API (50% off).
   - Opus 5.5 doesn't accept `temperature`, so variety comes from the specs and not from sampling randomness. That is better for reproducibility anyway.
   - Estimate: ~160 requests, about $5. `claude-haiku-5-5` would cost about 1/40th as much if you'd rather. That's your call; Opus is the default because invite quality matters.
-- **Reproducibility.** Raw API responses are cached in `data/raw/<spec_hash>.json` and committed. Re-running the script never calls the API for specs that already have a cached response. A run is defined by four things: the seed, `specs.jsonl`, the prompt version, and the cached responses.
+- **Reproducibility.** Raw API responses are cached in `data/raw/<bundle_id>.json` and committed, along with the hash of the exact request. Re-running the script never calls the API for specs that already have a cached response. A run is defined by four things: the seed, `specs.jsonl`, the prompt version, and the cached responses.
 - **Failures.** Errored, expired and `stop_reason == "refusal"` results are logged and retried once, then skipped. The script prints token usage and cost after each run.
 - **API key.**
   - The script reads `ANTHROPIC_API_KEY` from the environment only, and never logs or writes it. There are no `.env` files, and `.env*` is in `.gitignore` anyway.
