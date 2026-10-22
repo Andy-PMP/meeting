@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "about": "Boilerplate masking rules shared by pipeline/clean.py and web/src/lib/clean.ts. Matched case-insensitively, ASCII \\b \\w \\d semantics, no inline flags, no lookbehind. 'line' patterns are tested against each trimmed line and mask the whole line; 'inline' patterns mask only the matched span. Keep Subject/To/Attendees/When/Date lines: they carry meeting content.",
+  "line": [
+    { "name": "teams heading", "pattern": "^(join )?microsoft teams meeting( \\[link\\])?$" },
+    { "name": "click to join", "pattern": "^click here to join( the meeting)?[.!]?$" },
+    { "name": "join from device", "pattern": "^join (on|from) your computer\\b.*$" },
+    { "name": "join video device", "pattern": "^join with a video conferencing device.*$" },
+    { "name": "download teams", "pattern": "^(download teams|join on the web)\\b.*$" },
+    { "name": "call in", "pattern": "^(or )?call in( \\(audio only\\))?:.*$|^(or )?call in \\(audio only\\).*$" },
+    { "name": "dial-in", "pattern": "^dial[- ]?in( by phone)?:?\\s*(\\+?[\\d\\s\\-(),#]*|\\[link\\])$" },
+    { "name": "dial label", "pattern": "^(or )?dial([- ]in| by phone)?( details| info)?:.*$" },
+    { "name": "join by phone", "pattern": "^[-\\s]*join by phone\\b.*$" },
+    { "name": "conference id", "pattern": "^(phone |video )?conference id:.*$" },
+    { "name": "meeting id", "pattern": "^meeting id:.*$" },
+    { "name": "passcode", "pattern": "^passcode:.*$" },
+    { "name": "phone number line", "pattern": "^\\+\\d[\\d\\s\\-().]{5,}.*$" },
+    { "name": "local number", "pattern": "^find a local number\\b.*$" },
+    { "name": "meeting options", "pattern": "^(.*[|\\u2013\\u2014-]\\s*)?learn more\\s*\\|\\s*meeting options$|^learn more about meeting options$" },
+    { "name": "zoom", "pattern": "^(join zoom( meeting)?|one tap mobile|dial by your location)\\b.*$" },
+    { "name": "google meet", "pattern": "^(join with google meet|google meet( joining info)?)\\b.*$" },
+    { "name": "webex", "pattern": "^(join webex meeting|webex meeting number)\\b.*$" },
+    { "name": "join link", "pattern": "^join( online meeting| meeting| now)?:?\\s*(\\[link\\]|https?://\\S+)?$" },
+    { "name": "join label", "pattern": "^join( online| video| zoom| webex| teams)?( meeting)?:.*$" },
+    { "name": "rule line", "pattern": "^[_\\-=*~]{4,}$" },
+    { "name": "forward separator", "pattern": "^-{2,}\\s*forwarded( message| invite| invitation)?\\s*-{2,}$" },
+    { "name": "forward header", "pattern": "^(from|sent|cc):.*$" }
+  ],
+  "inline": [
+    { "name": "url", "pattern": "https?://\\S+" },
+    { "name": "meeting domain", "pattern": "\\b(meet\\.google\\.com|zoom\\.(us|example)|teams\\.microsoft\\.com|webex\\.com)/\\S*" },
+    { "name": "link placeholder", "pattern": "\\[[^\\]\\n]{0,40}\\blink\\b[^\\]\\n]{0,40}\\]" },
+    { "name": "dial string", "pattern": "\\+\\d[\\d \\-().]{5,}\\d(,,\\d+#?)?" },
+    { "name": "pin", "pattern": "\\bpin:?\\s*\\d[\\d ]*#?" },
+    { "name": "codes", "pattern": "\\b(meeting id|conference id|passcode)\\b:?\\s*[a-z0-9]+(\\s\\d+)*#?" }
+  ]
+}

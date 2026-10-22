@@ -12,12 +12,15 @@ import re
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
+from clean import mask_boilerplate
+
 NEAR_DUP_THRESHOLD = 0.9
 
 
 def normalize(text: str) -> str:
-    """Lowercase, drop punctuation, collapse whitespace."""
-    text = re.sub(r"[^\w\s]", " ", text.lower())
+    """Mask boilerplate, lowercase, drop punctuation, collapse whitespace. Two invites sharing
+    an identical Teams block shouldn't look alike because of it."""
+    text = re.sub(r"[^\w\s]", " ", mask_boilerplate(text).lower())
     return re.sub(r"\s+", " ", text).strip()
 
 

@@ -6,17 +6,26 @@ doesn't prime your labels.
     python pipeline\\sample.py -n 20            # 20 random invites
     python pipeline\\sample.py --first 20       # the first 20 (e.g. after a --limit 4 run)
     python pipeline\\sample.py --all            # every invite → pipeline\\.cache\\review.txt
+    python pipeline\\sample.py -n 10 --cleaned  # what the model sees (boilerplate masked)
 """
 
 from __future__ import annotations
 
 import argparse
 import random
+import re
 
+from clean import mask_boilerplate
 from jsonl import read_jsonl
 from paths import CACHE, INVITES, SPECS
 
 SPEC_FIELDS = ["meeting_type", "format", "industry", "tone", "length", "vagueness", "subtlety"]
+
+
+def readable(masked: str) -> str:
+    """Masked text for humans: trailing blanks trimmed, runs of empty lines collapsed."""
+    text = "\n".join(line.rstrip() for line in masked.split("\n"))
+    return re.sub(r"\n{3,}", "\n\n", text).strip()
 
 
 def render(inv: dict, spec: dict | None, hints: bool) -> str:
@@ -41,11 +50,14 @@ def main() -> None:
     g.add_argument("--all", action="store_true", help="write all to pipeline/.cache/review.txt")
     ap.add_argument("--hints", action="store_true", help="show the requested verdict")
     ap.add_argument("--seed", type=int, help="seed for a repeatable random sample")
+    ap.add_argument("--cleaned", action="store_true", help="show what the model sees")
     args = ap.parse_args()
 
     invites = read_jsonl(INVITES)
     if not invites:
         raise SystemExit("No invites yet. Run generate.py first.")
+    if args.cleaned:
+        invites = [{**i, "text": readable(mask_boilerplate(i["text"]))} for i in invites]
     specs = {s["spec_id"]: s for s in read_jsonl(SPECS)}
 
     if args.all:

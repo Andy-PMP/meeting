@@ -60,6 +60,7 @@ Read with [BRIEF.md](BRIEF.md) and [TECH_REQUIREMENTS.md](TECH_REQUIREMENTS.md).
 ## P2 — Labeling + test set (mostly you)
 
 - [x] **[Claude]** `label.py` (keys `1/2/3 s d n u q`, resumable, rubric cheat-sheet, running label mix + time left, `--id`, `--relabel 0.1` with kappa) + `import_test.py` (write test invites as plain text) + tests (49 total)
+- [x] **[Claude]** Boilerplate masking (`clean.py` + shared `clean_rules.json`): join blocks, dial-ins, passcodes, links and forward headers are blanked, length-preserving, before every similarity check (dedup, leakage) and later every model. Checked on all 800 invites (311 affected, no false positives among masked lines; dataset unchanged). `sample.py --cleaned`, report section, tests (60 total)
 - [ ] **[You]** **Write the test set before labeling,** so the generated invites don't shape your writing:
   - about 75 invites by hand (25 per class), in your own voice and varied
   - use realistic but invented names and companies, and label each one as you write it
@@ -84,9 +85,10 @@ Read with [BRIEF.md](BRIEF.md) and [TECH_REQUIREMENTS.md](TECH_REQUIREMENTS.md).
 
 ## P3 — Train and compare models
 
-- [ ] **[Claude]** `features.py` (tokenizer from `tokenize_spec.json` + structure features), `embed.py` (onnxruntime, mean-pool, chunking), `train.py` with stratified 5-fold CV
+- [ ] **[Claude]** `features.py` (tokenizer from `tokenize_spec.json` + structure features), `embed.py` (onnxruntime, mean-pool, chunking), `train.py` with stratified 5-fold CV. All read `mask_boilerplate(text)`
 - [ ] **[Claude]** Pick the embedding candidate by CV (MiniLM unless bge wins by ≥ 3 macro-F1 points)
 - [ ] **[Claude]** Freeze both models, then run `evaluate.py` on the test set once → `data/eval.json`
+- [ ] **[Claude]** Boilerplate-invariance check: append Zoom/Meet/Webex/Teams blocks to every test invite and report the prediction flip rate with and without masking
 - [ ] **[Claude]** `docs/model-report.md`: CV and test metrics with CIs, McNemar's test, confusion matrices, sizes, error analysis
 - [ ] **[You]** Choose the model to ship. The report recommends one; a statistical tie defaults to the linear model
 
@@ -97,7 +99,7 @@ Read with [BRIEF.md](BRIEF.md) and [TECH_REQUIREMENTS.md](TECH_REQUIREMENTS.md).
 ## P4 — Export + in-browser inference
 
 - [ ] **[Claude]** `export.py` → `models/linear.json`, `models/embed_head.json`, `data/fixtures.json`
-- [ ] **[Claude]** TypeScript `tokenize`, `features`, `linear`, `explain` in `web/src/lib/` + parity tests against the fixtures
+- [ ] **[Claude]** TypeScript `clean`, `tokenize`, `features`, `linear`, `explain` in `web/src/lib/` + parity tests against the fixtures (masking must match Python character for character)
 - [ ] **[Claude]** If the embedding model ships, do these first to retire the riskiest unknowns:
   - `fetch-model.mjs` (pinned revision + sha256), self-hosted ONNX and wasm
   - Transformers.js in a worker, with the CSP from TECH_REQUIREMENTS §6
@@ -115,7 +117,7 @@ Read with [BRIEF.md](BRIEF.md) and [TECH_REQUIREMENTS.md](TECH_REQUIREMENTS.md).
 ## P5 — Web UI with highlights
 
 - [ ] **[Claude]** Main page: textarea, Rate it, verdict + probability bar, highlighted invite, reasons, Try an example, Share verdict, privacy banner
-- [ ] **[Claude]** Highlight design: 3 accessible class colors plus a non-color cue; a legend; keyboard and screen-reader text for each highlight
+- [ ] **[Claude]** Highlight design: 3 accessible class colors plus a non-color cue; a legend; keyboard and screen-reader text for each highlight; masked boilerplate shown dimmed ("ignored: dial-in details")
 - [ ] **[Both]** Copy: verdict lines, reason templates, the ~8 sample invites (I draft, you edit for voice)
 - [ ] **[Claude]** Playwright end-to-end + **privacy test** + axe scan in CI
 - [ ] **[You]** Play-test with 10 of your own (invented or anonymized) invites:

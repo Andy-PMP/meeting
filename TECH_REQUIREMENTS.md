@@ -53,9 +53,16 @@ specs (seeded) → generate (Claude Batches, cached) → dedup → label (CLI) �
   - Set it once as a Windows user environment variable (see PLAN.md P0).
   - Set a monthly spend limit in the Claude Console.
 
-### 1.2 Dedup and validation — `pipeline/dedup.py`, `pipeline/validate.py`
+### 1.2 Boilerplate masking, dedup and validation — `pipeline/clean.py`, `pipeline/dedup.py`, `pipeline/validate.py`
 
-- Normalize each invite (lowercase, collapse whitespace, strip punctuation), then drop exact duplicates by hash.
+- **Boilerplate masking: the models and similarity checks never see meeting boilerplate.**
+  - `mask_boilerplate(text)` blanks Teams/Zoom/Meet/Webex join blocks, dial-in and phone strings, meeting IDs, passcodes and PINs, URLs and `[link]` placeholders, rule lines, forward separators, and `From:`/`Sent:`/`Cc:` header lines.
+  - It **keeps** `Subject:`, `To:`/`Attendees:` lists (the attendee count is a rubric signal), `When:`/`Date:` times, agenda lines (even between rule lines), forward notes and quoted replies, and in-text location mentions like "Room 4B / Teams".
+  - Why: in invites with a full Teams block, the block is a median 44% of the text. Without masking it would dominate TF-IDF, use up the embedding model's ~256-token window, invite shortcut learning from your labels, and draw highlights onto "Click here to join". Real visitors will also paste Zoom/Meet/Webex blocks the synthetic data barely covers.
+  - Masked characters become spaces and newlines stay, so **output length = input length** and every offset maps straight back to the original text, for highlights (§1.8). Masking repeats until stable, so it's idempotent.
+  - Rules live in `pipeline/clean_rules.json`, shared with `web/src/lib/clean.ts` (P4). They're a regex subset that behaves the same in Python (`re.IGNORECASE | re.ASCII`) and JavaScript (`i` flag): no inline flags, no lookbehind.
+  - People (labeler, review output, the site's text display) always see the original. `sample.py --cleaned` shows what the model sees, and `report.py` reports how much was masked (currently 311 of 800 invites, median 12% of their characters).
+- Normalize each invite (mask boilerplate, lowercase, collapse whitespace, strip punctuation), then drop exact duplicates by hash.
 - Then drop near-duplicates: TF-IDF on character 3–5-grams, removing any pair with cosine similarity ≥ 0.9. This uses scikit-learn, so there's no extra dependency.
 - The same function checks for test-vs-train leakage. Any test invite with a near-duplicate in the training set fails validation.
 - `validate.py` checks schemas, unique IDs, the label enum, class balance, and that every labeled ID exists. It runs in CI.
@@ -80,6 +87,7 @@ It also gives tie-break rules, especially for the fuzzy middle class `shorter` (
 
 ### 1.5 Training — `pipeline/train.py`
 
+- **Input:** both models, and the structure-feature parser, read `mask_boilerplate(text)` (§1.2), never the raw text.
 - **Hyperparameters** come only from stratified 5-fold cross-validation on the training set. The test set is never touched during training.
 - **Structure features** (shared by both models). A small regex-parsed, binned set:
   - duration bucket
@@ -110,6 +118,7 @@ It also gives tie-break rules, especially for the fuzzy middle class `shorter` (
   - Primary: macro-F1, because it treats the fuzzy `shorter` class fairly.
   - Also reported: accuracy, per-class precision/recall/F1, the confusion matrix, and bootstrap 95% confidence intervals (1,000 resamples).
 - **Comparison.** McNemar's test between the two models. With only ~75 test invites, if the result isn't significant (p ≥ 0.05) the eval page says it's a tie, and you choose (default: the linear model, since it's smaller and its explanations are exact).
+- **Boilerplate invariance.** Append Zoom, Google Meet, Webex and Teams blocks (formats the training data barely covers) to every test invite, and report how often the prediction flips, with and without masking. The target with masking is ~0 flips. It's a cheap robustness result for the eval page.
 - **Output.** `data/eval.json` holds metrics for both models, CV scores, kappa, class counts, and every test mistake (text, true label, predicted label, probabilities). You pick the funny ones for the gallery by listing their IDs in `pipeline/featured_mistakes.txt`.
 
 ### 1.7 Export — `pipeline/export.py`
@@ -130,7 +139,8 @@ It also gives tie-break rules, especially for the fuzzy middle class `shorter` (
   - A Share verdict button copies, for example, *"My meeting got 'This is an email' (87%) 📧 → URL"*. It never includes the pasted text.
 - **Privacy banner** near the input: *"Runs entirely in your browser. Nothing you paste leaves your device."* It links to the How it works section.
 - **Inference runs in a Web Worker** so the UI stays responsive.
-- **Code layout** follows Neighborly: pure logic in `web/src/lib/` (`tokenize`, `features`, `linear`, `embed`, `explain`, `spans`, `reasons`, `share`), each with Vitest tests. Browser glue goes in `web/src/scripts/`, shared chrome in `web/src/layouts/Layout.astro`, and Neighborly's theme toggle and contrast test are reused.
+- **Masking first:** `web/src/lib/clean.ts` applies `pipeline/clean_rules.json` before tokenizing. Because masking preserves length, tokenizer offsets on the masked text are also offsets in the pasted text, and highlights land in the right place. Masked spans are shown dimmed with a quiet "ignored: dial-in details" label.
+- **Code layout** follows Neighborly: pure logic in `web/src/lib/` (`clean`, `tokenize`, `features`, `linear`, `embed`, `explain`, `spans`, `reasons`, `share`), each with Vitest tests. Browser glue goes in `web/src/scripts/`, shared chrome in `web/src/layouts/Layout.astro`, and Neighborly's theme toggle and contrast test are reused.
 - **Linear-model explanations.**
   - For the predicted class *k*, each n-gram *j* contributes `x_j · (w_k,j − mean over other classes of w_c,j)`.
   - A bigram's contribution is split evenly across its two tokens, then summed per character span using the tokenizer's offsets.
@@ -225,7 +235,7 @@ more/                      (rename on GitHub in P0)
 | Layer | What | Tool |
 |---|---|---|
 | Pipeline | Tokenizer cases, structure-feature parsing, dedup thresholds, leakage check, deterministic spec sampling and CV splits, export schema, `validate.py` on real data | pytest (CI) |
-| Parity | TypeScript tokenizer, features and linear inference match `fixtures.json` to within 1e-6. Embedding (Node, onnxruntime-node) matches Python to within 1e-3, tagged slow | Vitest (CI) |
+| Parity | TypeScript boilerplate masking matches Python character for character on every fixture. TypeScript tokenizer, features and linear inference match `fixtures.json` to within 1e-6. Embedding (Node, onnxruntime-node) matches Python to within 1e-3, tagged slow | Vitest (CI) |
 | Web logic | Span merging, highlight segments, reasons templates, share text (never contains input) | Vitest |
 | End to end | Paste → verdict → highlights rendered; sample button; keyboard-only flow | Playwright |
 | Privacy | Records every network request during paste + classify. Fails on any non-same-origin request, or any request URL or body containing the pasted text | Playwright (CI) |
@@ -267,7 +277,8 @@ GitHub Pages can't send COOP/COEP headers, so onnxruntime-web runs single-thread
 | `shorter` is subjective, so labels are noisy | Rubric with tie-breaks and examples; notes field; relabel pass + kappa; macro-F1 so the middle class counts |
 | ~75 test items make the comparison noisy | Bootstrap CIs, McNemar's test, a pre-declared tie rule; don't overclaim |
 | Test/train leakage | Test set written separately before looking at model results; near-duplicate check in `validate.py`; evaluate runs once per frozen model |
-| Python and TypeScript preprocessing drift apart | One tokenizer spec file; parity fixtures in CI; Model B uses the identical ONNX file in both |
+| Python and TypeScript preprocessing drift apart | One tokenizer spec file and one masking-rules file; parity fixtures in CI; Model B uses the identical ONNX file in both |
+| Model keys on meeting boilerplate (Teams/Zoom blocks, dial-ins, forward headers) instead of content | `mask_boilerplate` before every model and similarity check; the boilerplate-invariance check in evaluation; masked spans visibly dimmed on the site |
 | Embedding model too heavy or slow | q8 weights, lazy load, worker, progress UI; if loading fails, fall back to the linear model with a visible note; tie rule favors the linear model |
 | 256-token limit truncates long invites | Chunk and average; documented |
 | CSP or wasm or worker incompatibilities | Prove the self-hosted model + CSP early in P4 with a bare test page before building UI |

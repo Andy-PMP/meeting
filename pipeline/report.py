@@ -10,6 +10,7 @@ from __future__ import annotations
 import statistics
 from collections import Counter
 
+from clean import masked_fraction
 from generate import DUPLICATES, MODEL, PROMPT_VERSION, total_cost
 from jsonl import read_jsonl
 from paths import DOCS, INVITES, SPECS
@@ -73,6 +74,20 @@ def build_report(invites: list[dict], specs: dict[str, dict]) -> tuple[str, list
                 f"| {length} | {len(words)} | {min(words)} | "
                 f"{statistics.median(words):g} | {max(words)} |"
             )
+
+    # What the models won't see (pipeline/clean.py): join blocks, dial-ins, links, fwd headers.
+    fractions = [masked_fraction(i["text"]) for i in invites]
+    hit = [f for f in fractions if f > 0]
+    md += ["", "## Boilerplate masked before modeling", ""]
+    if hit:
+        md += [
+            f"- Invites with something masked: **{len(hit)}** of {len(invites)}",
+            f"- Share of characters masked in those: median {statistics.median(hit):.0%}, "
+            f"max {max(hit):.0%}",
+            f"- Invites that are mostly boilerplate (over 40% masked): {sum(f > 0.4 for f in hit)}",
+        ]
+    else:
+        md.append("- None")
     return "\n".join(md) + "\n", missing
 
 
