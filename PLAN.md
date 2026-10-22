@@ -48,8 +48,10 @@ Read with [BRIEF.md](BRIEF.md) and [TECH_REQUIREMENTS.md](TECH_REQUIREMENTS.md).
 - [x] **[You]** Read the 20 in `pipeline\.cache\review.txt` and approve the style
 - [x] **[Claude]** From my own review: a per-spec random cast of names + project/client name (the model reuses favorites like "Priya", "Halvorsen"), and sector-appropriate org names → prompt `generate_v2`
 - [x] **[Claude]** Full run: 160 requests → 800 invites, 0 duplicates, 0 validation errors, every spec value represented (`docs/data-report.md`). One response came back with 1 of 5 invites; validation caught it and the automatic retry fixed it. **Total API spend $3.36** (165 requests including the trial; replaced responses kept in `data/raw/superseded/`)
-- [ ] **[You]** Skim the 30 random invites in `pipeline\.cache\review30.txt` (hints hidden) and approve
-- [ ] **[You]** Finish `docs/rubric.md` (see review notes in chat). Needed before P2 labeling starts
+- [x] **[You]** Skim the 30 random invites in `pipeline\.cache\review30.txt` (hints hidden) and approve
+- [x] **[You]** Finish `docs/rubric.md`. Ready for labeling
+
+**P1 complete.**
 
 **Done when:** `data/invites.jsonl` has at least 750 unique invites. The distribution report shows every spec value represented. Actual API cost is logged in `docs/data-report.md`. You've skimmed 30 random invites and approved them.
 
