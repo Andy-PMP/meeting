@@ -59,11 +59,11 @@ Read with [BRIEF.md](BRIEF.md) and [TECH_REQUIREMENTS.md](TECH_REQUIREMENTS.md).
 
 ## P2 — Labeling + test set (mostly you)
 
-- [ ] **[Claude]** `label.py` (keys `1/2/3 s d n u q`, resumable, rubric cheat-sheet, `--relabel 0.1`) + tests
+- [x] **[Claude]** `label.py` (keys `1/2/3 s d n u q`, resumable, rubric cheat-sheet, running label mix + time left, `--id`, `--relabel 0.1` with kappa) + `import_test.py` (write test invites as plain text) + tests (49 total)
 - [ ] **[You]** **Write the test set before labeling,** so the generated invites don't shape your writing:
   - about 75 invites by hand (25 per class), in your own voice and varied
   - use realistic but invented names and companies, and label each one as you write it
-  - put them in `data/test/test_invites.jsonl`. I can give you a spreadsheet-to-JSONL helper if that's easier
+  - write them in `data/test/test_invites.txt` (`=== keep` header, optional `note:` line, then the invite), then run `.\.venv\Scripts\python pipeline\import_test.py`
 - [ ] **[You]** Label ~600 invites in sessions of ~100 (about 5 hours total):
   ```powershell
   .\.venv\Scripts\python pipeline\label.py

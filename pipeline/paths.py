@@ -13,6 +13,7 @@ SPECS = DATA / "specs.jsonl"
 INVITES = DATA / "invites.jsonl"
 LABELS = DATA / "labels.jsonl"
 TEST_INVITES = DATA / "test" / "test_invites.jsonl"
+TEST_SOURCE = DATA / "test" / "test_invites.txt"
 EVAL = DATA / "eval.json"
 FIXTURES = DATA / "fixtures.json"
 

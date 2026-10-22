@@ -30,6 +30,12 @@ py -3.14 -m venv .venv
 .\.venv\Scripts\python pipeline\report.py               # docs\data-report.md: coverage, word counts, spend
 .\.venv\Scripts\python pipeline\validate.py             # schema, references, test/train leakage (also in CI)
 
+# labeling + test set (P2)
+.\.venv\Scripts\python pipeline\label.py                # one keypress per invite, resumable (1/2/3 d s n u q)
+.\.venv\Scripts\python pipeline\label.py --id inv_0042  # redo one
+.\.venv\Scripts\python pipeline\label.py --relabel 0.1  # blind 10% second pass (≥5 days later) → Cohen's kappa
+.\.venv\Scripts\python pipeline\import_test.py          # data\test\test_invites.txt → test_invites.jsonl (+ dup/leak check)
+
 # web (run from the repo root; npm workspaces forward to web/)
 npm install                                   # once
 npx -w web playwright install chromium        # once, for e2e
@@ -46,6 +52,7 @@ Windows PowerShell 5.1 drops `--` when passing args through npm, so run e.g. `np
 - Never hand-edit generated files in `data/` or `models/`; rerun the script.
 - Generation: 5 specs per request ("bundle" `b0001`…), one invite per spec; invite id mirrors spec id (`spec_0042` → `inv_0042`). `data/raw/` holds every response plus its request hash and is committed, which makes the dataset reproducible without re-calling the API. Prompt changes go in a new `prompts/generate_vN.md` + `PROMPT_VERSION` bump (only changed requests regenerate). Replaced responses move to `data/raw/superseded/` (never deleted), so history and the spend figure stay complete. Current: `generate_v2`, 800 invites, $3.36 total. Never delete `data/raw/_pending.json` while a batch is running: it's how an interrupted run resumes without paying twice.
 - Don't show `gen_hint` (the verdict asked of the generator) in labeling or default review output; labels must be blind.
-- The test set (`data/test/`) is owner-written and must never be used for training or tuning. `evaluate.py` runs once per frozen model.
+- The test set (`data/test/`) is owner-written and must never be used for training or tuning. `evaluate.py` runs once per frozen model. Its source of truth is `data/test/test_invites.txt` (`=== <label>` blocks, optional `note:` line); `import_test.py` assigns `test_001`… in file order, so new invites go at the end. Rows are exactly `{id, text, label, note}`.
+- Labels: `data/labels.jsonl` is append-only (undo may drop the row it just wrote); for the same id and pass, the last row wins. Pass 2 is the blind consistency check.
 - Front end: logic in pure, unit-tested modules in `web/src/lib/`; browser-only glue in `web/src/scripts/`; shared chrome in `web/src/layouts/Layout.astro` and `web/src/components/`. Colour tokens live in three blocks in `global.css` (light, dark-by-device, dark-by-toggle), and `contrast.test.ts` enforces WCAG AA on all of them.
 - **Never commit or push.** The owner does both (pushing to main deploys the live site). Leave changes in the working tree and suggest a commit message.
