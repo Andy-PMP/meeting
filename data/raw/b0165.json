@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0165",
+ "request_hash": "98e3d48df79308e4",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01WhRvz59HXf7kU7xAoFFdtY",
+ "created": "2026-10-22T21:16:30+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 3145,
+  "output_tokens": 1827,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0821\",\"text\":\"Rhys is inviting you to a scheduled Zoom meeting.\\n\\nTopic: SUPER EXCITED - Vendor Demo for the Bakshi account!! (Wen: pipeline walkthrough, Omar: pricing Qs, Vera: integration check, Victor + Nico: QA tooling)\\nTime: Mar 12, 2025 02:00 PM Pacific Time (US and Canada)\\n\\nJoin Zoom Meeting\\nhttps://zoom.us/j/84213307751?pwd=ElmP4th\\n\\nMeeting ID: 842 1330 7751\\nPasscode: 551920\\n\\nOne tap mobile\\n+16694449171,,84213307751#,,,,*551920# US\\n\\nDial by your location\\n+1 669 444 9171 US (San Jose)\\n+1 346 248 7799 US (Houston)\"},{\"spec_id\":\"spec_0822\",\"text\":\"Mariam is inviting you to a scheduled Zoom meeting.\\n\\nTopic: Mariam / Teo quick catch up - Umber migration (1. your doc review list status, 2. who is taking Noor's files while she is out, 3. any blockers from your side)\\nTime: Apr 3, 2025 10:30 AM Eastern Time (US and Canada)\\n\\nJoin Zoom Meeting\\n[link]\\n\\nMeeting ID: 715 902 4483\\nPasscode: umber3\\n\\nOne tap mobile\\n+13017158592,,7159024483# US\\n\\nDial by your location\\n+1 301 715 8592 US (Washington DC)\"},{\"spec_id\":\"spec_0823\",\"text\":\"Topic: Prep for the Project Jasper planning meeting (again)!!!\\nTime: Feb 20, 2025 09:00 AM Central Time (US and Canada)\\n\\nJoin Zoom Meeting\\nhttps://falconforge.zoom.us/j/93018827410\\n\\nMeeting ID: 930 1882 7410\\nPasscode: 447201\\n\\nOne tap mobile\\n+13126266799,,93018827410# US (Chicago)\\n\\nDial by your location\\n+1 312 626 6799 US (Chicago)\"},{\"spec_id\":\"spec_0824\",\"text\":\"Hiroshi is inviting you to a scheduled Zoom meeting.\\n\\nTopic: Marigold migration - Workstream Alignment / Q3 Planning Sync (Lit Support, KM, Practice Ops, IT)\\nTime: May 7, 2025 03:00 PM Eastern Time (US and Canada)\\n\\nJoin Zoom Meeting\\nhttps://dubepetrakis.zoom.us/j/86610239954?pwd=MrgLd\\n\\nMeeting ID: 866 1023 9954\\nPasscode: 302118\\n\\nOne tap mobile\\n+16465588656,,86610239954#,,,,*302118# US (New York)\\n+13017158592,,86610239954#,,,,*302118# US (Washington DC)\\n\\nDial by your location\\n+1 646 558 8656 US (New York)\\n+1 301 715 8592 US (Washington DC)\\n+1 312 626 6799 US (Chicago)\\n\\n---\\nForwarded thread below for context:\\n\\nJoaquin Abernathy: Hiroshi, is there a deck or pre-read for this? Want to make sure KM has bandwidth to socialize the matter-centric taxonomy changes ahead of go-live.\\n\\nGus Dube: Adding Sam and Valentina from Practice Ops so we're not siloed on the DMS cutover cadence. Not sure what decisions we need from this one though.\\n\\nSam Bramwell: Accepted. FYI the ethical walls remapping and retention schedule deltas are already in the RAID log, no action needed from my side unless something changed.\\n\\nValentina Kowalczyk: Same, my status is in the tracker. Happy to just read the notes.\\n\\nBianca Szabo: Can someone confirm whether this replaces Thursday's steerco or is incremental? Litigation hold carve-outs are already signed off.\\n\\nFemi Nakagawa: Will dial in from the airport, mic off.\"},{\"spec_id\":\"spec_0825\",\"text\":\"Marcus is inviting you to a scheduled Zoom meeting.\\n\\nTopic: Marcus / Darius - Pelican 2.0 check-in\\nTime: Jun 2, 2025 11:00 AM Central Time (US and Canada)\\n\\nWant to go over where things are. Bring the regional rollout numbers and the open question on endcap fixtures. Rest is general.\\n\\nJoin Zoom Meeting\\nhttps://northstone.zoom.us/j/97734410268?pwd=Pel20\\n\\nMeeting ID: 977 3441 0268\\nPasscode: 610443\\n\\nOne tap mobile\\n+13126266799,,97734410268#,,,,*610443# US (Chicago)\\n+19292056099,,97734410268#,,,,*610443# US (New York)\\n\\nDial by your location\\n+1 312 626 6799 US (Chicago)\\n+1 929 205 6099 US (New York)\\n+1 669 900 6833 US (San Jose)\\n\\nFind your local number: https://northstone.zoom.us/u/abX92k\"}]}"
+}

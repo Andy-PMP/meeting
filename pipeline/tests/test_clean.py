@@ -24,6 +24,24 @@ One tap mobile
 +16465588656,,98765432100# US (New York)
 Dial by your location"""
 
+ZOOM_FULL = """Darius is inviting you to a scheduled Zoom meeting.
+
+Topic: Cobalt migration go/no-go
+Time: Oct 28, 2026 10:00 AM Eastern Time (US and Canada)
+
+Join Zoom Meeting
+https://us02web.zoom.us/j/81234567890?pwd=xyz
+
+Meeting ID: 812 3456 7890
+Passcode: 123456
+
+Find your local number: https://us02web.zoom.us/u/kabc
+Join by SIP
+• 81234567890@zoomcrc.com
+Join by H.323
+• 162.255.37.11 (US West)
+162.255.36.11 (US East)"""
+
 MEET = """Join with Google Meet: meet.google.com/qrx-tbna-wpe
 Join by phone: +1 555-0199 PIN: 123 456 789#"""
 
@@ -47,12 +65,35 @@ def test_join_blocks_disappear_entirely(block):
     assert visible(block) == []
 
 
+def test_full_zoom_invite_keeps_only_topic_and_time():
+    assert visible(ZOOM_FULL) == [
+        "Topic: Cobalt migration go/no-go",
+        "Time: Oct 28, 2026 10:00 AM Eastern Time (US and Canada)",
+    ]
+
+
 def test_forwarding_keeps_note_subject_recipients_and_time():
     assert visible(FORWARD) == [
         "Sorry, forwarding in case this got missed?? -Nadia",
         "Subject: Retro: Q3 matter",
         "To: Litigation team (9)",
         "Date: Wednesday, 2:00-2:45pm",
+    ]
+
+
+@pytest.mark.parametrize(
+    "separator",
+    [
+        "---------- Forwarded message ----------",
+        "-----Original Message-----",
+        "-----Original Appointment-----",
+        "----- Forwarded -----",
+    ],
+)
+def test_forward_separators_in_gmail_and_outlook_styles(separator):
+    assert visible(f"FYI, see below\n\n{separator}\nSubject: Data migration") == [
+        "FYI, see below",
+        "Subject: Data migration",
     ]
 
 

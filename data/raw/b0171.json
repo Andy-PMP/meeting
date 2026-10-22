@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0171",
+ "request_hash": "083c36de15ac98e9",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01WhRvz59HXf7kU7xAoFFdtY",
+ "created": "2026-10-22T21:16:30+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 3143,
+  "output_tokens": 2259,
+  "output_tokens_details": {
+   "thinking_tokens": 497
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0851\",\"text\":\"Mei is inviting you to a scheduled Zoom meeting.\\n\\nTopic: Mei / Xavier 1:1 - Bonfire 2.0 (sorry, need your input before Thurs!!)\\nTime: Mar 12, 2025 02:00 PM Eastern Time (US and Canada)\\n\\nAgenda (my notes):\\n1. Mei - quick recap of last weeks workshop outputs (already in the shared deck, slides 4-11)\\n2. Mei - timeline status, nothing changed since Fri\\n3. Xavier - do we push back on the client's scope ask for phase 2 or absorb it?? really need a call on this, I'm worried about the margin\\n\\nJoin Zoom Meeting\\nhttps://yilmazpartners.zoom.us/j/84120937715?pwd=Qm9uZmlyZTIw\\n\\nMeeting ID: 841 2093 7715\\nPasscode: 552190\\n\\n---\\n\\nOne tap mobile\\n+15553810447,,84120937715# US\\n\\nDial by your location\\n+1 555 381 0447 US\\n\\nFind your local numbr: https://yilmazpartners.zoom.us/u/abQx7\"},{\"spec_id\":\"spec_0852\",\"text\":\"Bruno is inviting you to a scheduled Zoom meeting.\\n\\nTopic: Brightcrest site - kickoff (sorry for the short notice!)\\nTime: Apr 3, 2025 10:00 AM Central Time (US and Canada)\\n\\nApologies all, I know calendars are PACKED this week. Sam, Sana, Pilar, Farid, Quinn, Nadia - please try to make it, I'll walk through everything that's already in the brief folder so you're all up to speed. PLEASE read the brief beforehand if you can, sorry again.\\n\\nJoin Zoom Meeting\\nhttps://bluelineco.zoom.us/j/93017742286?pwd=YnJpZ2h0Y3Jlc3Q\\n\\nMeeting ID: 930 1774 2286\\nPasscode: 7714\\n\\n---\\n\\nOne tap mobile\\n+15559023318,,93017742286# US (Chicago)\\n\\nDial by your location\\n+1 555 902 3318 US (Chicago)\\n\\nFind your local number: https://bluelineco.zoom.us/u/kd3Pw\"},{\"spec_id\":\"spec_0853\",\"text\":\"Tess is inviting you to a scheduled Zoom meeting.\\n\\nTopic: Driftwood migration - kitchen & front-of-house sit-down\\nTime: May 7, 2025 03:00 PM Pacific Time (US and Canada)\\n\\nFolks, we've got the new ordering system going live across the three locations and the kitchen side and the floor side don't see eye to eye on cutover night. Rosa and Chidi want a slow Tuesday, Ivan and Andre say a closed Monday is safer. Let's hash it out, pick a night, and sort who's on the line if tickets stop printing. Bring your worries, Omar will have the menu mapping up.\\n\\nJoin Zoom Meeting\\nhttps://kariukiskitchens.zoom.us/j/81655203394?pwd=ZHJpZnR3b29k\\n\\nMeeting ID: 816 5520 3394\\nPasscode: 330781\\n\\n---\\n\\nOne tap mobile\\n+15556614290,,81655203394# US\\n\\nDial by your location\\n+1 555 661 4290 US\\n\\nFind your local number: https://kariukiskitchens.zoom.us/u/mRt4z\"},{\"spec_id\":\"spec_0854\",\"text\":\"---------- Forwarded message ---------\\nFrom: Elena\\nTo: All Oakridge owners\\n\\nElena is inviting you to a scheduled Zoom meeting.\\n\\nTopic: All owners - vote for pool repair, please to come and decide\\nTime: Jun 18, 2025 07:00 PM Eastern Time (US and Canada)\\n\\nJoin Zoom Meeting\\nhttps://oakridgehoa.zoom.us/j/86240019953?pwd=b2Frcmlk\\n\\nMeeting ID: 862 4001 9953\\nPasscode: 4419\\n\\n---\\n\\nOne tap mobile\\n+15557730215,,86240019953# US\\n\\nDial by your location\\n+1 555 773 0215 US\"},{\"spec_id\":\"spec_0855\",\"text\":\"Delia is inviting you to a scheduled Zoom meeting.\\n\\nTopic: Rook rollout outage postmortem - timeline, root cause, one fix decision\\nTime: Feb 20, 2025 09:00 AM Central Time (US and Canada)\\n\\nJoin Zoom Meeting\\nhttps://pinewoodhg.zoom.us/j/89934410672?pwd=cm9va3Bt\\n\\nMeeting ID: 899 3441 0672\\nPasscode: 600218\\n\\n---\\n\\nOne tap mobile\\n+15554481092,,89934410672# US\\n\\nDial by your location\\n+1 555 448 1092 US\"}]}"
+}

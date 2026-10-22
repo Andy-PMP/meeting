@@ -1,6 +1,15 @@
 from collections import Counter
 
-from specs import MEETING_TYPES, sample_specs, spec_from_dict, spec_to_dict
+from specs import (
+    DEFAULT_N,
+    MEETING_TYPES,
+    ZOOM_FORMAT,
+    ZOOM_N,
+    all_specs,
+    sample_specs,
+    spec_from_dict,
+    spec_to_dict,
+)
 
 
 def test_same_seed_same_specs():
@@ -57,6 +66,20 @@ def test_org_names_fit_the_sector():
             assert "School" in s.org
         if s.industry == "law firm":
             assert " & " in s.org or "Law" in s.org
+
+
+def test_zoom_supplement_follows_the_main_set():
+    specs = all_specs()
+    assert len(specs) == DEFAULT_N + ZOOM_N
+    zoom = specs[DEFAULT_N:]
+    assert zoom[0].spec_id == "spec_0801" and zoom[-1].spec_id == f"spec_{DEFAULT_N + ZOOM_N:04d}"
+    assert {s.format for s in zoom} == {ZOOM_FORMAT}
+    assert Counter(s.gen_hint for s in zoom) == {"keep": 20, "shorter": 20, "email": 20}
+
+
+def test_main_set_is_unchanged_by_the_supplement():
+    assert all_specs()[:DEFAULT_N] == sample_specs()
+    assert ZOOM_FORMAT not in {s.format for s in sample_specs()}
 
 
 def test_round_trip_through_json_dict():

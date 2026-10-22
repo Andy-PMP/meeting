@@ -1,1 +1,165 @@
+=== keep
+Subject: ABS fan replacement
+When: Oct 28, 2026 10:00 AM-10:30 AM Eastern Time (US and Canada)
+Where: Microsoft Teams Meeting
 
+Organizer: Robert Yalei
+Required: Ingrid Lodun; Pete Richards; Jean Billets
+
+Team - 
+
+Just heard back from ABS and one of the fans arrived damaged. Need to brainstorm where we might source a replacement, if we can move ahead with only 3 fans, and what schedule implications these options will have on delivery. Then we can work on messaging to the customer. 
+
+Thanks, Bob.
+
+=== keep
+Amy Peele  10:42 AM
+hey Hannah! I need 15 min to make sure we're aligned on the deck before thursday. 
+Hannah Riley  10:44 AM
+sure, how about right after team stand-up?
+Amy Peele  10:45 AM
+Perfect, I'll send an invite (edited)
+
+=== keep
+From: Jordan Natals <jordan.natals@rbb.com>
+Sent: Monday, October 27, 2026 4:12 PM
+To: Chris Ortega <chris.ortega@rbb.com>
+Cc: Elise Harper <elise.harper@rbb.com>; Gemma Burke <gemma.burke@rbb.com>
+Subject: FW: Data Migration
+
+Chris,
+
+We are going to need to migrate our data to the secondary site. Make sure our team is represented in the call tomorrow.
+
+-----Original Message-----
+Subject: Data Migration
+When: Tuesday, October 28, 2026 4:00 PM-5:00 PM (UTC-05:00) Eastern Time (US & Canada)
+Where: Microsoft Teams Meeting
+Organizer: Harry Lopez
+Required: Jordan Natals; Lindsey McClanahan; George Feldman; Alice Trast
+
+Teams,
+
+We are exiting the JKT site and need to migrate all data and services as soon as possible. I know this is a complex and time consuming process, please come with questions and requirements for redeployment. 
+
+- Site exit timeline
+- Alternate locations
+- Cloud options
+- Q&A
+
+
+=== keep
+Retrospective: Building Automation Network Deployment
+When: Thu 10:00-11:00
+Attendees: Nazir Joez; Jessica Erol; Zeb Huest
+
+Team,
+
+Thank you once again for your efforts in deploying the new Building Automation Network. We finished on-time and under budget, and I want to acknowledge your hard work to make that happen. 
+
+Before the information gets stale, let's please come together and review our Lessons Learned. Please share your thoughts ahead of the call in the template (linked here).
+
+Don't forget, lessons learned can be things that went well over the course of the project that we would like to repeat in future efforts. This isn't just about cataloging the misses.
+
+Let's plan to review all lessons and agree on their inclusion, decide which need to be followed up on, and assign owners to those efforts. We'll also review Lessons Learned submitted from previous phases of the project.
+
+Looking forward to a collaborative discussion, as always. Cheers!
+
+=== keep
+note: borderline, only one topic but complex problem solving is needed.
+Quick sync: merge conflict on new feature branch
+
+Hey Toby and Anna, grabbing 30 minutes this afternoon so we can investigate and try to fix the multitude of issues I've caused. Sorry! Zach
+
+=== keep
+FY27 Employee Benefits Package
+Tuesday, October 28 · 10:00 – 11:00am
+Time zone: America/New_York
+Google Meet joining info
+Video call link: https://meet.google.com/abc-defg-hij
+Or dial: (US) +1 555-555-0123 PIN: 123 456 789#
+More phone numbers: https://tel.meet/abc-defg-hij?pin=1234567890
+
+Please join us this Tuesday for an overview of the 2027 Employee Benefits Package.
+
+We will review changes from 2026 plans, updates to our processes, and leave time for Q&A.
+
+We hope to see you there!
+
+HR
+
+=== keep
+Invitation: FY26 Performance Evaluation @ Tue Oct 28, 2026 10am - 11am (EDT) (brandon.fisher@raddinc.com)
+
+Brandon's annual performance review & compensation 
+
+Join with Google Meet
+meet.google.com/abc-defg-hij
+
+Join by phone
+(US) +1 555-555-0123
+PIN: 123456789
+
+More phone numbers
+
+View all guest info
+
+Organizer
+frank.weaver@raddinc.com
+
+Guests
+frank.weaver@raddinc.com - organizer
+brandon.fisher@raddinc.com
+
+Reply for brandon.fisher@raddinc.com
+Yes   No   Maybe   More options
+
+Invitation from Google Calendar
+You are receiving this email because you are an attendee on the event.
+
+=== keep
+note: vague and highly sensitive employment information
+Hi - we are putting Valerie on PIP, need 360 feedback & someone from HR.
+
+
+Miranda Goldie is inviting you to a scheduled Zoom meeting.
+
+Topic: PIP
+Time: Oct 28, 2026 3:00 PM Eastern Time (US and Canada)
+
+Join Zoom Meeting
+https://example.zoom.us/j/12345678901?pwd=XXXXXXXX
+
+Meeting ID: 123 4567 8901
+Passcode: 482913
+
+=== keep
+note: unknown attendees, but complex problem solving and a time-boxed decision is needed from multiple parties
+Team Volunteer Event
+Hosted by Rachel Valencia
+https://example.webex.com/example/j.php?MTID=XXXXXXXX
+Tuesday, Oct 28, 2026 10:00 AM | 60 minutes | (UTC-04:00) Eastern Time (US & Canada)
+
+Team,
+
+There are numerous outstanding safety issues related to the volunteer event that remain unaddressed.
+
+Unless we can come to an agreement this afternoon, we will have to cancel the volunteer event this year.
+
+Please come with ideas to address the concerns Larry raised yesterday. I need every team's participation.
+
+
+Join from the meeting link
+https://example.webex.com/example/j.php?MTID=XXXXXXXX
+
+Join by meeting number
+Meeting number (access code): 2634 123 4567
+Meeting password: Sync2026
+
+=== keep
+
+
+=== shorter
+
+
+=== email

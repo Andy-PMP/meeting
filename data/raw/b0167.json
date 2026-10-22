@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0167",
+ "request_hash": "a0fa2d00c0375b29",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01WhRvz59HXf7kU7xAoFFdtY",
+ "created": "2026-10-22T21:16:30+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 3141,
+  "output_tokens": 1968,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0831\",\"text\":\"Omar Haddad is inviting you to a scheduled Zoom meeting.\\n\\nTopic: Pre-Planning Huddle for the Heron Migration Planning Session!!! 🎉\\nTime: Mar 12, 2025 10:00 AM Central Time (US and Canada)\\n\\nSO excited to get the four of us together, Tess, Ulla, Will, Wen! Let's get on the same page before we get on the same page, haha. Bring your best energy!!\\n\\nJoin Zoom Meeting\\nhttps://zoom.us/j/84213097715?pwd=hRt2KxPq9LmZ\\n\\nMeeting ID: 842 1309 7715\\nPasscode: 551908\\n\\n---\\n\\nOne tap mobile\\n+13126266799,,84213097715#,,,,*551908# US (Chicago)\\n+16469313860,,84213097715#,,,,*551908# US\\n\\n---\\n\\nDial by your location\\n• +1 312 626 6799 US (Chicago)\\n• +1 646 931 3860 US\\n\\nMeeting ID: 842 1309 7715\\nPasscode: 551908\"},{\"spec_id\":\"spec_0832\",\"text\":\"---------- Forwarded message ---------\\nFrom: Jada\\nSubject: Marigold 2.0 rollout briefing\\n\\nSince the last memo apparently wasn't read, all 22 of you, live:\\n1. Go-live date (Rosa)\\n2. New permit fields (Deepa)\\n3. Q&A (Keiko)\\n\\nTopic: Marigold 2.0 Briefing\\nTime: Apr 3, 2025 09:00 AM Pacific Time\\nJoin Zoom Meeting\\nhttps://zoom.us/j/93120448812\\nMeeting ID: 931 2044 8812\\nPasscode: 207734\\nOne tap mobile\\n+16699006833,,93120448812# US\"},{\"spec_id\":\"spec_0833\",\"text\":\"Bea Lindqvist is inviting you to a scheduled Zoom meeting.\\n\\nTopic: Varga account - let's land this\\nTime: Feb 20, 2025 01:00 PM Eastern Time (US and Canada)\\n\\nHey all! Odette, Bruno, Lucia, Carmen, Tariq, Nadia - grabbing an hour with you. I know it's been a whirlwind week so no pressure to prep a ton, just come as you are.\\n\\nA couple of things that would be SUPER helpful:\\n- Bruno, if you can bring the numbers you were sharing in chat on Tuesday, that'd be great. Deck is here: [link]\\n- Carmen, please pull whatever you've got from the regional folks, even rough is fine\\n- Everyone else, skim the thread here [link] if you haven't already\\n\\nPlease PLEASE try to be on camera for this one, it really helps when we're working through stuff together. And if you can't make it, tell me ASAP and send someone who can speak for your team, because I'd really rather not reschedule again.\\n\\nSnacks are on me next time we're all in the office, promise. Thanks friends!\\n\\nJoin Zoom Meeting\\nhttps://zoom.us/j/71540928836?pwd=Va9rGqLmT2wX\\n\\nMeeting ID: 715 4092 8836\\nPasscode: 880213\\n\\n---\\n\\nOne tap mobile\\n+13017158592,,71540928836#,,,,*880213# US (Washington DC)\\n+13052241968,,71540928836#,,,,*880213# US\\n\\n---\\n\\nDial by your location\\n• +1 301 715 8592 US (Washington DC)\\n• +1 305 224 1968 US\\n• +1 646 876 9923 US (New York)\\n\\nMeeting ID: 715 4092 8836\\nPasscode: 880213\\n\\nFind your local number: https://zoom.us/u/abX7kLm2\"},{\"spec_id\":\"spec_0834\",\"text\":\"Dmitri Volkov is inviting you to a scheduled Zoom meeting.\\n\\nTopic: SAFFRON 2.0 ALL-COMMITTEE SYNC!!! 🌟\\nTime: Oct 8, 2025 07:00 PM Eastern Time (US and Canada)\\n\\nCalling ALL committee chairs and volunteers (all 18 of you amazing humans)! Let's get everyone aligned on Saffron 2.0! Nils will share the fundraising update, Zainab the volunteer sign-up numbers, and Keiko the event calendar so we're all in the loop!! Can't wait!!!\\n\\nJoin Zoom Meeting\\nhttps://zoom.us/j/86627310054?pwd=CpTO22wqLs\\n\\nMeeting ID: 866 2731 0054\\nPasscode: 441276\\n\\n---\\n\\nOne tap mobile\\n+19292056099,,86627310054#,,,,*441276# US (New York)\\n\\n---\\n\\nDial by your location\\n• +1 929 205 6099 US (New York)\\n• +1 253 215 8782 US (Tacoma)\"},{\"spec_id\":\"spec_0835\",\"text\":\"Farid is inviting you to a scheduled Zoom meeting.\\n\\nTopic: Quick chat re: Thursday's candidate\\nTime: May 15, 2025 04:30 PM Eastern Time (US and Canada)\\n\\nJoin Zoom Meeting\\nhttps://zoom.us/j/95830117462\\n\\nMeeting ID: 958 3011 7462\\nPasscode: 663015\\n\\nOne tap mobile\\n+16468769923,,95830117462# US (New York)\\n\\nDial by your location\\n• +1 646 876 9923 US (New York)\"}]}"
+}

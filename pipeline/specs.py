@@ -6,8 +6,7 @@ Every spec carries its own random cast of names, project name and sector-appropr
 Left to itself the generator reuses favourite names ("Priya", "Halvorsen") across invites, which
 would hand the classifier meaningless tokens to latch onto.
 
-    python pipeline\\specs.py            # 800 specs with the default seed
-    python pipeline\\specs.py --n 50     # fewer, e.g. for experiments (overwrites!)
+    python pipeline\\specs.py    # 800 main specs + 60 Zoom specs; refuses to change existing ones
 """
 
 from __future__ import annotations
@@ -23,6 +22,16 @@ from paths import RAW, SPECS
 SEED = 20261021
 DEFAULT_N = 800
 CAST_SIZE = 6
+
+# Supplement: Zoom invites state a start time but no end time or length, and the main set
+# barely covers Zoom. Separate seed, so the main 800 are untouched.
+ZOOM_SEED = 20261023
+ZOOM_N = 60
+ZOOM_FORMAT = (
+    "Zoom invite as copied from Zoom: Topic, Time (start time only), Join Zoom Meeting link, "
+    "Meeting ID, Passcode, One tap mobile / Dial by your location numbers. No end time and no "
+    "meeting length anywhere in the invite"
+)
 
 # (name, attendee range, durations in minutes)
 MEETING_TYPES: list[tuple[str, tuple[int, int], tuple[int, ...]]] = [
@@ -214,13 +223,22 @@ def _fill(pattern: str, rng: random.Random) -> str:
     return out
 
 
-def sample_specs(n: int = DEFAULT_N, seed: int = SEED) -> list[Spec]:
+def _pick_format(rng: random.Random, override: str | None) -> str:
+    drawn = rng.choice(FORMATS)  # always draw, so an override doesn't shift later draws
+    return override or drawn
+
+
+def sample_specs(
+    n: int = DEFAULT_N, seed: int = SEED, start: int = 1, format_: str | None = None
+) -> list[Spec]:
+    """n specs numbered from `start`. `format_` pins every spec to one format (the draw still
+    happens, so the random sequence, and every existing spec, stays the same)."""
     rng = random.Random(seed)
     # Balanced hints: n/3 of each, shuffled.
     hints = [LABELS[i % len(LABELS)] for i in range(n)]
     rng.shuffle(hints)
     specs = []
-    for i, hint in enumerate(hints, start=1):
+    for i, hint in enumerate(hints, start=start):
         mtype, (lo, hi), durations = rng.choice(MEETING_TYPES)
         industry = rng.choice(INDUSTRIES)
         k = rng.choices([0, 1, 2], weights=[4, 4, 2])[0]
@@ -232,7 +250,7 @@ def sample_specs(n: int = DEFAULT_N, seed: int = SEED) -> list[Spec]:
                 gen_hint=hint,
                 subtlety=rng.choice(SUBTLETY),
                 meeting_type=mtype,
-                format=rng.choice(FORMATS),
+                format=_pick_format(rng, format_),
                 industry=industry,
                 tone=rng.choice(TONES),
                 length=rng.choice(LENGTHS),
@@ -268,18 +286,28 @@ def write_specs(specs: list[Spec], path=SPECS) -> None:
     write_jsonl(path, [spec_to_dict(s) for s in specs])
 
 
+def all_specs() -> list[Spec]:
+    """The dataset's specs: the main 800, then the Zoom supplement (spec_0801…)."""
+    return sample_specs() + sample_specs(
+        ZOOM_N, ZOOM_SEED, start=DEFAULT_N + 1, format_=ZOOM_FORMAT
+    )
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawTextHelpFormatter)
-    ap.add_argument("--n", type=int, default=DEFAULT_N)
-    ap.add_argument("--seed", type=int, default=SEED)
-    ap.add_argument("--force", action="store_true", help="overwrite even if generations exist")
+    ap.add_argument("--force", action="store_true", help="write even if existing specs change")
     args = ap.parse_args()
-    if any(RAW.glob("b*.json")) and not args.force:
-        raise SystemExit(
-            "data/raw/ already has generations; changing specs would orphan them. "
-            "Use --force if you really mean it."
-        )
-    specs = sample_specs(args.n, args.seed)
+    specs = all_specs()
+    if SPECS.exists() and any(RAW.glob("b*.json")) and not args.force:
+        old = {d["spec_id"]: d for d in read_jsonl(SPECS)}
+        changed = [
+            s.spec_id for s in specs if s.spec_id in old and spec_to_dict(s) != old[s.spec_id]
+        ]
+        if changed:
+            raise SystemExit(
+                f"{len(changed)} existing specs would change (e.g. {changed[0]}), orphaning their "
+                "generations in data/raw/. Use --force if you really mean it."
+            )
     write_specs(specs)
     print(f"Wrote {len(specs)} specs to {SPECS}")
 

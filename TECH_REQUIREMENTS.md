@@ -90,8 +90,8 @@ It also gives tie-break rules, especially for the fuzzy middle class `shorter` (
 - **Input:** both models, and the structure-feature parser, read `mask_boilerplate(text)` (§1.2), never the raw text.
 - **Hyperparameters** come only from stratified 5-fold cross-validation on the training set. The test set is never touched during training.
 - **Structure features** (shared by both models). A small regex-parsed, binned set:
-  - duration bucket
-  - attendee-count bucket
+  - duration bucket, with an explicit **unknown** bucket. Zoom invites state only a start time, and 63 of the main 800 give no duration (mostly one-line titles), so the 60-invite Zoom supplement (`spec_0801`…) covers full invites without one
+  - attendee-count bucket, with an explicit **unknown** bucket. A third of the invites state no count or list (Zoom never does), so "not stated" must not read as "small". Counted from explicit numbers, attendee lists, or names given a job; "whole team" / "all staff" is its own bucket
   - has an agenda (bulleted or numbered lines)
   - has decision words ("decide", "approve", "sign off")
   - has status words ("update", "sync", "check-in")

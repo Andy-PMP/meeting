@@ -15,14 +15,15 @@ Simple status or progress updates, only one person speaking or presenting, no de
 
 ## 2. Signals
 
-Check these in roughly this order. No single signal decides the label.
+Check these in roughly this order. No single signal decides the label. Missing information isn't a signal: if an invite doesn't say how long it is or who's invited, skip that row rather than guessing.
 
 | Signal | Points toward keep | Points toward shorter | Points toward email |
 |---|---|---|---|
 | Decision needed? | Names a specific decision, and its owner or deadline ("decide by Friday") | A real decision, but a small part of a long agenda | No decision, or one person could decide alone |
 | Real discussion vs. status updates | True back-and-forth discussion is needed ("back and forth", "bring both versions") | Real discussion is needed, but a small part of a long agenda | One person is presenting at the others ("I'll walk through", "I'll share"), or round-robin status updates |
-| Attendees proportionate? | most attendees have a role | a real meeting, but a big chunk of the list has no role ||
-| Duration fits the agenda? | up to 15 minutes per obvious agenda item and decision | over 15 minutes per obvious agenda item ||
+| Attendees proportionate? *(skip if the invite doesn't show who's invited; people named with a job count as having a role)* | most attendees have a role | a real meeting, but a big chunk of the list has no role, or a broad group ("whole team", "all staff") when only a few people are needed ||
+| Working session | People building, fixing, or generating ideas together |||
+| Duration fits the agenda? *(skip if no duration is given)* | up to 15 minutes per obvious agenda item and decision (working sessions excepted) | over 15 minutes per obvious agenda item ||
 | Agenda present? | detailed, clear agenda is present | has vague agenda or stated purpose | no agenda and no stated purpose |
 | Formal proceeding | The meeting itself is required by law, regulation, or policy (a compliance training, board vote, safety briefing), not just "attendance expected" | | |
 | Hosted recording? | If time is given for live Q&A | | recorded, and no live Q&A |
@@ -38,7 +39,6 @@ Check these in this order, first matching rule wins.
 - A real decision with far too many people or minutes → `shorter`, not `keep`.
 - Live Q&A but hosted recording → `keep`.
 - Can't choose after 30 seconds → `shorter` and add a note.
-
 
 ## 4. Worked examples
 
@@ -61,7 +61,7 @@ Check these in this order, first matching rule wins.
 
 ## 5. One-line cheat-sheet (shown on every labeling screen)
 
-- **1 keep:** a live decision or real back-and-forth, a 1:1, social, formal proceeding, or live Q&A.
+- **1 keep:** a live decision or real back-and-forth, a 1:1, social, formal proceeding, working sessions, or live Q&A.
 - **2 shorter:** a real purpose, but too long, with too many people, or with too much filler
 - **3 email:** one-way information or a question; nobody needs to be in the room
 

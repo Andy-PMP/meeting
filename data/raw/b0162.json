@@ -1,0 +1,28 @@
+{
+ "bundle_id": "b0162",
+ "request_hash": "ac41d59aec4f5640",
+ "model": "claude-opus-5-5",
+ "prompt_version": "generate_v2",
+ "batch_id": "msgbatch_01WhRvz59HXf7kU7xAoFFdtY",
+ "created": "2026-10-22T21:16:30+00:00",
+ "result_type": "succeeded",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 3197,
+  "output_tokens": 2148,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "text": "{\"invites\":[{\"spec_id\":\"spec_0806\",\"text\":\"Imani is inviting you to a scheduled Zoom meeting.\\n\\nTopic: Wren rollout - phase 2 planning (PLEASE come prepared)\\nTime: Mar 12, 2025 01:00 PM London\\n\\nWe have to lock the sequencing for the Wren rollout before the client steerco Friday, and right now we don't agree on it. Honestly I'm nervous about this one.\\n- Sequencing options: region-by-region vs. function-first (Callum + Mariam each present theirs)\\n* Staffing gaps for April, Lars to bring the bench sheet\\n- Risk register: what we tell the client vs. what we fix quietly\\n• Decide owners per workstream before we leave the call\\n\\nInes, Sam, Emeka, I need your client-side read on all of this.\\n\\nJoin Zoom Meeting\\nhttps://tidalwood.zoom.us/j/83920174452?pwd=Wr3nPh2Plan\\n\\nMeeting ID: 839 2017 4452\\nPasscode: 551908\\n\\n---\\n\\nOne tap mobile\\n+442080806591,,83920174452#,,,,*551908# United Kingdom\\n\\nDial by your location\\n+44 208 080 6591 United Kingdom\\n+44 330 088 5830 United Kingdom\"},{\"spec_id\":\"spec_0807\",\"text\":\"Will is inviting you to a scheduled Zoom meeting.\\n\\nTopic: Quick chat - Cyrus / Will re: some things\\nTime: Apr 3, 2025 06:30 PM Central Time (US and Canada)\\n\\nCyrus,\\n\\nSince my last two emails about the Achterberg contract seem to have gotten lost somewhere, I thought it might be easier to just talk. Face to face, as it were. I'd like to go over a few items where we apparently see things differently, and I'm sure we can clear it all up.\\n\\nNothing urgent, of course. It's just that the board vote is next week and I'd prefer not to find out where you stand on it at the same time as everyone else. Again.\\n\\nIf you could have your notes handy, that would be great. Or not, whatever works for you.\\n\\nUnrelated: the clubhouse lot will be partially closed Thursday for resealing, so please park on Birch if you come by for the pickup. Also, Keiko's birthday card is at the front desk if you'd like to sign it. Hana and Raj already did.\\n\\nThanks so much,\\nWill\\nCedarcrest Village HOA, Board Secretary\\n\\nJoin Zoom Meeting\\nhttps://us02web.zoom.us/j/71644029318?pwd=Q2VkYXJjcmVzdEhPQQ\\n\\nMeeting ID: 716 4402 9318\\nPasscode: cedar22\\n\\n---\\n\\nOne tap mobile\\n+13126266799,,71644029318#,,,,*742201# US (Chicago)\\n+16469313860,,71644029318#,,,,*742201# US\\n\\nDial by your location\\n+1 312 626 6799 US (Chicago)\\n+1 646 931 3860 US\\n+1 301 715 8592 US (Washington DC)\\n\\nFind your local number: https://us02web.zoom.us/u/kbX9cedar\"},{\"spec_id\":\"spec_0808\",\"text\":\"Topic: Ideas for Kiln migration, please to bring\\nTime: May 7, 2025 07:00 PM Eastern Time (US and Canada)\\n\\nJoin Zoom Meeting\\nhttps://us06web.zoom.us/j/85510392277?pwd=R3Jhbml0ZWhhdmVu\\n\\nMeeting ID: 855 1039 2277\\nPasscode: 318476\\n\\nOne tap mobile\\n+16465588656,,85510392277#,,,,*318476# US (New York)\\n\\nDial by your location\\n+1 646 558 8656 US (New York)\"},{\"spec_id\":\"spec_0809\",\"text\":\"Topic: Plan the Haddad kickoff together - roles, menu tasting, run of show!!\\nTime: Jun 10, 2025 10:00 AM Pacific Time (US and Canada)\\n\\nJoin Zoom Meeting\\nhttps://us05web.zoom.us/j/92277310084?pwd=SG9sbGFuZGVycw\\n\\nMeeting ID: 922 7731 0084\\nPasscode: 664102\\n\\n---\\n\\nOne tap mobile\\n+16699006833,,92277310084#,,,,*664102# US (San Jose)\\n\\nDial by your location\\n+1 669 900 6833 US (San Jose)\\n+1 253 215 8782 US (Tacoma)\"},{\"spec_id\":\"spec_0810\",\"text\":\"Goran is inviting you to a scheduled Zoom meeting.\\n\\nTopic: Ember 2.0 Daily Standup ☀️ Let's GO!\\nTime: Every weekday, 09:00 AM Eastern Time (US and Canada)\\n\\nGood morning, superstars! Quick-fire round, blockers first, no slides:\\n1. Wes: assay plate QC results from overnight run\\n2. Dana + Ivan: reagent lot swap, need a go/no-go today on whether we rerun batch 14\\n3. Gus: incubator 3 temp drift, does anyone need to move samples?\\n4. Darius: sequencing queue order (conflicts with Bianca's timeline, let's sort it live!)\\n5. Bianca: anything else that's blocking\\n\\nRun sheet: [link]\\nBlocker log: [link]\\n\\nJoin Zoom Meeting\\nhttps://ironworks.zoom.us/j/96104482713?pwd=RW1iZXIyU3RhbmR1cA\\n\\nMeeting ID: 961 0448 2713\\nPasscode: 202020\\n\\n---\\n\\nOne tap mobile\\n+16468769923,,96104482713#,,,,*202020# US (New York)\\n+13017158592,,96104482713#,,,,*202020# US (Washington DC)\\n\\nDial by your location\\n+1 646 876 9923 US (New York)\\n+1 301 715 8592 US (Washington DC)\\n\\nJoin by SIP\\n96104482713@zoomcrc.com\"}]}"
+}

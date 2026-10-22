@@ -14,7 +14,17 @@ from clean import masked_fraction
 from generate import DUPLICATES, MODEL, PROMPT_VERSION, total_cost
 from jsonl import read_jsonl
 from paths import DOCS, INVITES, SPECS
-from specs import FORMATS, INDUSTRIES, LENGTHS, MEETING_TYPES, MESSINESS, SUBTLETY, TONES, VAGUENESS
+from specs import (
+    FORMATS,
+    INDUSTRIES,
+    LENGTHS,
+    MEETING_TYPES,
+    MESSINESS,
+    SUBTLETY,
+    TONES,
+    VAGUENESS,
+    ZOOM_FORMAT,
+)
 
 OUT = DOCS / "data-report.md"
 
@@ -22,7 +32,7 @@ DIMENSIONS = {
     "gen_hint": ["keep", "shorter", "email"],
     "subtlety": SUBTLETY,
     "meeting_type": [m[0] for m in MEETING_TYPES],
-    "format": FORMATS,
+    "format": [*FORMATS, ZOOM_FORMAT],
     "industry": INDUSTRIES,
     "tone": TONES,
     "length": LENGTHS,
