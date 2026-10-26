@@ -5,7 +5,7 @@
 ## 1. The three labels
 
 ### Keep the meeting (`keep`)
-A topic that is ambiguous, nuanced, or emotionally charged, a situation so complex it requires live brainstorming, in-depth problem-solving or conflict resolution, or a decision that needs several people's input at once. Interviews, team/social events, and 1:1s are always kept.
+A topic that is ambiguous, nuanced, or emotionally charged, a situation so complex it requires live brainstorming, in-depth problem-solving or conflict resolution, or a decision that needs several people's input at once. Interviews, team/social events, and 1:1s about the person are always kept.
 
 ### Make it shorter (`shorter`)
 A real decision or discussion, but more time or people than it needs, sometimes padded with unrelated status updates. If decisions are being made by a small subset of the attendees, the invitee list should be reduced.
@@ -24,7 +24,7 @@ Check these in roughly this order. No single signal decides the label. Missing i
 | Attendees proportionate? *(skip if the invite doesn't show who's invited; people named with a job count as having a role)* | most attendees have a role | a real meeting, but a big chunk of the list has no role, or a broad group ("whole team", "all staff") when only a few people are needed ||
 | Working session | People building, fixing, or generating ideas together |||
 | Duration fits the agenda? *(skip if no duration is given)* | up to 15 minutes per obvious agenda item and decision (working sessions excepted) | over 15 minutes per obvious agenda item ||
-| Agenda present? | detailed, clear agenda is present | has vague agenda or stated purpose | no agenda and no stated purpose |
+| Agenda/purpose present? *A title that names a specific topic counts as a stated purpose; a generic title ('Sync', 'Catch up', 'Quick chat') doesn't.* | detailed, clear agenda is present | has vague agenda or stated purpose | no agenda and no stated purpose |
 | Formal proceeding | The meeting itself is required by law, regulation, or policy (a compliance training, board vote, safety briefing), not just "attendance expected" | | |
 | Hosted recording? | If time is given for live Q&A | | recorded, and no live Q&A |
 
@@ -32,10 +32,10 @@ Check these in roughly this order. No single signal decides the label. Missing i
 
 Check these in this order, first matching rule wins.
 
-- Social or team-building meetings → `keep`.
-- 1:1s → `keep`.
-- Formal proceeding (required by law, regulation, or policy) → `keep`.
 - No agenda and no stated purpose → `email`, even if the meeting type is usually worthwhile.
+- Social or team-building meetings → `keep`.
+- 1:1s about the person → `keep`; two people meeting about a task are judged like any meeting
+- Formal proceeding (required by law, regulation, or policy) → `keep`.
 - A real decision with far too many people or minutes → `shorter`, not `keep`.
 - Live Q&A but hosted recording → `keep`.
 - Can't choose after 30 seconds → `shorter` and add a note.
@@ -61,7 +61,7 @@ Check these in this order, first matching rule wins.
 
 ## 5. One-line cheat-sheet (shown on every labeling screen)
 
-- **1 keep:** a live decision or real back-and-forth, a 1:1, social, formal proceeding, working session, interview, or live Q&A.
+- **1 keep:** a live decision or real back-and-forth, a 1:1 about the person, social, formal proceeding, working session, interview, or live Q&A.
 - **2 shorter:** a real purpose, but too long, with too many people, or with too much filler
 - **3 email:** one-way information or a question; nobody needs to be in the room
 

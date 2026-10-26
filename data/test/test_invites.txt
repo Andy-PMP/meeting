@@ -14,9 +14,9 @@ Just heard back from ABS and one of the fans arrived damaged. Need to brainstorm
 Thanks, Bob.
 
 === keep
-note: rule - 1:1
+note: rule - 1:1 about performance feedback, personal topic
 Amy Peele  10:42 AM
-hey Hannah! I need 15 min to make sure we're aligned on the deck before thursday. 
+hey Hannah! do you have 15 minutes to talk about some recent feedback?
 Hannah Riley  10:44 AM
 sure, how about right after team stand-up?
 Amy Peele  10:45 AM
@@ -347,3 +347,650 @@ Meeting number (access code): 2634 123 4567
 Meeting password: hindsight
 
 === keep
+note: very long event, but social so keep
+Team building: escape room & cocktails | 3.5 hours | DevTeam; QATeam; PMTeam; | join us at escapethecape and drinktheink this friday!
+
+=== keep
+note: massive invitee list, but interview so keep
+Topic: Senior Program Manager Interview | 60 min | 12 attendees
+Description:
+Case study for Senior Program Manager. Required by HR to attend: 4 managers, 4 peers, 4 engineers 
+
+
+=== shorter
+note: more than 15 minutes per agenda item
+Subject: November Rollout Sync
+When: Tuesday, October 28, 2026 10:00 AM-11:30 AM (UTC-05:00) Eastern Time (US & Canada)
+Where: Microsoft Teams Meeting
+Organizer: Felipe Gonzalez
+Required: Priyanka Duli; Melissa Brante; Isabelle Cedar
+
+Hi all, moving to fit everyone's calendars. 
+
+1. Action items
+2. Bugs & customer feedback
+3. Blockers
+
+________________________________________________________________________________
+Microsoft Teams Need help?
+Join the meeting now
+Meeting ID: 234 567 890 123
+Passcode: aB3cD4
+
+=== shorter
+note: too many people for 1 question
+Invitation: Conference budget @ Tue Oct 28, 2026 10am - 10:30am (EDT) (sara.ortega@example.com)
+
+Approve budget for conference
+
+Join with Google Meet
+meet.google.com/abc-defg-hij
+
+Join by phone
+(US) +1 555-555-0123
+PIN: 123456789
+
+More phone numbers
+
+View all guest info
+
+Organizer
+bora.heed@example.com
+
+Guests
+sara.ortega@example.com
+heather.mets@example.com
+william.frank@example.com
+damon.ferris@example.com
+kurt.mcdonald@example.com
+penelope.joss@example.com
+erica.grass@example.com
+hugh.hones@example.com
+jack.grant@example.com
+trent.long@example.com
+
+Reply for sara.ortega@example.com
+Yes   No   Maybe   More options
+
+Invitation from Google Calendar
+You are receiving this email because you are an attendee on the event.
+
+=== shorter
+note: real decision but padded with unrelated status updates
+MVP Discussion
+Hosted by Fletcher Ned
+https://example.webex.com/example/j.php?MTID=XXXXXXXX
+Tuesday, Oct 28, 2026 10:00 AM | 60 minutes | (UTC-04:00) Eastern Time
+
+Agenda:
+1. Team vacation tracker (Fletcher)
+2. Requirements gathering status update (Jack)
+3. Data milestones (Rachel)
+4. MVP date decision (all)
+
+Join from the meeting link
+https://example.webex.com/example/j.php?MTID=XXXXXXXX
+
+=== shorter
+note: decision being made by small subset of attendees, reduce invitee list
+From: Dexter Lab <dexter.lab@example.com>
+Sent: Monday, October 27, 2026 4:12 PM
+To: Laurin Klein <laurin.klein@example.com>
+Subject: FW: Vendor lock-in
+
+Laurin, please attend on my behalf.
+
+-----Original Message-----
+Subject: Vendor lock-in
+When: Tuesday, October 28, 2026 4:00 PM-4:30 PM (UTC-05:00) Eastern Time (US & Canada)
+Where: Microsoft Teams Meeting
+Organizer: Luiz Dangelo
+Required: Dexter Lab; Nelson Hurp; Lisa McNeil; Trenton Polk; Maria West; Leo Palmer; Alan Reyes; Li Chixuan; Reid Sender;
+
+Agenda
+1 - Review vendor quotes (Luiz)
+2 - Select primary vendor (Dexter, Nelson)
+
+=== shorter
+note: whole team added but only need one person, needs shorter invitee list
+Hi Jacqueline,
+
+I need your help to integrate the contact us form data into the database. I've invited the whole team, can't hurt right?
+
+
+──────────
+
+Roxanne is inviting you to a scheduled Zoom meeting.
+
+Join Zoom Meeting
+https://example.zoom.us/j/12345678901?pwd=XXXXXXXX
+
+Meeting ID: 123 4567 8901
+Passcode: 482913
+
+=== shorter
+note: vague agenda or stated purpose
+Customer Timeline
+When: Thu 10:00-11:00
+Attendees: Tom Jacobs; Eric Feez; Lindsey Scratch
+
+=== shorter
+note: almost everyone has a role, but most topics are status updates
+Subject: Website Launch Decision | 60 min | 11 attendees 
+
+Hi all. Need everyone on board to decide on website launch.
+
+Agenda:
+1. Photos and videos update (Vanessa)
+2. Customer feedback (Bryon + Kelly)
+3. Database readiness (Angela) 
+4. SSO integration (Paul)
+5. Chatbot status (Carol)
+6. Open risks (Vicky)
+7. Decide on go/no go date (all)
+
+=== shorter 
+note: trap, not actually mandatory
+Required: Monthly Dev Updates | 30 min | Ursula A; Lerone J; Chanel E | reviewing & approving platform updates
+
+=== shorter 
+note: trap, status updates and not actually a working session
+Topic: Customer deck working session
+Time: Thursday, November 7, 2026 9:30-10:30 AM
+Description: 
+
+All,
+
+Linda and I would like to walk you through the changes we've made to the deck since the last time we spoke. 
+Also Justin has an update on the customer's availability next week, so let's pick a time.
+
+Looking forward to it!
+
+=== shorter 
+note: unstructured brainstorming with too many people
+Subject: PM Job description
+When: Wednesday, November 6, 2026 10:00 AM-12:00 PM (UTC-05:00) Eastern Time (US & Canada)
+Where: Microsoft Teams Meeting
+Organizer: Daria Jackson
+Required: Fred Grey; Marvin Huey; Paul Klep; Dustin Stamos; Wes Hobbs; Stanley Innes; Alice Craw; Olga Ruiz; Vera Yalo; Tina Edogan; Quint Kool; Ben Felds; Rose Wolfbad; Donna Dockta;
+
+All, we need to re-write the PM job description. Bring coffee.
+
+________________________________________________________________________________
+Microsoft Teams Need help?
+Join the meeting now
+Meeting ID: 234 567 890 123
+Passcode: aB3cD4
+
+=== shorter
+note: recurring but with few items, should be shorter
+Subject: Weekly Build Meet
+When: Occurs every Tuesday effective 11/3/2026 until 12/22/2026 from 10:00 AM to 11:00 AM (UTC-05:00) Eastern Time (US & Canada).
+Where: Microsoft Teams Meeting
+Organizer: Kelvin Dasante
+Required: Jessica Barger; James Redd; Juliet Starr
+
+Standing meeting to review 1) vendor status and 2) blockers
+
+________________________________________________________________________________
+Microsoft Teams Need help?
+Join the meeting now
+Meeting ID: 234 567 890 123
+Passcode: aB3cD4
+
+=== shorter
+note: too long for single item
+Olive Boyd  3:09 PM
+Hey Jake, can Seth and I grab an hour to align on the font on the about us page?
+Jake Locks  3:11 PM
+sure, anytime after lunch is fine
+Olive Boyd  3:15 PM
+awesome, sent!
+
+=== shorter
+note: borderline, 45min for 2 items
+Subject: Fwd: January event @ Friday Nov 8, 2026 9am - 9:45am (EDT)
+
+fyi - we might reschedule
+
+---------- Forwarded message ---------
+From: Google Calendar <calendar-notification@google.com>
+Date: Mon, Oct 27, 2026 at 4:12 PM
+Subject: January event @ Friday Nov 8, 2026 9am - 9:45am (EDT)
+To: event-planning@example.com; executive-events@example.com; executive-admins@example.com
+
+Teams,
+
+It has come to our attention that one of the executive leaders will be in Dallas the week of the January event.
+
+We need to align on:
+
+1) Scheduling & overlap
+2) Safety & security
+
+Looking forward to a productive discussion.
+
+East Coast Productions
+
+=== shorter
+note: no duration, attendees, or agenda, but has a title, vague so shorter
+Fiona Orange is inviting you to a scheduled Zoom meeting.
+
+Topic: Q1 hiring plan
+Time: Oct 28, 2026 10:00 AM Eastern Time (US and Canada)
+
+=== shorter
+note: borderline, kickoff is mostly intros with one scope decision
+Subject: Fwd: project bluebird kickoff @ Tue Oct 28, 2026 10am - 10:45am (EDT)
+
+can you cover?
+
+---------- Forwarded message ---------
+From: Google Calendar <calendar-notification@google.com>
+Date: Mon, Oct 27, 2026 at 4:12 PM
+Subject: project bluebird kickoff @ Tue Oct 28, 2026 10am - 10:45am (EDT)
+To: <roger.lespit@example.com>
+
+kicking off bluebird with wider teem 
+
+1 teem intros
+2 background data
+3 scope decision vendor or in house?
+
+Join with Google Meet
+meet.google.com/abc-defg-hij
+
+=== shorter
+note: external meeting that is padded
+Quarterly Vendor Review | 2 hours | 8 attendees
+Hello Josh,
+
+Please join us for our quarterly vendor review.
+
+Agenda:
+1. Overview & welcome
+2. Action items
+3. Quarterly events & updates
+4. Renewal pricing discsussion
+5. Wrap-up
+
+──────────
+
+Samantha is inviting you to a scheduled Zoom meeting.
+
+Join Zoom Meeting
+https://example.zoom.us/j/12345678901?pwd=XXXXXXXX
+
+Meeting ID: 123 4567 8901
+Passcode: 482913
+
+=== shorter
+note: trap, sensitive topic with the wrong audience, shorter invitee list
+Topic: Steris Performance Review
+Time: Thursday, November 7, 2026 9:30-10:00 AM
+Required: Steris K; Kaladin J; Wellton U; Betrice S.; Leon P; Annie E;
+Description: 
+Steris,
+
+Please join me for 30 minutes to review your performance this year, and share your compensation rewards.
+
+If you have any questions, please feel free to share them ahead of time.
+
+=== email 
+note: simple status or progress updates
+Subject: Device Locker Updates
+When: Oct 28, 2026 10:00 AM-10:30 AM Eastern Time (US and Canada)
+Where: Microsoft Teams Meeting
+
+Organizer: Julia Swanson
+Required: Jose Lopez; Rebeck Joolz; Grenna Wood;
+
+Agenda:
+- Delivery updates (Jose)
+- Database integration status (Rebeck)
+- Usage stats (Jose)
+
+=== email 
+note: only one person speaking or presenting
+Subject: Failover testing
+When: Tuesday, October 28, 2026 4:00 PM-5:00 PM (UTC-05:00) Eastern Time (US & Canada)
+Where: Microsoft Teams Meeting
+Organizer: Regina Smith 
+Required: eastcoastdevs; eastcoastpms; eastcoastops;
+
+Teams,
+
+We are conducting failover testing at site 2 next month.
+
+This means ALL APPLICATIONS must be migrated out of site 2 or there will be an outage.
+
+Please join us Tuesday at 4pm for an informational session, where we will cover the most common questions:
+
+1 - When does the testing start?
+2 - What sites are safe?
+3 - How long will the site be down?
+4 - Why are we doing this?
+5 - What do I need to do next?
+
+=== email 
+note: no agenda or stated purpose
+Quick sync | 15 min | 2 attendees 
+
+=== email 
+note: one person presenting, deck attached no discussion needed
+Retro: RAG deployment
+When: Thu 10:00-10:30
+Attendees: Helen Smith; Carin Erol; Starr Olly;
+
+Team,
+
+I'd like to share lessons learned from the RAG deployment.
+
+In case you would like to review ahead of the call, I've attached the deck with my findings.
+
+Let me know if you have anything you'd like to add!
+
+=== email 
+note: recorded informational session with no Q&A, no discussion, and one presenter
+FY27 Employee Stock Purchase Program
+Tuesday, October 28 · 10:00 – 11:00am
+Time zone: America/New_York
+Google Meet joining info
+Video call link: https://meet.google.com/abc-defg-hij
+Or dial: (US) +1 555-555-0123 PIN: 123 456 789#
+More phone numbers: https://tel.meet/abc-defg-hij?pin=1234567890
+
+Please join us this Tuesday for an overview of the 2027 Employee Stock Purchase Program.
+
+This is an important part of your benefit package, and it has implications on your tax filings and returns.
+
+Note: This session will be recorded and available to stream on demand.
+
+=== email 
+note: trap, there is a decision but this is reviewing a document and is best over email
+Jackie Ohhe  2:22 PM
+Hey can you help me pick a font for this presentation? say 3pm?
+Walt Hinkle  2:24 PM
+yep
+
+=== email
+note: trap, this isn't really required, and should be an email
+Subject: Attendance Required: Quarterly Process Updates | 60 min | 25 attendees
+
+All, 
+
+Quarterly changes to corporate processes have been published.
+
+Informational sessions will be hosted on Tuesday and Thursday.
+
+Note: if you have questions, submit them to qpu@example.com before Monday at 2pm. This is a pre-recorded event and live questions cannot be addressed.
+
+=== email
+note: decision is already made, just being announced in the meeting
+From: Jackson Sippi <jackson.sippi@example.com>
+Sent: Monday, October 27, 2026 4:12 PM
+To: Vee Low <vee.low@example.com>
+Cc: Al Newsome <al.newsome@example.com>; Opie Gallant <opie.gallant@example.com>;
+Subject: Vendor selection
+
+Vee,
+
+We have selected vendor B for the fiber installation project.
+
+Please join us to review next steps: procurement & scheduling.
+
+=== email 
+note: settled conflict, no discussion needed, one person presenting
+Topic: Handover process
+Time: Thursday, November 7, 2026 9:30-10:30 AM
+Description: 
+
+All,
+
+We have confirmed that Facilities owns room 355 access going forward. Setting up a quick meeting to share the process. This will be required for all individuals looking to access the room, regardless of role or access level, no exceptions. 
+
+=== email
+note: simple question one person can answer
+Invitation: vendor portal login @ Tue Oct 28, 2026 10am - 10:15am (EDT) (missy.fanz@example.com)
+
+need 15 mins with you and jorge to get the vendor portal login.
+
+Join with Google Meet
+meet.google.com/abc-defg-hij
+
+Join by phone
+(US) +1 555-555-0123
+PIN: 123456789
+
+More phone numbers
+
+View all guest info
+
+Organizer
+shay.luis@example.com
+
+Guests
+jorge.nol@example.com
+missy.fanz@example.com
+
+Reply for misssy.fanz@example.com
+Yes   No   Maybe   More options
+
+Invitation from Google Calendar
+You are receiving this email because you are an attendee on the event.
+
+=== email
+note: daily stand-up that is pure round-robin
+Subject: FW: Daily standup
+
+Renee, sharing with you in case it's not on your caelendar yet...
+
+-----Original Appointment-----
+From: June Gote <june.gote@example.com>
+Sent: Monday, October 27, 2026 4:12 PM
+To: Jason; Rachel; Lee; Noel; Ally; Amie; Zoe; Dean
+Subject: Daily standup
+When: Occurs every weekday, 11:00 AM-11:15 AM (UTC-05:00) Eastern Time (US & Canada).
+
+Team round-robin - status updates - attendance required
+
+=== email 
+note: recurring status updates, no decision
+Subject: February event planning
+When: Occurs every Tuesday effective 11/3/2026 until 12/22/2026 from 10:00 AM to 11:00 AM (UTC-05:00) Eastern Time (US & Canada).
+Where: Microsoft Teams Meeting
+Organizer: Drew James
+Required: Jason L; Kevin H; Devin U; Yates E
+
+Planning status updates
+
+1 - Comms (Jason)
+2 - Materials (Kevin)
+3 - Food (Devin)
+4 - Survey (Yates)
+5 - On-site support (Cathy)
+
+________________________________________________________________________________
+Microsoft Teams Need help?
+Join the meeting now
+Meeting ID: 234 567 890 123
+Passcode: aB3cD4
+
+=== email
+note: one presenter, no Q&A or decision
+Topic: Software demo - vendor B
+Time: Thursday, November 7, 2026 9:30-10:30 AM
+Description: 
+all - 
+
+please join us for a demo of vendor B's expense softwre 
+
+=== email 
+note: large all-hands with no charged topics or Q&A
+Subject: Q4 All Hands
+When: Wednesday, November 6, 2026 10:00 AM-11:00 AM (UTC-05:00) Eastern Time (US & Canada)
+Where: Microsoft Teams Meeting
+Organizer: Kassidy Opel
+Required: corporate-distro@example.com and 111 others
+
+Please join us for Q4 All Hands.
+
+Customer feedback
+Market break-throughs
+Retail expansions
+Employee spotlight
+Meet-the-Devs 
+Sneak peek: 2027 priorities
+
+=== email 
+note: document that could be read alone
+Hi, looking for feedback on RCA document for the customer P1. Attaching PDF.
+
+
+Zach Yelp is inviting you to a scheduled Zoom meeting.
+
+Topic: RCA.pdf
+Time: Oct 28, 2026 3:00 PM Eastern Time (US and Canada)
+
+Join Zoom Meeting
+https://example.zoom.us/j/12345678901?pwd=XXXXXXXX
+
+Meeting ID: 123 4567 8901
+Passcode: 482913
+
+=== email
+note: no subject or stated purpose
+catch up | 30 minutes | 6 people
+
+=== email 
+note: no subject, duration, stated purpose
+Jinsy Allo is inviting you to a scheduled Zoom meeting.
+
+Topic: Sync
+Time: Oct 28, 2026 10:00 AM Eastern Time (US and Canada)
+
+Join Zoom Meeting
+https://example.zoom.us/j/12345678901?pwd=XXXXXXXX
+
+Meeting ID: 123 4567 8901
+Passcode: 482913
+
+=== email 
+note: overly enthusiastic but vague with no discussion needed
+Topic: Q3 Results
+Time: Friday 12-12:30 PM
+
+Team,
+
+I am SO excited to share our Q3 numbers!!! 🎉
+
+You would not BELIEVE what our customers are saying about us!
+
+Bring coffee, and a friend, you are NOT going to want to miss this!
+
+=== email 
+note: forwarded FYI invite
+From: Serah Hinnton <serah.hinnton@example.com>
+Sent: Monday, October 27, 2026 4:12 PM
+To: George Meek <george.meek@example.com>
+Subject: FW: Mentor Program
+
+George,
+
+FYI, no need to attend unless you want to
+
+-----Original Message-----
+Subject: Mentor Program
+When: Tuesday, October 28, 2026 4:00 PM-5:00 PM (UTC-05:00) Eastern Time (US & Canada)
+Where: Microsoft Teams Meeting
+Organizer: Brindle Kreek
+Optional: TeamLeads; Supervisors; Managers; Leaders; HRBPs;
+
+Teams,
+
+We are launching a corporate mentorship program. This will require input and feedback from all levels.
+
+Leaders will be asked to designated champions to lead the effort for their organizations. Please begin having these conversations so you are prepared for the 2027 launch. 
+
+We will launch a portal on the HR site next week, please stay tuned for more information!
+
+=== email
+note: trap, long official agenda but no decisions
+Subject: Customer portal redesign | 60 min | 12 attendees 
+All - excited to see everything coming together. Let's take one last look before we get in front of the customer on Monday. 
+
+Agenda:
+1. Database redesign complete (Hannah)
+2. Kafka lessons learned (Jake & Ope)
+3. Logo colors became the new website theme (Jill) 
+4. Chatbot status (Parson & Stephon)
+5. Customer feedback (Lisa)
+
+-- Do not delete or change any of the following text. --
+
+When it's time, join the Webex meeting here.
+
+Meeting number (access code): 2634 123 4567
+Meeting password: hindsight
+
+=== email
+note: sign-off as formality
+Topic: Process approvals - Q3
+Time: Thursday, November 7, 2026 9:30-10:30 AM
+Description: 
+
+Please join us for Q3 process approvals.
+
+Q3 process submittals are attached - no changes expected.
+
+=== email 
+note: no topic or stated purpose
+Suzy Cue  4:42 PM
+Jessie & Kacy do you have a sec for a call?
+
+=== email
+note: informational session, no discussion, decision, or Q&A
+Storage changes
+Hosted by Sally Hanes
+https://example.webex.com/example/j.php?MTID=XXXXXXXX
+Tuesday, Oct 28, 2026 10:00 AM | 60 minutes | (UTC-04:00) Eastern Time (US & Canada)
+
+Team leads - 
+
+Logistics Leadership has redesigned the way equipment and spares will be stored, rotated, and retrieved. 
+
+Please join us for an informational session to review the changes and what this will change in your day-to-day.
+
+Please cascade this information to your shifts.
+
+Thank you,
+
+Logistics Leadership
+
+
+Join from the meeting link
+https://example.webex.com/example/j.php?MTID=XXXXXXXX
+
+Join by meeting number
+Meeting number (access code): 2634 123 4567
+Meeting password: Logistics
+
+=== email
+note: one-person decision with an audience
+Topic: Playbook & process changes
+Time: Friday 12-12:30 PM
+
+Team, I've finished the changes to the event playbook and processes, join me on Friday to see it!
+
+Agenda:
+1. Changes to Event Playbook
+2. Changes to Project Plan
+3. What's new: surveys, metrics, menu of events
+
+=== email
+note: typo-heavy fyi, purpose stated but nothing to discuss
+Subject: cht angent | 45 min | 11 attendees 
+
+took 4 hours but chat angent works
+
+had to mak chngs t config n env file  - -  team plase review repo!
