@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "about": "Tokenizer and structure features shared by pipeline/features.py and web/src/lib/features.ts. Input is always mask_boilerplate(text). Patterns: case-insensitive, ASCII \\b \\w \\d, no inline flags, no lookbehind. Structure features are rough, rubric-shaped signals; the model learns how much to trust each one.",
+
+  "tokenizer": {
+    "pattern": "\\d{1,2}:\\d{2}\\s?(?:am|pm)?|\\d+(?:am|pm|min|mins|hr|hrs|h|m)\\b|\\d+|[a-z]+(?:'[a-z]+)?|[!?]",
+    "time_token": "<time>",
+    "number_token": "<num>",
+    "about": "Lowercased. Clock times become <time>, bare numbers <num>; numbers with a unit (30min, 2pm, 1hr) are kept, since they carry duration."
+  },
+
+  "duration": {
+    "range": "\\b(\\d{1,2})(?::(\\d{2}))?\\s*(am|pm|a\\.m\\.|p\\.m\\.)?\\s*(?:-|\\u2013|\\u2014|to|until)\\s*(\\d{1,2})(?::(\\d{2}))?\\s*(am|pm|a\\.m\\.|p\\.m\\.)?",
+    "length": "\\b(\\d+(?:\\.\\d+)?)\\s*-?\\s*(minutes|minute|mins|min|m|hours|hour|hrs|hr|h)\\b",
+    "words": {
+      "half an hour": 30, "half hour": 30, "half-hour": 30, "an hour": 60, "one hour": 60,
+      "hour-long": 60, "hour long": 60, "two hours": 120, "ninety minutes": 90, "fifteen minutes": 15,
+      "thirty minutes": 30, "forty-five minutes": 45
+    },
+    "min_minutes": 5,
+    "max_minutes": 480,
+    "about": "First clock range wins, but only if one side has a colon or am/pm (so 'days 14-16' and 'slides 4-11' don't count). Otherwise the first explicit length."
+  },
+
+  "attendees": {
+    "count": "\\b(\\d{1,3})\\s*(attendees|attendee|people|ppl|guests|invitees|participants|of us|of you|folks|leads|members|others)\\b",
+    "all_n": "\\ball\\s+(\\d{1,3})\\b",
+    "word_count": "\\b(two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|fifteen|twenty|thirty)\\s+(attendees|people|ppl|guests|invitees|participants|of us|of you|folks|leads|members)\\b",
+    "list_line": "^\\s*(attendees|required|optional|guests|invitees|to|participants|distribution|who)\\b[^:\\n]{0,20}:\\s*(.*)$",
+    "guests_header": "^\\s*(guests|attendees)\\s*$",
+    "list_count_in_line": "\\((\\d{1,3})\\)",
+    "and_others": "\\band\\s+(\\d{1,4})\\s+others\\b",
+    "group": "\\b(whole|entire|all)[- ](team|teams|staff|company|department|dept|org|leads|managers)\\b|\\ball[- ]hands\\b|\\beveryone\\b|\\b(all|corporate)[-_.]?(staff|distro|employees)\\b",
+    "words": {
+      "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8, "nine": 9,
+      "ten": 10, "eleven": 11, "twelve": 12, "fifteen": 15, "twenty": 20, "thirty": 30
+    },
+    "max": 2000,
+    "about": "Largest of: explicit counts ('12 attendees', 'all 40', 'eight of us'), the longest attendee list (items split on ; or , plus 'and N others'), or a Guests block of email lines."
+  },
+
+  "agenda_item": "^\\s*(\\d{1,2}\\s*[.):-]|\\d{1,2}\\s+-|[-*\\u2022\\u25aa]|\\(?[a-h]\\))\\s+\\S",
+
+  "buckets": {
+    "duration": [15, 30, 60],
+    "attendees": [2, 5, 10, 25],
+    "agenda_items": [1, 3, 6],
+    "minutes_per_item": [15, 30]
+  },
+
+  "keywords": {
+    "decision": "\\b(decide|decides|decided|decision|decisions|approve|approval|approving|choose|choosing|pick|select|selection|vote|go/no[- ]go|go[- ]no[- ]go|sign[- ]off|agree on|align on|settle|or descope|fix or)\\b",
+    "status": "\\b(update|updates|status|progress|report|reports|round[- ]robin|check[- ]in|recap|fyi|milestones)\\b",
+    "presenting": "\\b(walk you through|walk through|i'll share|we'll share|overview|demo|demonstration|informational|presentation|present|announce|announcement|unveil)\\b",
+    "discussion": "\\b(discuss|discussion|brainstorm|ideas|debate|work through|workshop|working session|problem[- ]solving|troubleshoot|figure out|hash out|disagree|both versions|options)\\b",
+    "recording": "\\b(recorded|recording|on demand|pre-recorded|replay)\\b",
+    "qa": "\\b(q&a|q & a|questions live|live questions|ask questions|ama)\\b",
+    "social": "\\b(happy hour|team building|team-building|celebration|celebrate|party|potluck|drinks|cocktails|escape room|offsite)\\b",
+    "interview": "\\b(interview|interviews|panel interview|candidate)\\b",
+    "urgent": "\\b(asap|urgent|emergency|outage|p1|critical|immediately)\\b",
+    "mandatory": "\\b(mandatory|required|attendance required|must attend)\\b",
+    "people_topic": "\\b(performance|feedback|career|pip|compensation|promotion|1:1|one[- ]on[- ]one)\\b",
+    "question": "\\?",
+    "excited": "!{2,}"
+  }
+}

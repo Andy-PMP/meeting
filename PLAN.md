@@ -87,8 +87,9 @@ Read with [BRIEF.md](BRIEF.md) and [TECH_REQUIREMENTS.md](TECH_REQUIREMENTS.md).
 
 ## P3 — Train and compare models
 
-- [ ] **[Claude]** `features.py` (tokenizer from `tokenize_spec.json` + structure features), `embed.py` (onnxruntime, mean-pool, chunking), `train.py` with stratified 5-fold CV. All read `mask_boilerplate(text)`
-- [ ] **[Claude]** Pick the embedding candidate by CV (MiniLM unless bge wins by ≥ 3 macro-F1 points)
+- [x] **[Claude]** `features.py` (tokenizer + structure features with explicit "unknown" buckets, from `features_spec.json`), `embed.py` (pinned quantized ONNX via onnxruntime; MiniLM mean-pool, BGE CLS-pool; 256/512-token windows averaged), `train.py` with repeated stratified 5-fold CV (3 shuffles). All read `mask_boilerplate(text)`. 109 tests
+- [x] **[Claude]** Pick the embedding candidate by CV → **MiniLM** (0.548 vs BGE 0.530 macro-F1). CV so far: **linear 0.591** (acc 60.6%) beats MiniLM by ~4 points; structure features add +2.8 (linear) / +5.8 (MiniLM). Shorter is hardest (F1 0.52). See `docs/model-report.md`
+- [ ] **[You]** Blind relabel pass on or after 31 Oct (`label.py --relabel 0.1`) → kappa. If < 0.7, review the disagreements and retrain (seconds)
 - [ ] **[Claude]** Freeze both models, then run `evaluate.py` on the test set once → `data/eval.json`
 - [ ] **[Claude]** Boilerplate-invariance check: append Zoom/Meet/Webex/Teams blocks to every test invite and report the prediction flip rate with and without masking
 - [ ] **[Claude]** `docs/model-report.md`: CV and test metrics with CIs, McNemar's test, confusion matrices, sizes, error analysis

@@ -99,7 +99,7 @@ It also gives tie-break rules, especially for the fuzzy middle class `shorter` (
 
   They're one-hot encoded, so they're trivial to mirror in TypeScript and easy to turn into reasons ("12 people for 15 minutes of updates").
 - **Model A (baseline):**
-  - A custom regex tokenizer: lowercase, keep numbers and times like `30min` and `2pm` as tokens, specified in `pipeline/tokenize_spec.json` so TypeScript can implement it identically.
+  - A custom regex tokenizer: lowercase, keep numbers and times like `30min` and `2pm` as tokens, specified in `pipeline/features_spec.json` (with the structure-feature patterns) so TypeScript can implement it identically.
   - `TfidfVectorizer(tokenizer=…, ngram_range=(1,2), sublinear_tf=True, min_df=2, max_features≈5000)`, combined with the structure features.
   - `LogisticRegression` (multinomial), with `C` chosen by CV.
 - **Model B (embedding):**
@@ -108,7 +108,8 @@ It also gives tie-break rules, especially for the fuzzy middle class `shorter` (
   - The 384-dimensional embedding is combined with the structure features and fed to `LogisticRegression`.
 - **Picking the embedding model.**
   - Candidates: `Xenova/all-MiniLM-L6-v2` (q8, ~23 MB, 256-token limit) and `Xenova/bge-small-en-v1.5` (q8, ~34 MB, 512 tokens).
-  - Ship MiniLM unless bge beats it by ≥ 3 macro-F1 points in CV.
+  - Ship MiniLM unless bge beats it by ≥ 3 macro-F1 points in CV. (Result: MiniLM, 0.548 vs 0.530.)
+  - Pinned commits and pooling live in `pipeline/embed_models.json`. **MiniLM uses mean pooling, BGE uses the [CLS] token**; the browser must match whichever ships.
   - Invites over the token limit are split into chunks and their embeddings averaged.
 
 ### 1.6 Evaluation — `pipeline/evaluate.py`
@@ -215,7 +216,7 @@ more/                      (rename on GitHub in P0)
 │  ├─ generate.py · dedup.py · validate.py · label.py
 │  ├─ features.py (tokenizer + structure features) · embed.py
 │  ├─ train.py · evaluate.py · export.py · report.py
-│  ├─ tokenize_spec.json · featured_mistakes.txt
+│  ├─ clean_rules.json · features_spec.json · embed_models.json · featured_mistakes.txt
 │  ├─ prompts/generate_v1.md
 │  ├─ tests/
 │  └─ .cache/              (gitignored: downloaded ONNX for Python)
